@@ -1,6 +1,6 @@
 # WEPWAWET-CORE ground-station dashboard server (live + replay).
 # Launch from <WORKDIR>:
-#   powershell -ExecutionPolicy Bypass -File .\07_DASHBOARD\wcore_dash.ps1
+#   powershell -ExecutionPolicy Bypass -File .\dashboard\wcore_dash.ps1
 # Serves http://localhost:8088/ . Replay reads 05_RESULTS (read-only).
 # Live starts only when the page switches to LIVE: one ssh per board running board_probe.sh,
 # which is read-only (reads /proc, the F' hw-stats CSV, process list; never starts/stops anything).
@@ -10,6 +10,7 @@ $ErrorActionPreference = "Stop"
 $Here = Split-Path -Parent $MyInvocation.MyCommand.Path
 if (-not $Root) { $Root = Split-Path -Parent $Here }
 $Res = Join-Path $Root "05_RESULTS"
+if (-not (Test-Path $Res)) { $Res = Join-Path $Root "results" }   # repository layout
 $LiveDir = Join-Path $env:TEMP "wcore_dash_live"
 New-Item -ItemType Directory -Force -Path $LiveDir | Out-Null
 $Boards = [ordered]@{ aup1 = "xilinx@aup1"; aup2 = "xilinx@aup2" }
@@ -47,7 +48,7 @@ function FileEpoch([string]$path) { return ([DateTimeOffset]((Get-Item $path).La
 
 function RunsJson {
   $list = @()
-  $mr = Join-Path $Res "mission_runs"
+  $mr = Join-Path $Res "mission_runs"; if (-not (Test-Path $mr)) { $mr = Join-Path $Res "mission_runs_v7_sweep" }
   if (Test-Path $mr) {
     foreach ($d in (Get-ChildItem $mr -Directory | Sort-Object Name)) {
       $fsw = Join-Path $d.FullName "fsw.log"
@@ -107,11 +108,11 @@ function RunsJson {
     }
     $checks[$b] = $lst
   }
-  $issued = @(Get-ChildItem -Path (Join-Path $Res "ground_ca\*.cert") -File -ErrorAction SilentlyContinue | ForEach-Object { [pscustomobject]@{ file = $_.Name; mtime = (FileEpoch $_.FullName) } })
+  $issued = @(Get-ChildItem -Path $(if (Test-Path (Join-Path $Res "ground_ca")) { Join-Path $Res "ground_ca\*.cert" } else { Join-Path $Res "certificates\*.cert" }) -File -ErrorAction SilentlyContinue | ForEach-Object { [pscustomobject]@{ file = $_.Name; mtime = (FileEpoch $_.FullName) } })
   # hashes of the exported PUBLIC keys (05_RESULTS\aupN_node_pk_v8.bin); the files themselves are never served
   $pk = [ordered]@{}
   foreach ($b in @("aup1", "aup2")) {
-    $f = Join-Path $Res ($b + "_node_pk_v8.bin")
+    $f = Join-Path $Res ($b + "_node_pk_v8.bin"); if (-not (Test-Path $f)) { $f = Join-Path $Res ("certificates\" + $b + "_node_pk_v8.bin") }
     if (Test-Path $f -PathType Leaf) {
       $pk[$b] = [pscustomobject]@{ file = (Split-Path $f -Leaf); sha256 = (Get-FileHash $f -Algorithm SHA256).Hash.ToLower(); mtime = (FileEpoch $f); bytes = (Get-Item $f).Length }
     }

@@ -1,7 +1,7 @@
-# Linux-only test harness that mirrors the routes of wcore_dash.ps1 (used to test replay in a headless browser).
-# Usage: WCORE_ROOT=/path/to/WEPWAWET_CORE_WORK python3 serve_test.py   ->  http://127.0.0.1:8088/
+# Python server that mirrors the replay routes of wcore_dash.ps1 (Linux/macOS/Windows; replay only, no live mode).
+# Usage: python3 dashboard/test/serve_test.py   ->  http://127.0.0.1:8088/
 import http.server, json, os, re, sys, urllib.parse, datetime, glob, time, hashlib
-ROOT=os.environ.get("WCORE_ROOT","/mnt/user-data/uploads/HLS/WEPWAWET_CORE_WORK"); HERE=ROOT+"/07_DASHBOARD"; RES=ROOT+"/05_RESULTS"
+ROOT=os.environ.get("WCORE_ROOT",os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))); HERE=ROOT+"/dashboard"; RES=ROOT+"/results"
 LIVE=os.environ.get("WCORE_LIVE_DIR","/tmp/wcore_live")  # /api/live serves probe lines found in this folder
 def run_epoch(n):
     try: return datetime.datetime.strptime(n[:15],"%Y%m%d_%H%M%S").timestamp()
@@ -25,15 +25,15 @@ def extras():
     for b in ("aup1","aup2"):
         fl=glob.glob(RES+"/ground_ca/evidence/cert_check*"+b+"*.log")+glob.glob(RES+"/board_logs/"+b+"/wepwawet-core/logs/cert_check*.log")+glob.glob(RES+"/board_logs/"+b+"/aup_kit_v8_duplex/cert_check*.log")
         cert[b]=[{"file":os.path.relpath(f,RES).replace(os.sep,"/"),"mtime":os.path.getmtime(f),"text":open(f,errors="ignore").read()[:4000]} for f in sorted(fl)]
-    issued=[{"file":os.path.basename(f),"mtime":os.path.getmtime(f)} for f in sorted(glob.glob(RES+"/ground_ca/*.cert"))]
+    issued=[{"file":os.path.basename(f),"mtime":os.path.getmtime(f)} for f in sorted(glob.glob(RES+"/certificates/*.cert"))]
     pk={}
     for b in ("aup1","aup2"):
-        f=RES+"/"+b+"_node_pk_v8.bin"
+        f=RES+"/certificates/"+b+"_node_pk_v8.bin"
         if os.path.isfile(f): pk[b]={"file":os.path.basename(f),"sha256":hashlib.sha256(open(f,"rb").read()).hexdigest(),"mtime":os.path.getmtime(f),"bytes":os.path.getsize(f)}
     return dup,excl,{"checks":cert,"issued":issued},pk
 def runs():
     lst=[]
-    for d in sorted(glob.glob(RES+"/mission_runs/*/")):
+    for d in sorted(glob.glob(RES+"/mission_runs_v7_sweep/*/")):
         f=d+"fsw.log"; crash=os.path.exists(f) and "Assert:" in open(f,errors="ignore").read()
         lst.append({"name":os.path.basename(d.rstrip("/")),"crashed":crash,"files":os.listdir(d)})
     n1=RES+"/board_logs/aup1/wepwawet-core/logs"; n2=RES+"/board_logs/aup2/wepwawet-core/logs"; nodes=[]

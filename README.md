@@ -51,6 +51,21 @@ The left plot mixes a measured replay, a model and the board measurement, as lab
 
 Steps 1 and 6 are measured on hardware under mission load. Steps 2 to 5 were exercised on the two boards with fabric-generated keys, including rejection of a key or certificate with one bit altered. See "Security scope and limits" for what this does and does not establish.
 
+## Mission dashboard
+
+<p align="center"><img src="docs/img/dashboard.jpg" alt="WEPWAWET-CORE mission dashboard replaying a recorded two-node run" width="900"></p>
+
+The dashboard replays the recorded runs in `results/` on their real timestamps: both CubeSats, the signed frames in each direction, the verify verdict from the receiver, the four cores of each node, ADCS jitter, payload deadlines, and the key and certificate state. Every number on screen is read from a board log. The picture shows a recorded two-node run on the sealed image.
+
+To see the same thing from a clone of this repository:
+
+```
+python3 dashboard/test/serve_test.py        # any OS, replay only, then open http://127.0.0.1:8088/
+powershell -ExecutionPolicy Bypass -File .\dashboard\wcore_dash.ps1    # Windows, replay and live boards
+```
+
+Pick a run under **DUPLEX** in the run list and press play. Live mode needs the two boards on ssh as `aup1` and `aup2`; see `dashboard/README.md`.
+
 ## Results at a glance
 
 | Item | Value |

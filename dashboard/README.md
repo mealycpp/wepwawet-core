@@ -1,20 +1,20 @@
 # WEPWAWET-CORE ground-station dashboard
 
-Launch (from `<WORKDIR>`, in its own PowerShell window):
+Launch from the repository root, in its own PowerShell window:
 
 ```
-powershell -ExecutionPolicy Bypass -File .\07_DASHBOARD\wcore_dash.ps1
+powershell -ExecutionPolicy Bypass -File .\dashboard\wcore_dash.ps1
 ```
 
 It opens http://localhost:8088/ . Stop with Ctrl+C (this also closes the live ssh sessions).
 
 ## Modes
-- **REPLAY** (default, needs no boards): plays a recorded run from `05_RESULTS\mission_runs\<run>` on its real
+- **REPLAY** (default, needs no boards): plays a recorded run from `results\mission_runs\<run>` on its real
   timestamps (speed 1–20×, click the timeline to seek). Runs whose `fsw.log` contains an F′ `Assert:` are
-  marked **✖ CRASHED — excluded**. Bidirectional F′ exchanges (`node_*` folders in `05_RESULTS\board_logs`)
+  marked **✖ CRASHED — excluded**. Bidirectional F′ exchanges (`node_*` folders in `results\board_logs`)
   are listed too. **COMPARE** puts two mission runs side by side; every metric is computed from the run files.
 - **DUPLEX** (first group in the run picker): a run recorded on **both** boards under the same name
-  (`05_RESULTS\board_logs\aup1|aup2\wepwawet-core\logs\mission_runs\<run>`, filled by `wcore.ps1 collect`).
+  (`results\board_logs\aup1|aup2\wepwawet-core\logs\mission_runs\<run>`, filled by `wcore.ps1 collect`).
   Two arcs are drawn: gold AUP1→AUP2, blue AUP2→AUP1. Each CubeSat panel shows its own signed and verified counters,
   core bars, ADCS and payload numbers from its own run folder. A frame's verdict colour comes from the
   **receiver's** verify records. Pairing (stated on screen): each PeerPing is synchronous, so a verify on the
@@ -51,11 +51,11 @@ visibility; the verdict colour appears at the recorded verify time.
   "signing key SEALED in the PL" **and** `check_before.txt` shows `key SEALED` or VERSION 0x0003000x.
   Image 0x00030003 is labelled "key generated + sealed in fabric". A v7 fabric run shows "key provisioned by host",
   a CPU run "key in host memory". In LIVE the badge comes from the lock bit read by the probe.
-- **Public-key file line** (centre panel): SHA-256 of `05_RESULTS\aupN_node_pk_v8.bin`, shown only when the file is
+- **Public-key file line** (centre panel): SHA-256 of `results\aupN_node_pk_v8.bin`, shown only when the file is
   older than the run. The `.bin` files themselves, `ground_sk.bin`, `identity` and `node_sk` are never served.
 - **Certificate lane**: greyed with "no certificate exchange recorded for this run" unless evidence exists.
   Evidence = the console output of `wcore_cert_check` saved as `cert_check*.log` in one of
-  `05_RESULTS\ground_ca\evidence\cert_check_<board>.log`,
+  `results\ground_ca\evidence\cert_check_<board>.log`,
   `board_logs\<board>\wepwawet-core\logs\cert_check*.log` (picked up by `wcore.ps1 collect`). Save it on the board with
   `{ date -u +"DATE_EPOCH %s"; sudo ./wcore_drv/wcore_cert_check ground_pk.bin AUP2 aup2_node_pk_v8.bin AUP2.cert --install; } | tee ~/wepwawet-core/logs/cert_check_$(hostname).log`.
   The lane lights only for a board whose run is sealed and whose check is dated before the run started
