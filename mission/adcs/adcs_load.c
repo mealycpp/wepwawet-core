@@ -215,7 +215,9 @@ int main(int argc, char **argv) {
     FILE *fc = csv ? fopen(csv, "w") : NULL;
     /* Measurement must not perturb the loop: keep the whole CSV in a RAM buffer (locked by mlockall) and
      * write it only at exit, so no write()/SD-card writeback can block the real-time thread mid-run. */
-    if (fc) setvbuf(fc, NULL, _IOFBF, (size_t)ncap * 96 + 4096);
+    /* glibc ignores the size when the buffer pointer is NULL and keeps a 4 KiB buffer, which made this real-time
+     * thread call write() about once a second; the buffer must be supplied explicitly. */
+    if (fc) { size_t bs = (size_t)ncap * 96 + 4096; char *fb = malloc(bs); if (fb) { memset(fb, 0, bs); setvbuf(fc, fb, _IOFBF, bs); } }
     if (fc) fprintf(fc, "cycle,t_s,exec_us,jitter_us,miss,point_err_deg,est_err_deg,bias_err_degph,sunlit\n");
 
     /* initial conditions: 30 deg off target, small tumble; estimator 5 deg off, bias unknown */

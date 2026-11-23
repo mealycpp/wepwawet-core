@@ -39,6 +39,11 @@ stop_all() { pkill -f "$DEP/WepwawetDeployment" 2>/dev/null; pkill -f "./Wepwawe
              sleep 1; pkill -9 -f fprime_gds 2>/dev/null; pkill -9 -f fprime-gds 2>/dev/null; }   # GDS comm can ignore SIGTERM and spin a core
 wait_ports() { for i in $(seq 1 90); do ss -tan | grep -qE ':50000 |:50050 ' || return 0; sleep 1; done; return 1; }
 start_fsw() {   # $1 backend, $2 logdir
+  # The ground software logs every frame under $PRJ/logs; keep that in RAM too so no SD-card write sits in the command path.
+  if [ "${RAMLOG:-1}" = 1 ] && [ -d /dev/shm ]; then
+    rm -rf /dev/shm/gds_logs; mkdir -p /dev/shm/gds_logs
+    if [ ! -L $PRJ/logs ]; then [ -e $PRJ/logs ] && mv $PRJ/logs $PRJ/logs.sd_$(date +%s); ln -s /dev/shm/gds_logs $PRJ/logs; fi
+  fi
   ( . $VENV/bin/activate; cd $PRJ; export PYTHONUNBUFFERED=1; exec fprime-gds --no-app ) > $2/gds.log 2>&1 &
   for i in $(seq 1 45); do ss -ltn | grep -q ':50000 ' && ss -ltn | grep -q ':50050 ' && break; grep -aq ERROR $2/gds.log && break; sleep 1; done
   ss -ltn | grep -q ':50000 ' || { echo "ABORT: GDS not listening on 50000 after 45 s"; grep -a -E "ERROR|Traceback" $2/gds.log | head -3; tail -3 $2/gds.log; return 1; }
@@ -63,6 +68,13 @@ case $BACKEND in cpu|fpga) ;; *) echo "backend must be cpu or fpga"; exit 1;; es
 CFG=""; [ "$PINNING" = none ] && CFG="${CFG}_unpinned"; [ "$SIGNER_PRIO" -gt 0 ] && CFG="${CFG}_rt${SIGNER_PRIO}"
 RUN=$RUNS/$(date +%Y%m%d_%H%M%S)_${BACKEND}_r${RATE}_L${LOAD}${CFG}${TAG:+_$TAG}; mkdir -p $RUN
 echo "[run] $RUN"
+# No SD-card writes inside the measured window: run files and the F' statistics file live in RAM and are copied at the end.
+RUN_FINAL=$RUN
+if [ "${RAMLOG:-1}" = 1 ] && [ -d /dev/shm ]; then
+  RUN=/dev/shm/wcore_run_$$; rm -rf $RUN; mkdir -p $RUN
+  if [ ! -L $HWCSV ]; then [ -f $HWCSV ] && mv $HWCSV $HWCSV.sd_$(date +%s); : > /dev/shm/fprime_hw_stats.csv; ln -s /dev/shm/fprime_hw_stats.csv $HWCSV; fi
+  [ -e $HWCSV ] || : > /dev/shm/fprime_hw_stats.csv
+fi
 cat > $RUN/params.json <<J
 {"host":"$(hostname)","backend":"$BACKEND","rate":$RATE,"load_level":$LOAD,"seconds":$SECS,"tag":"$TAG",
  "adcs_rate":$ADCS_RATE,"adcs_prio":$ADCS_PRIO,"payload_rate":$PAYLOAD_RATE,"core_order":"$CORE_ORDER",
@@ -115,6 +127,7 @@ $KIT/wcore_check > $RUN/check_after.txt
 [ -f $HWCSV ] && tail -n +$((HW0 + 1)) $HWCSV > $RUN/hw_stats_run.csv || : > $RUN/hw_stats_run.csv
 cp $RUN/fsw.log $RUN/fsw_full.log 2>/dev/null
 stop_all
+if [ "$RUN" != "$RUN_FINAL" ]; then cp -a $RUN/. $RUN_FINAL/ && rm -rf $RUN; RUN=$RUN_FINAL; fi
 python3 - "$RUN" <<'PYEOF'
 import csv, json, os, re, statistics, sys
 run = sys.argv[1]; J = lambda f: (json.load(open(os.path.join(run, f))) if os.path.getsize(os.path.join(run, f)) else None) if os.path.exists(os.path.join(run, f)) else None

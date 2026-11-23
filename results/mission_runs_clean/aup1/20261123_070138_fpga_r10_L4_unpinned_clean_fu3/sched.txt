@@ -1,0 +1,88 @@
+pid 1952553's current affinity mask: f
+pid 1952553's new affinity mask: f
+pid 1952556's current affinity mask: f
+pid 1952556's new affinity mask: f
+pid 1952558's current affinity mask: f
+pid 1952558's new affinity mask: f
+pid 1952559's current affinity mask: f
+pid 1952559's new affinity mask: f
+pid 1952560's current affinity mask: f
+pid 1952560's new affinity mask: f
+pid 1952561's current affinity mask: f
+pid 1952561's new affinity mask: f
+pid 1952562's current affinity mask: f
+pid 1952562's new affinity mask: f
+pid 1952563's current affinity mask: f
+pid 1952563's new affinity mask: f
+pid 1952564's current affinity mask: f
+pid 1952564's new affinity mask: f
+pid 1952565's current affinity mask: f
+pid 1952565's new affinity mask: f
+pid 1952566's current affinity mask: f
+pid 1952566's new affinity mask: f
+pid 1952567's current affinity mask: f
+pid 1952567's new affinity mask: f
+pid 1952568's current affinity mask: f
+pid 1952568's new affinity mask: f
+pid 1952569's current affinity mask: f
+pid 1952569's new affinity mask: f
+pid 1952570's current affinity mask: f
+pid 1952570's new affinity mask: f
+pid 1952571's current affinity mask: 1
+pid 1952571's new affinity mask: f
+pid 1952572's current affinity mask: 2
+pid 1952572's new affinity mask: f
+pid 1952573's current affinity mask: 8
+pid 1952573's new affinity mask: f
+pid 1952574's current affinity mask: 4
+pid 1952574's new affinity mask: f
+pid 1952575's current affinity mask: f
+pid 1952575's new affinity mask: f
+pid 1952576's current affinity mask: f
+pid 1952576's new affinity mask: f
+pid 1952577's current affinity mask: f
+pid 1952577's new affinity mask: f
+pid 1952578's current affinity mask: f
+pid 1952578's new affinity mask: f
+pid 1952579's current affinity mask: f
+pid 1952579's new affinity mask: f
+pid 1952587's current affinity mask: 2
+pid 1952587's new affinity mask: f
+pid 1952591's current affinity mask: f
+pid 1952591's new affinity mask: f
+pid 1952593's current affinity mask: 8
+pid 1952593's new affinity mask: f
+pid 1952594's current affinity mask: 1
+pid 1952594's new affinity mask: f
+pid 1952595's current affinity mask: 4
+pid 1952595's new affinity mask: f
+== affinity/policy after setup
+1952553/1952553 f  SCHED_OTHER
+1952553/1952556 f  SCHED_OTHER
+1952553/1952558 f  SCHED_RR
+1952553/1952559 f  SCHED_RR
+1952553/1952560 f  SCHED_RR
+1952553/1952561 f  SCHED_RR
+1952553/1952562 f  SCHED_RR
+1952553/1952563 f  SCHED_RR
+1952553/1952564 f  SCHED_RR
+1952553/1952565 f  SCHED_RR
+1952553/1952566 f  SCHED_RR
+1952553/1952567 f  SCHED_RR
+1952553/1952568 f  SCHED_RR
+1952553/1952569 f  SCHED_RR
+1952553/1952570 f  SCHED_RR
+1952553/1952571 f  SCHED_RR
+1952553/1952572 f  SCHED_RR
+1952553/1952573 f  SCHED_RR
+1952553/1952574 f  SCHED_RR
+1952553/1952575 f  SCHED_RR
+1952553/1952576 f  SCHED_RR
+1952553/1952577 f  SCHED_RR
+1952553/1952578 f  SCHED_OTHER
+1952553/1952579 f  SCHED_RR
+1952587/1952587 f  SCHED_FIFO
+1952591/1952591 f  SCHED_OTHER
+1952591/1952593 f  SCHED_OTHER
+1952591/1952594 f  SCHED_OTHER
+1952591/1952595 f  SCHED_OTHER

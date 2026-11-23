@@ -145,7 +145,7 @@ int main(int argc, char **argv) {
     for (int t = 0; t < nt; t++) { n += W[t].nrec; err += W[t].err; }
     double *pt = malloc(sizeof(double) * (n ? n : 1)); long j = 0;
     FILE *fc = csv ? fopen(csv, "w") : NULL;
-    if (fc) setvbuf(fc, NULL, _IOFBF, 8u << 20);   /* RAM-buffered CSV: no disk I/O inside the measured loop */
+    if (fc) { size_t bs = 8u << 20; char *fb = malloc(bs); if (fb) { memset(fb, 0, bs); setvbuf(fc, fb, _IOFBF, bs); } }   /* explicit buffer: glibc ignores the size for a NULL pointer */
     if (fc) fprintf(fc, "thread,cpu,frame,tile,release_s,start_s,proc_us,lateness_us,in_bytes,out_bytes,deadline_miss,verified,verify_ok\n");
     for (int t = 0; t < nt; t++) for (long i = 0; i < W[t].nrec; i++) {
         rec_t *r = &W[t].recs[i]; pt[j++] = r->proc_us; miss += r->miss; ver += r->verified; verok += r->verified && r->verify_ok;

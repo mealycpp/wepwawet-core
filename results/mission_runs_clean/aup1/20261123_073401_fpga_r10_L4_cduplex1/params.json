@@ -1,0 +1,3 @@
+{"host":"aup1","backend":"fpga","rate":10,"load_level":4,"seconds":60,"tag":"cduplex1",
+ "adcs_rate":100,"adcs_prio":80,"payload_rate":13.5,"core_order":"1 3 0 2",
+ "driver_mode":"open","pinning":"core","signer_prio":0,"payload_input":"/home/xilinx/mission_kit/harness/../payload/data/tiles.raw","started_epoch":1795419241}
