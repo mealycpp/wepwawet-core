@@ -13,6 +13,44 @@ frames in both directions while an attitude-control loop and a CCSDS 121.0 imagi
 
 Source-available for research and evaluation. Reconfigurable Space Computing Lab, Cal Poly Pomona.
 
+## Architecture
+
+**One spacecraft node.** Four Cortex-A53 cores run Linux, F Prime, the attitude loop and the imaging payload. The signer, its key and every per-signature secret stay in the fabric behind one AXI4-Lite window, and the processor issues one job per signature.
+
+<p align="center"><img src="docs/img/fig_node.png" alt="WEPWAWET-CORE spacecraft node" width="900"></p>
+
+**The signing engine.** A 30-state microsequencer fetches 64-bit ROM words and issues either a stream kernel (NTT, inverse NTT, SHAKE, multiply-accumulate) or an RTL unit on the scratchpad banks. A retry manager closes the FIPS 204 rejection loop without the processor. Hatched regions hold the sealed key and seeds and are never readable from the host.
+
+<p align="center"><img src="docs/img/fig_engine.png" alt="WEPWAWET-CORE signing engine: ROM, microsequencer, scratchpad, kernels" width="900"></p>
+
+## Why one job per signature
+
+The same kernels were studied under three control styles. Driving every kernel call from the processor, or chaining kernels per stage, leaves hundreds of milliseconds of bus traffic and waits per signature. Running the whole rejection loop in the fabric brings the total to 7.5 ms.
+
+<p align="center">
+<img src="docs/img/fig_control_granularity.png" alt="Time per signature for three control styles" width="430">
+<img src="docs/img/fig_gem5.png" alt="Simulated processor-side cost versus register latency" width="430">
+</p>
+
+The left plot mixes a measured replay, a model and the board measurement, as labelled. The right plot is a gem5 simulation of the processor side only; the per-signature line is access count times latency, not a simulation.
+
+**Where the cycles of one attempt go.** The coefficient unit and the transforms dominate, not data movement. The lighter bars are a projection for three circuit changes that were not built.
+
+<p align="center"><img src="docs/img/fig_cycle_profile.png" alt="Cycle profile of one signing attempt" width="560"></p>
+
+## Key certification protocol
+
+<p align="center"><img src="docs/img/fig_protocol.png" alt="WEPWAWET-CORE key certification protocol" width="520"></p>
+
+1. Each fabric generates its key pair from on-chip entropy, seals the secret key and releases only the public key.
+2. The public key is downlinked to the ground.
+3. The ground station signs a labelled statement binding the node name to a SHAKE-256 digest of that key.
+4. The ground uplinks the peer's public key and certificate.
+5. A node installs a peer key only after its fabric verifier accepts the certificate.
+6. Crosslink frames are signed in the sender's fabric and verified by the receiver.
+
+Steps 1 and 6 are measured on hardware under mission load. Steps 2 to 5 were exercised on the two boards with fabric-generated keys, including rejection of a key or certificate with one bit altered. See "Security scope and limits" for what this does and does not establish.
+
 ## Results at a glance
 
 | Item | Value |
