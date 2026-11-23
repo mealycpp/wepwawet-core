@@ -96,8 +96,8 @@ Node 1 under the imaging-pass workload (10 signed commands per second, three run
 
 The fabric signer is slower per signature than the Neon software signer, and at this command rate offload
 does not relieve the mission cores. The contribution is the sealed key and the single-sequencer circuit, measured
-under flight software; the tables report both sides. Multi-second ADCS stalls seen on node 1 with and without
-signing are unexplained.
+under flight software; the tables report both sides. Multi-second ADCS stalls occur on node 1 with and without signing and never on node 2 under the same image and load;
+they belong to that board under a stock kernel without real-time patches, not to the signer.
 
 ## Repository map
 
@@ -146,6 +146,8 @@ Three things are kept apart.
    request signatures from the sealed key, or replace the ground public-key file. There is no secure boot, the
    bitstream is not encrypted or authenticated, and side channels and fault injection are untested. The entropy
    source has no NIST SP 800-90B qualification.
+
+The AUP-ZU3 is a commercial board with no radiation tolerance. It is a prototype of the architecture, not flight hardware.
 
 No private key is in this repository. The sealed images generate their own; the ground signing key is kept offline.
 The certificates and public keys under `results/certificates/` belong to the test campaign and identify nothing else.
