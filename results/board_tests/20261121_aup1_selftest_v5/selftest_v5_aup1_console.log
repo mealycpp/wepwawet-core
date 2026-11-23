@@ -1,0 +1,77 @@
+xilinx@aup1:~$ cd ~/wepwawet-core/firmware/aup_kit_v5 && sha256sum -c SHA256SUMS.txt
+sudo -E /usr/local/share/pynq-venv/bin/python fpga_selftest.py --bit wepwawet_sign_v5.bit --n 50 2>&1 | tee selftest_v5.log
+wepwawet_sign_v5.bit: OK
+wepwawet_sign_v5.hwh: OK
+fpga_selftest.py: OK
+sign_on_aup_v5.py: OK
+trng_collect.py: OK
+wp_fpga_signer.py: OK
+wp_fprime_bridge_fpga.py: OK
+
+{"prep_ms": 48.535, "preload_ms": 29.331, "wait_ms": 7.353, "kappa": 16, "attempts": 5, "cycles": 2196664, "pl_ms": 7.322, "readback_ms": 23.609, "total_ms": 115.654, "i": 0, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 53.711, "preload_ms": 99.58, "wait_ms": 21.344, "kappa": 48, "attempts": 13, "cycles": 5711541, "pl_ms": 19.038, "readback_ms": 59.078, "total_ms": 241.308, "i": 1, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 52.351, "preload_ms": 29.47, "wait_ms": 4.409, "kappa": 8, "attempts": 3, "cycles": 1317990, "pl_ms": 4.393, "readback_ms": 23.987, "total_ms": 117.591, "i": 2, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 52.523, "preload_ms": 28.429, "wait_ms": 10.271, "kappa": 24, "attempts": 7, "cycles": 3075405, "pl_ms": 10.251, "readback_ms": 23.174, "total_ms": 121.536, "i": 3, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 52.421, "preload_ms": 34.812, "wait_ms": 8.806, "kappa": 20, "attempts": 6, "cycles": 2636045, "pl_ms": 8.787, "readback_ms": 37.691, "total_ms": 140.858, "i": 4, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.892, "preload_ms": 28.904, "wait_ms": 4.413, "kappa": 8, "attempts": 3, "cycles": 1317990, "pl_ms": 4.393, "readback_ms": 25.022, "total_ms": 114.155, "i": 5, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 49.122, "preload_ms": 28.319, "wait_ms": 1.477, "kappa": 0, "attempts": 1, "cycles": 439261, "pl_ms": 1.464, "readback_ms": 23.832, "total_ms": 110.402, "i": 6, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 52.156, "preload_ms": 29.52, "wait_ms": 4.412, "kappa": 8, "attempts": 3, "cycles": 1317992, "pl_ms": 4.393, "readback_ms": 25.545, "total_ms": 118.793, "i": 7, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 227.131, "preload_ms": 114.743, "wait_ms": 9.165, "kappa": 8, "attempts": 3, "cycles": 1318000, "pl_ms": 4.393, "readback_ms": 113.905, "total_ms": 488.373, "i": 8, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 53.435, "preload_ms": 33.718, "wait_ms": 1.486, "kappa": 0, "attempts": 1, "cycles": 439274, "pl_ms": 1.464, "readback_ms": 30.948, "total_ms": 127.267, "i": 9, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 51.284, "preload_ms": 29.611, "wait_ms": 7.342, "kappa": 16, "attempts": 5, "cycles": 2196672, "pl_ms": 7.322, "readback_ms": 24.09, "total_ms": 119.504, "i": 10, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 53.74, "preload_ms": 79.511, "wait_ms": 11.736, "kappa": 28, "attempts": 8, "cycles": 3514759, "pl_ms": 11.716, "readback_ms": 29.463, "total_ms": 181.835, "i": 11, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 83.284, "preload_ms": 41.076, "wait_ms": 5.879, "kappa": 12, "attempts": 4, "cycles": 1757333, "pl_ms": 5.858, "readback_ms": 24.371, "total_ms": 162.147, "i": 12, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 51.132, "preload_ms": 29.432, "wait_ms": 4.411, "kappa": 8, "attempts": 3, "cycles": 1317973, "pl_ms": 4.393, "readback_ms": 24.153, "total_ms": 116.319, "i": 13, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 51.002, "preload_ms": 29.457, "wait_ms": 1.486, "kappa": 0, "attempts": 1, "cycles": 439270, "pl_ms": 1.464, "readback_ms": 23.949, "total_ms": 113.046, "i": 14, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 50.369, "preload_ms": 30.376, "wait_ms": 2.945, "kappa": 4, "attempts": 2, "cycles": 878632, "pl_ms": 2.929, "readback_ms": 25.107, "total_ms": 116.003, "i": 15, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 50.7, "preload_ms": 28.545, "wait_ms": 4.412, "kappa": 8, "attempts": 3, "cycles": 1317981, "pl_ms": 4.393, "readback_ms": 23.336, "total_ms": 114.188, "i": 16, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 51.767, "preload_ms": 30.343, "wait_ms": 2.947, "kappa": 4, "attempts": 2, "cycles": 878625, "pl_ms": 2.929, "readback_ms": 24.536, "total_ms": 116.84, "i": 17, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 204.808, "preload_ms": 103.016, "wait_ms": 2.948, "kappa": 4, "attempts": 2, "cycles": 878619, "pl_ms": 2.929, "readback_ms": 29.034, "total_ms": 356.742, "i": 18, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 50.136, "preload_ms": 32.473, "wait_ms": 4.413, "kappa": 8, "attempts": 3, "cycles": 1318002, "pl_ms": 4.393, "readback_ms": 25.493, "total_ms": 119.755, "i": 19, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 49.45, "preload_ms": 29.726, "wait_ms": 8.808, "kappa": 20, "attempts": 6, "cycles": 2636025, "pl_ms": 8.787, "readback_ms": 24.833, "total_ms": 119.781, "i": 20, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 51.986, "preload_ms": 28.927, "wait_ms": 7.341, "kappa": 16, "attempts": 5, "cycles": 2196692, "pl_ms": 7.322, "readback_ms": 23.925, "total_ms": 119.456, "i": 21, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 49.164, "preload_ms": 28.631, "wait_ms": 11.735, "kappa": 28, "attempts": 8, "cycles": 3514774, "pl_ms": 11.716, "readback_ms": 23.346, "total_ms": 119.726, "i": 22, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 51.242, "preload_ms": 28.407, "wait_ms": 1.478, "kappa": 0, "attempts": 1, "cycles": 439270, "pl_ms": 1.464, "readback_ms": 23.2, "total_ms": 111.587, "i": 23, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.928, "preload_ms": 28.466, "wait_ms": 2.951, "kappa": 4, "attempts": 2, "cycles": 878619, "pl_ms": 2.929, "readback_ms": 23.033, "total_ms": 110.143, "i": 24, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.631, "preload_ms": 28.575, "wait_ms": 8.801, "kappa": 20, "attempts": 6, "cycles": 2636041, "pl_ms": 8.787, "readback_ms": 23.084, "total_ms": 115.844, "i": 25, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.728, "preload_ms": 28.525, "wait_ms": 8.807, "kappa": 20, "attempts": 6, "cycles": 2636041, "pl_ms": 8.787, "readback_ms": 23.16, "total_ms": 116.041, "i": 26, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.649, "preload_ms": 28.572, "wait_ms": 4.413, "kappa": 8, "attempts": 3, "cycles": 1317975, "pl_ms": 4.393, "readback_ms": 23.156, "total_ms": 111.556, "i": 27, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.654, "preload_ms": 28.364, "wait_ms": 14.658, "kappa": 36, "attempts": 10, "cycles": 4393517, "pl_ms": 14.645, "readback_ms": 23.078, "total_ms": 121.507, "i": 28, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 50.604, "preload_ms": 28.502, "wait_ms": 14.662, "kappa": 36, "attempts": 10, "cycles": 4393483, "pl_ms": 14.645, "readback_ms": 23.198, "total_ms": 123.866, "i": 29, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.584, "preload_ms": 28.477, "wait_ms": 1.478, "kappa": 0, "attempts": 1, "cycles": 439270, "pl_ms": 1.464, "readback_ms": 23.157, "total_ms": 108.473, "i": 30, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 49.342, "preload_ms": 28.477, "wait_ms": 16.128, "kappa": 40, "attempts": 11, "cycles": 4832802, "pl_ms": 16.109, "readback_ms": 23.309, "total_ms": 124.034, "i": 31, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.901, "preload_ms": 28.879, "wait_ms": 4.406, "kappa": 8, "attempts": 3, "cycles": 1317996, "pl_ms": 4.393, "readback_ms": 23.531, "total_ms": 112.545, "i": 32, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.849, "preload_ms": 28.442, "wait_ms": 4.408, "kappa": 8, "attempts": 3, "cycles": 1317984, "pl_ms": 4.393, "readback_ms": 23.214, "total_ms": 111.708, "i": 33, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.166, "preload_ms": 28.539, "wait_ms": 4.413, "kappa": 8, "attempts": 3, "cycles": 1317981, "pl_ms": 4.393, "readback_ms": 23.285, "total_ms": 111.207, "i": 34, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.2, "preload_ms": 28.77, "wait_ms": 7.344, "kappa": 16, "attempts": 5, "cycles": 2196687, "pl_ms": 7.322, "readback_ms": 23.102, "total_ms": 114.166, "i": 35, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.529, "preload_ms": 28.262, "wait_ms": 4.407, "kappa": 8, "attempts": 3, "cycles": 1317981, "pl_ms": 4.393, "readback_ms": 23.137, "total_ms": 111.198, "i": 36, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.3, "preload_ms": 28.524, "wait_ms": 2.944, "kappa": 4, "attempts": 2, "cycles": 878642, "pl_ms": 2.929, "readback_ms": 23.057, "total_ms": 109.593, "i": 37, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.326, "preload_ms": 28.489, "wait_ms": 1.483, "kappa": 0, "attempts": 1, "cycles": 439272, "pl_ms": 1.464, "readback_ms": 23.241, "total_ms": 108.336, "i": 38, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.24, "preload_ms": 28.489, "wait_ms": 1.484, "kappa": 0, "attempts": 1, "cycles": 439274, "pl_ms": 1.464, "readback_ms": 23.077, "total_ms": 108.038, "i": 39, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.246, "preload_ms": 28.494, "wait_ms": 2.949, "kappa": 4, "attempts": 2, "cycles": 878628, "pl_ms": 2.929, "readback_ms": 23.145, "total_ms": 109.588, "i": 40, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.367, "preload_ms": 28.703, "wait_ms": 4.408, "kappa": 8, "attempts": 3, "cycles": 1317994, "pl_ms": 4.393, "readback_ms": 23.048, "total_ms": 111.301, "i": 41, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 52.324, "preload_ms": 29.964, "wait_ms": 4.41, "kappa": 8, "attempts": 3, "cycles": 1317987, "pl_ms": 4.393, "readback_ms": 23.979, "total_ms": 117.812, "i": 42, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 106.628, "preload_ms": 63.521, "wait_ms": 12.018, "kappa": 28, "attempts": 8, "cycles": 3514763, "pl_ms": 11.716, "readback_ms": 50.943, "total_ms": 242.405, "i": 43, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 63.346, "preload_ms": 30.484, "wait_ms": 1.48, "kappa": 0, "attempts": 1, "cycles": 439272, "pl_ms": 1.464, "readback_ms": 23.777, "total_ms": 126.744, "i": 44, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 51.087, "preload_ms": 29.564, "wait_ms": 1.478, "kappa": 0, "attempts": 1, "cycles": 439276, "pl_ms": 1.464, "readback_ms": 23.821, "total_ms": 112.955, "i": 45, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 283.654, "preload_ms": 196.833, "wait_ms": 27.705, "kappa": 8, "attempts": 3, "cycles": 1317984, "pl_ms": 4.393, "readback_ms": 246.171, "total_ms": 778.018, "i": 46, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 73.553, "preload_ms": 29.408, "wait_ms": 16.13, "kappa": 40, "attempts": 11, "cycles": 4832836, "pl_ms": 16.109, "readback_ms": 25.434, "total_ms": 170.186, "i": 47, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 56.294, "preload_ms": 31.222, "wait_ms": 1.487, "kappa": 0, "attempts": 1, "cycles": 439272, "pl_ms": 1.464, "readback_ms": 24.95, "total_ms": 121.395, "i": 48, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 53.411, "preload_ms": 30.838, "wait_ms": 19.062, "kappa": 48, "attempts": 13, "cycles": 5711537, "pl_ms": 19.038, "readback_ms": 26.28, "total_ms": 137.051, "i": 49, "hedged": true, "verify": true, "mutated_rejected": true}
+{"prep_ms": 48.871, "preload_ms": 28.718, "wait_ms": 8.807, "kappa": 20, "attempts": 6, "cycles": 2636048, "pl_ms": 8.787, "readback_ms": 23.227, "total_ms": 109.995, "matches_sw_deterministic": true, "i": 50, "hedged": false, "verify": true, "mutated_rejected": true}
+SUMMARY {
+ "n_hedged": 50,
+ "all_verify": true,
+ "distinct_sigs_assumed": true,
+ "attempts_mean": 4.28,
+ "attempts_max": 13,
+ "pl_ms_p50": 4.3933,
+ "pl_ms_p99": 19.03847,
+ "total_ms_p50": 117.59079998591915,
+ "total_ms_p99": 778.0176619999111,
+ "trng_us_p50": 6508.051010314375,
+ "preload_ms_p50": 29.331144993193448,
+ "deterministic_matches_sw": true
+}
+xilinx@aup1:~/wepwawet-core/firmware/aup_kit_v5$
+xilinx@aup1:~/wepwawet-core/firmware/aup_kit_v5$

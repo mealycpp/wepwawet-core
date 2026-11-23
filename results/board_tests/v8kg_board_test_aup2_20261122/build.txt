@@ -1,0 +1,1 @@
+built ./wcore_selftest_v8kg

@@ -1,0 +1,6 @@
+CLK_MHZ=300
+SEAL_PHASE=3
+SRC=<WORKDIR>/04_WORK/seal_v8/src_p3
+WNS=0.011
+WHS=0.010
+BIT=<WORKDIR>/04_WORK/sign_impl/proj_v8_p3_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper.bit

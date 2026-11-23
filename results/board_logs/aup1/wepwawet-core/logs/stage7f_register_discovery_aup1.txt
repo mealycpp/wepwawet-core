@@ -1,0 +1,36 @@
+===== RELEVANT SOURCE FILES =====
+
+===== AXI REGISTER DECODING AND DRIVERS =====
+software/host/wp_hw.py:11:Plus AXI-Lite TRNG on a separate address space.
+software/host/wp_hw.py:37:# TRNG offsets (probed empirically)
+software/host/wp_hw.py:38:TRNG_ENABLE   = 0x00
+software/host/wp_hw.py:39:TRNG_DATA     = 0x10
+software/host/wp_hw.py:53:        self.trng = self.ol.trng_axi_0
+software/host/wp_hw.py:55:        # Enable TRNG entropy source
+software/host/wp_hw.py:56:        self.trng.write(TRNG_ENABLE, 0x01)
+software/host/wp_hw.py:206:    # TRNG - hardware entropy source (AXI-Lite, no DMA)
+software/host/wp_hw.py:209:        """Return one 32-bit random word from the TRNG."""
+software/host/wp_hw.py:210:        return self.trng.read(TRNG_DATA) & 0xFFFFFFFF
+software/host/wp_hw.py:213:        """Return n random bytes from the TRNG."""
+software/host/wp_hw.py:246:    # TRNG
+software/host/wp_hw.py:248:    print(f"TRNG 32B: {rnd.hex()}")
+
+===== HWH IP TYPES =====
+trng_axi_0
+  type: xilinx.com:module_ref:trng_axi:1.0
+  address: 0xa0000000
+  registers: []
+shake128_axis_0
+  type: xilinx.com:hls:shake128_axis:1.0
+  address: 0x80050000
+  registers: ['CTRL', 'GIER', 'IP_IER', 'IP_ISR', 'msg_bytes', 'out_bytes']
+shake256_axis_0
+  type: xilinx.com:hls:shake256_axis:1.0
+  address: 0x80070000
+  registers: ['CTRL', 'GIER', 'IP_IER', 'IP_ISR', 'msg_bytes', 'out_bytes']
+wcore_host_mem_axi_0
+  type: xilinx.com:module_ref:wcore_host_mem_axi:1.0
+  address: 0xa0040000
+  registers: []
+
+REGISTER DISCOVERY COMPLETE

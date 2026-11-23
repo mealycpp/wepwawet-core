@@ -1,0 +1,559 @@
+WCORE: HwAccelMgr backend=fpga
+WCORE: listening on <AUP1_IP>:9091
+Hit Ctrl-C to quit
+EVENT: (16777216) (2:1795377280,718177) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000000 registered to port 0 slot 0
+EVENT: (16777216) (2:1795377280,718228) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000001 registered to port 0 slot 1
+EVENT: (16777216) (2:1795377280,718246) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000002 registered to port 0 slot 2
+EVENT: (16777216) (2:1795377280,718262) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000003 registered to port 0 slot 3
+EVENT: (16777216) (2:1795377280,718277) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001000 registered to port 1 slot 4
+EVENT: (16777216) (2:1795377280,718291) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001002 registered to port 1 slot 5
+EVENT: (16777216) (2:1795377280,718305) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001003 registered to port 1 slot 6
+EVENT: (16777216) (2:1795377280,718320) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002000 registered to port 2 slot 7
+EVENT: (16777216) (2:1795377280,718334) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002001 registered to port 2 slot 8
+EVENT: (16777216) (2:1795377280,718349) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002002 registered to port 2 slot 9
+EVENT: (16777216) (2:1795377280,718364) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003000 registered to port 3 slot 10
+EVENT: (16777216) (2:1795377280,718378) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003001 registered to port 3 slot 11
+EVENT: (16777216) (2:1795377280,718393) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000000 registered to port 4 slot 12
+EVENT: (16777216) (2:1795377280,718408) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000001 registered to port 4 slot 13
+EVENT: (16777216) (2:1795377280,718422) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000002 registered to port 4 slot 14
+EVENT: (16777216) (2:1795377280,718437) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000000 registered to port 5 slot 15
+EVENT: (16777216) (2:1795377280,718452) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000001 registered to port 5 slot 16
+EVENT: (16777216) (2:1795377280,718467) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000002 registered to port 5 slot 17
+EVENT: (16777216) (2:1795377280,718481) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000003 registered to port 5 slot 18
+EVENT: (16777216) (2:1795377280,718495) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4001000 registered to port 6 slot 19
+EVENT: (16777216) (2:1795377280,718510) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4002000 registered to port 7 slot 20
+EVENT: (16777216) (2:1795377280,718524) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001000 registered to port 8 slot 21
+EVENT: (16777216) (2:1795377280,718539) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001001 registered to port 8 slot 22
+EVENT: (16777216) (2:1795377280,718553) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001002 registered to port 8 slot 23
+EVENT: (16777216) (2:1795377280,718568) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002000 registered to port 9 slot 24
+EVENT: (16777216) (2:1795377280,718583) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002001 registered to port 9 slot 25
+EVENT: (16777216) (2:1795377280,718597) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002002 registered to port 9 slot 26
+EVENT: (16777216) (2:1795377280,718611) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002003 registered to port 9 slot 27
+EVENT: (16777216) (2:1795377280,718626) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002004 registered to port 9 slot 28
+EVENT: (16777216) (2:1795377280,718640) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002005 registered to port 9 slot 29
+EVENT: (16777216) (2:1795377280,718655) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002006 registered to port 9 slot 30
+EVENT: (16777216) (2:1795377280,718669) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002007 registered to port 9 slot 31
+EVENT: (16777216) (2:1795377280,718726) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002008 registered to port 9 slot 32
+EVENT: (16777216) (2:1795377280,718743) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003000 registered to port 10 slot 33
+EVENT: (16777216) (2:1795377280,718758) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003001 registered to port 10 slot 34
+EVENT: (16777216) (2:1795377280,718772) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003002 registered to port 10 slot 35
+EVENT: (16777216) (2:1795377280,718787) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004000 registered to port 11 slot 36
+EVENT: (16777216) (2:1795377280,718803) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004001 registered to port 11 slot 37
+EVENT: (16777216) (2:1795377280,718817) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004002 registered to port 11 slot 38
+EVENT: (16777216) (2:1795377280,718831) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004003 registered to port 11 slot 39
+EVENT: (16777216) (2:1795377280,718845) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004004 registered to port 11 slot 40
+EVENT: (16777216) (2:1795377280,718860) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004005 registered to port 11 slot 41
+EVENT: (16777216) (2:1795377280,718874) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004006 registered to port 11 slot 42
+EVENT: (16777216) (2:1795377280,718888) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004007 registered to port 11 slot 43
+EVENT: (16777216) (2:1795377280,718903) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10021000 registered to port 12 slot 44
+EVENT: (16777216) (2:1795377280,718918) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10022000 registered to port 13 slot 45
+EVENT: (16777216) (2:1795377280,718933) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10024000 registered to port 14 slot 46
+EVENT: (16777216) (2:1795377280,718948) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10023000 registered to port 15 slot 47
+EVENT: (16777216) (2:1795377280,718962) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10012000 registered to port 16 slot 48
+EVENT: (16789504) (2:1795377280,718986) ACTIVITY_LO: (version) FrameworkVersion : Framework Version: [v3.5.0]
+EVENT: (16789505) (2:1795377280,719025) ACTIVITY_LO: (version) ProjectVersion : Project Version: [v3.5.0]
+[WARNING] cmdDisp stack size of 65536  is too small, clamping to 131072
+[WARNING] events stack size of 65536  is too small, clamping to 131072
+[WARNING] tlmSend stack size of 65536  is too small, clamping to 131072
+[WARNING] aggregator stack size of 65536  is too small, clamping to 131072
+[WARNING] comQueue stack size of 65536  is too small, clamping to 131072
+[WARNING] dpCat stack size of 65536  is too small, clamping to 131072
+[WARNING] dpMgr stack size of 65536  is too small, clamping to 131072
+[WARNING] dpWriter stack size of 65536  is too small, clamping to 131072
+[WARNING] fileDownlink stack size of 65536  is too small, clamping to 131072
+[WARNING] fileManager stack size of 65536  is too small, clamping to 131072
+[WARNING] fileUplink stack size of 65536  is too small, clamping to 131072
+[WARNING] prmDb stack size of 65536  is too small, clamping to 131072
+[WARNING] cmdSeq stack size of 65536  is too small, clamping to 131072
+[WARNING] dilithiumSign stack size of 65536  is too small, clamping to 131072
+[WARNING] dilithiumVerify stack size of 65536  is too small, clamping to 131072
+[WARNING] pqcSecurityGateway stack size of 65536  is too small, clamping to 131072
+[WARNING] pqcTransport stack size of 65536  is too small, clamping to 131072
+[WARNING] rateGroup1 stack size of 65536  is too small, clamping to 131072
+[WARNING] rateGroup2 stack size of 65536  is too small, clamping to 131072
+EVENT: (268439552) (2:1795377280,721371) DIAGNOSTIC: (rateGroup1) RateGroupStarted : Rate group started.
+[WARNING] rateGroup3 stack size of 65536  is too small, clamping to 131072
+EVENT: (268443648) (2:1795377280,721462) DIAGNOSTIC: (rateGroup2) RateGroupStarted : Rate group started.
+EVENT: (268447744) (2:1795377280,721547) DIAGNOSTIC: (rateGroup3) RateGroupStarted : Rate group started.
+[WARNING] ReceiveTask stack size of 65536  is too small, clamping to 131072
+Connected to 127.0.0.1:50000 as a tcp client
+EVENT: (16777217) (2:1795377289,429273) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: FPGA open, verify program PRESENT (v6)
+EVENT: (268566528) (2:1795377289,443184) ACTIVITY_HI: (hwAccelMgr) HwReady : Wepwawet hardware accelerator ready
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878650 pl_us=2928.8 host_total_us=5316.1
+EVENT: (268578816) (2:1795377289,469333) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377289,469480) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377289,533149) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1317988 pl_us=4393.3 host_total_us=5250.4
+EVENT: (268578816) (2:1795377289,567324) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377289,567474) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377289,632235) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757359 pl_us=5857.9 host_total_us=6746.6
+EVENT: (268578816) (2:1795377289,666386) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377289,666504) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377289,742210) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439282 pl_us=1464.3 host_total_us=2365.3
+EVENT: (268578816) (2:1795377289,781685) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377289,781801) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377289,842990) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318001 pl_us=4393.3 host_total_us=5265.3
+EVENT: (268578816) (2:1795377289,882850) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377289,882973) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377289,928968) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318028 pl_us=4393.4 host_total_us=5235.1
+EVENT: (268578816) (2:1795377289,967880) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377289,968014) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,28962) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318018 pl_us=4393.4 host_total_us=5335.1
+EVENT: (268578816) (2:1795377290,61589) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377290,61704) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,136308) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636085 pl_us=8787.0 host_total_us=9663.0
+EVENT: (268578816) (2:1795377290,172050) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377290,172160) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,232378) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2395.9
+EVENT: (268578816) (2:1795377290,265540) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377290,265651) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,330170) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1317997 pl_us=4393.3 host_total_us=5330.1
+EVENT: (268578816) (2:1795377290,367926) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377290,368056) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,428980) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2339.2
+EVENT: (268578816) (2:1795377290,459988) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377290,460122) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,529844) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=13 pl_cycles=5711662 pl_us=19038.9 host_total_us=19910.5
+EVENT: (268578816) (2:1795377290,583835) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377290,583968) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,633480) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757378 pl_us=5857.9 host_total_us=6729.2
+EVENT: (268578816) (2:1795377290,666504) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377290,666622) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,729242) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3514831 pl_us=11716.1 host_total_us=12655.4
+EVENT: (268578816) (2:1795377290,775659) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377290,775788) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377290,842980) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377290,940327) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377291,45236) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878652 pl_us=2928.8 host_total_us=3850.1
+EVENT: (268578816) (2:1795377291,92645) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377291,92783) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377291,132476) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377291,240097) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377291,329977) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377291,429165) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377291,530591) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757356 pl_us=5857.9 host_total_us=6782.9
+EVENT: (268578816) (2:1795377291,802544) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377291,802663) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377291,803963) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377291,811678) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2367.5
+EVENT: (268578816) (2:1795377291,835584) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377291,835715) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377291,842072) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318014 pl_us=4393.4 host_total_us=5312.4
+EVENT: (268578816) (2:1795377291,876652) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377291,876781) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757349 pl_us=5857.8 host_total_us=6757.4
+EVENT: (268578816) (2:1795377291,913360) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377291,913483) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377291,929294) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=7 pl_cycles=3075436 pl_us=10251.5 host_total_us=11182.4
+EVENT: (268578816) (2:1795377291,955864) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377291,955990) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439284 pl_us=1464.3 host_total_us=2366.7
+EVENT: (268578816) (2:1795377291,998256) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377291,998384) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757365 pl_us=5857.9 host_total_us=6742.5
+EVENT: (16777217) (2:1795377292,29775) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578816) (2:1795377292,32999) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,33126) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=12 pl_cycles=5272319 pl_us=17574.4 host_total_us=18439.5
+EVENT: (268578816) (2:1795377292,98954) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,99077) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377292,136208) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=7 pl_cycles=3075469 pl_us=10251.6 host_total_us=11113.6
+EVENT: (268578816) (2:1795377292,224817) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,224952) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377292,229286) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636088 pl_us=8787.0 host_total_us=9628.8
+EVENT: (268578816) (2:1795377292,331853) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,331992) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377292,333120) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757348 pl_us=5857.8 host_total_us=6726.4
+EVENT: (268578816) (2:1795377292,423823) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,423963) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377292,429312) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439288 pl_us=1464.3 host_total_us=2364.9
+EVENT: (268578816) (2:1795377292,501952) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,502078) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757376 pl_us=5857.9 host_total_us=6792.3
+EVENT: (268578816) (2:1795377292,537052) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,537174) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377292,539963) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636099 pl_us=8787.0 host_total_us=9654.1
+EVENT: (268578816) (2:1795377292,575130) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,575254) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636093 pl_us=8787.0 host_total_us=9691.6
+EVENT: (268578816) (2:1795377292,619500) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,619627) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757363 pl_us=5857.9 host_total_us=6725.4
+EVENT: (16777217) (2:1795377292,646109) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578816) (2:1795377292,652334) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,652448) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=12 pl_cycles=5272285 pl_us=17574.3 host_total_us=18444.2
+EVENT: (268578816) (2:1795377292,697415) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,697524) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636092 pl_us=8787.0 host_total_us=9665.9
+EVENT: (16777217) (2:1795377292,743449) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578816) (2:1795377292,750824) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,750951) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757365 pl_us=5857.9 host_total_us=6746.1
+EVENT: (268578816) (2:1795377292,788115) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,788267) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377292,843026) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196696 pl_us=7322.3 host_total_us=8252.6
+EVENT: (268578816) (2:1795377292,882923) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,883045) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377292,936614) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196752 pl_us=7322.5 host_total_us=8238.1
+EVENT: (268578816) (2:1795377292,975887) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377292,976017) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,29139) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2337.2
+EVENT: (268578816) (2:1795377293,60821) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,60935) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,133592) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757363 pl_us=5857.9 host_total_us=6721.1
+EVENT: (268578816) (2:1795377293,169134) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,169252) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,229636) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=16 pl_cycles=7029720 pl_us=23432.4 host_total_us=24368.6
+EVENT: (268578816) (2:1795377293,294273) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,294391) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,329210) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757367 pl_us=5857.9 host_total_us=6759.9
+EVENT: (268578816) (2:1795377293,386624) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,386763) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,429881) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=7 pl_cycles=3075460 pl_us=10251.5 host_total_us=11121.4
+EVENT: (268578816) (2:1795377293,471757) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,471883) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,529151) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439271 pl_us=1464.2 host_total_us=2340.8
+EVENT: (268578816) (2:1795377293,558411) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,558531) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,633595) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196736 pl_us=7322.5 host_total_us=8220.4
+EVENT: (268578816) (2:1795377293,669863) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,669978) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,741014) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=17 pl_cycles=7469104 pl_us=24897.0 host_total_us=25781.5
+EVENT: (268578816) (2:1795377293,806502) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,806650) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,843015) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196722 pl_us=7322.4 host_total_us=8268.0
+EVENT: (268578816) (2:1795377293,884147) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,884273) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377293,939415) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878644 pl_us=2928.8 host_total_us=3807.6
+EVENT: (268578816) (2:1795377293,979881) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377293,980011) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,46050) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757374 pl_us=5857.9 host_total_us=6762.4
+EVENT: (268578816) (2:1795377294,83892) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,84032) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,132457) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439280 pl_us=1464.3 host_total_us=2353.1
+EVENT: (268578816) (2:1795377294,163226) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,163406) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,236414) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=11 pl_cycles=4832903 pl_us=16109.7 host_total_us=17023.3
+EVENT: (268578816) (2:1795377294,294602) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,294723) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,329648) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=7 pl_cycles=3075488 pl_us=10251.6 host_total_us=11099.0
+EVENT: (268578816) (2:1795377294,372274) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,372428) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,433642) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318010 pl_us=4393.4 host_total_us=5239.0
+EVENT: (268578816) (2:1795377294,470879) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,471010) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,529382) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318010 pl_us=4393.4 host_total_us=5301.8
+EVENT: (268578816) (2:1795377294,562846) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,562996) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,632460) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318002 pl_us=4393.3 host_total_us=5278.6
+EVENT: (268578816) (2:1795377294,666847) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,667058) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,742815) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439284 pl_us=1464.3 host_total_us=2339.0
+EVENT: (268578816) (2:1795377294,788074) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,788257) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,846974) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439282 pl_us=1464.3 host_total_us=2408.6
+EVENT: (268578816) (2:1795377294,893498) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,893656) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377294,942083) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196737 pl_us=7322.5 host_total_us=8254.9
+EVENT: (268578816) (2:1795377294,987850) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377294,987993) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,49772) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2399.5
+EVENT: (268578816) (2:1795377295,87950) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,88095) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,146356) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757378 pl_us=5857.9 host_total_us=6701.4
+EVENT: (268578816) (2:1795377295,189270) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,189410) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,243042) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439271 pl_us=1464.2 host_total_us=2364.7
+EVENT: (268578816) (2:1795377295,280506) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,280650) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,343048) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3514821 pl_us=11716.1 host_total_us=12620.3
+EVENT: (268578816) (2:1795377295,388191) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,388318) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,429258) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2341.0
+EVENT: (268578816) (2:1795377295,461674) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,461821) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,532169) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636122 pl_us=8787.1 host_total_us=9644.6
+EVENT: (268578816) (2:1795377295,574251) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,574363) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,633601) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2361.2
+EVENT: (268578816) (2:1795377295,665061) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,665179) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,734500) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=12 pl_cycles=5272284 pl_us=17574.3 host_total_us=18413.8
+EVENT: (268578816) (2:1795377295,793960) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,794131) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,846122) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636093 pl_us=8787.0 host_total_us=9718.9
+EVENT: (268578816) (2:1795377295,901523) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377295,901679) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377295,971239) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757354 pl_us=5857.8 host_total_us=6742.5
+EVENT: (268578816) (2:1795377296,27076) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377296,27220) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377296,50774) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318008 pl_us=4393.4 host_total_us=5320.8
+EVENT: (268578816) (2:1795377296,94188) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377296,94364) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377296,150112) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636091 pl_us=8787.0 host_total_us=9675.5
+EVENT: (268578816) (2:1795377296,200753) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377296,200889) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377296,253576) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318016 pl_us=4393.4 host_total_us=5235.1
+EVENT: (16777217) (2:1795377296,365959) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578816) (2:1795377296,390606) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377296,390750) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439282 pl_us=1464.3 host_total_us=2502.9
+EVENT: (268578816) (2:1795377296,424436) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377296,424571) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377296,441926) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757365 pl_us=5857.9 host_total_us=6724.2
+EVENT: (268578816) (2:1795377296,493789) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377296,493938) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377296,544921) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196733 pl_us=7322.4 host_total_us=8212.2
+EVENT: (268578816) (2:1795377296,589210) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377296,589357) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377296,632395) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318016 pl_us=4393.4 host_total_us=5331.7
+EVENT: (268578816) (2:1795377296,668966) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377296,669126) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377296,742056) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377296,841997) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377296,934356) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878639 pl_us=2928.8 host_total_us=3785.1
+EVENT: (268578816) (2:1795377297,2854) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,2989) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,52568) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318004 pl_us=4393.3 host_total_us=5327.4
+EVENT: (268578816) (2:1795377297,83892) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,84073) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878642 pl_us=2928.8 host_total_us=3778.9
+EVENT: (268578816) (2:1795377297,117385) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,117520) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318004 pl_us=4393.3 host_total_us=5303.8
+EVENT: (16777217) (2:1795377297,148035) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578816) (2:1795377297,156217) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,156353) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878652 pl_us=2928.8 host_total_us=3808.7
+EVENT: (268578816) (2:1795377297,190155) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,190277) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,241118) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439284 pl_us=1464.3 host_total_us=2410.4
+EVENT: (268578816) (2:1795377297,281291) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,281433) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,343087) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=12 pl_cycles=5272280 pl_us=17574.3 host_total_us=18446.5
+EVENT: (268578816) (2:1795377297,411970) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,412127) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,443985) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1317999 pl_us=4393.3 host_total_us=5341.1
+EVENT: (268578816) (2:1795377297,484048) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,484211) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,546087) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878654 pl_us=2928.8 host_total_us=3862.3
+EVENT: (268578816) (2:1795377297,581770) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,581930) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,632336) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439286 pl_us=1464.3 host_total_us=2335.2
+EVENT: (268578816) (2:1795377297,666767) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,666918) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,738047) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878642 pl_us=2928.8 host_total_us=3835.3
+EVENT: (268578816) (2:1795377297,837041) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,837180) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,842078) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878648 pl_us=2928.8 host_total_us=3800.2
+EVENT: (268578816) (2:1795377297,877259) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,877382) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377297,938558) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439282 pl_us=1464.3 host_total_us=2367.4
+EVENT: (268578816) (2:1795377297,975898) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377297,976024) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,43157) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=10 pl_cycles=4393548 pl_us=14645.2 host_total_us=15518.6
+EVENT: (268578816) (2:1795377298,96366) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,96498) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,145960) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=17 pl_cycles=7469106 pl_us=24897.0 host_total_us=25835.5
+EVENT: (268578816) (2:1795377298,201472) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,201614) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,229469) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439280 pl_us=1464.3 host_total_us=2368.2
+EVENT: (268578816) (2:1795377298,266785) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,266903) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,329977) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636091 pl_us=8787.0 host_total_us=9727.2
+EVENT: (268578816) (2:1795377298,368528) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,368656) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,429350) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757378 pl_us=5857.9 host_total_us=6742.3
+EVENT: (268578816) (2:1795377298,467877) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,467999) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,529213) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318010 pl_us=4393.4 host_total_us=5334.6
+EVENT: (268578816) (2:1795377298,562739) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,562857) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,633892) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=7 pl_cycles=3075467 pl_us=10251.6 host_total_us=11123.9
+EVENT: (268578816) (2:1795377298,678153) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,678266) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,729408) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2366.9
+EVENT: (268578816) (2:1795377298,766252) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,766386) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,845944) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439280 pl_us=1464.3 host_total_us=2366.9
+EVENT: (268578816) (2:1795377298,885025) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,885156) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377298,939302) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439278 pl_us=1464.3 host_total_us=2387.2
+EVENT: (268578816) (2:1795377298,970522) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377298,970674) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,41877) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1317999 pl_us=4393.3 host_total_us=5273.2
+EVENT: (268578816) (2:1795377299,80381) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,80515) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,132973) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3514836 pl_us=11716.1 host_total_us=12643.9
+EVENT: (268578816) (2:1795377299,175444) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,175557) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,229384) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878642 pl_us=2928.8 host_total_us=3859.4
+EVENT: (268578816) (2:1795377299,270620) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,270730) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,329957) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439282 pl_us=1464.3 host_total_us=2364.2
+EVENT: (268578816) (2:1795377299,363811) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,363929) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,429137) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=35 pl_cycles=15377646 pl_us=51258.8 host_total_us=52163.8
+EVENT: (268578816) (2:1795377299,517085) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,517214) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,529217) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196731 pl_us=7322.4 host_total_us=8219.8
+EVENT: (268578816) (2:1795377299,566584) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,566696) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,633663) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878642 pl_us=2928.8 host_total_us=3846.3
+EVENT: (268578816) (2:1795377299,664548) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,664672) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,733980) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439271 pl_us=1464.2 host_total_us=2369.8
+EVENT: (268578816) (2:1795377299,770891) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,771005) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,842982) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878646 pl_us=2928.8 host_total_us=3781.5
+EVENT: (268578816) (2:1795377299,875786) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,875915) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377299,941949) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878650 pl_us=2928.8 host_total_us=3844.7
+EVENT: (268578816) (2:1795377299,986388) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377299,986506) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,39340) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878641 pl_us=2928.8 host_total_us=3848.7
+EVENT: (268578816) (2:1795377300,74304) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,74421) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,132760) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757365 pl_us=5857.9 host_total_us=6744.7
+EVENT: (268578816) (2:1795377300,169728) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,169841) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,230441) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878624 pl_us=2928.7 host_total_us=3831.0
+EVENT: (268578816) (2:1795377300,262385) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,262670) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,329530) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878650 pl_us=2928.8 host_total_us=3777.8
+EVENT: (268578816) (2:1795377300,377333) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,377479) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,429856) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878654 pl_us=2928.8 host_total_us=3860.0
+EVENT: (268578816) (2:1795377300,460421) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,460561) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,529431) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196719 pl_us=7322.4 host_total_us=8201.7
+EVENT: (268578816) (2:1795377300,566839) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,566952) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,632892) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196750 pl_us=7322.5 host_total_us=8224.1
+EVENT: (268578816) (2:1795377300,669689) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,669811) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,737965) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318016 pl_us=4393.4 host_total_us=5289.5
+EVENT: (268578816) (2:1795377300,774365) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,774487) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,845952) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1318014 pl_us=4393.4 host_total_us=5255.3
+EVENT: (268578816) (2:1795377300,885169) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377300,885290) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377300,941836) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,98179) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,132595) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,230761) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,334755) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196724 pl_us=7322.4 host_total_us=8170.4
+EVENT: (268578816) (2:1795377301,428718) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP2_IP>
+EVENT: (16777218) (2:1795377301,428879) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795377301,450775) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,538435) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,653425) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,742048) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,855901) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377301,930299) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795377302,31760) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+Assert: "/home/xilinx/wepwawet-core/fprime/core-source/build-core/PqcTransport/PqcTransportComponentAc.cpp:796" 8
+FATAL 16797697 handled.
+Exiting with abort signal and core dump file.

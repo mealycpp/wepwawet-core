@@ -1,0 +1,6 @@
+# REVIEWER: optional XSim cross-check of the adversarial TB. Rename to 04_WORK/queue/3xx_review_adv_xsim.tcl to run.
+# Afterwards (in the VM): python3 review/tools/adv_check.py <xsim_run_dir> v8p2h --vec 04_WORK/vectors/vec_7
+set ps [file nativename <WORKDIR>/04_WORK/seal_v8/review/tools/run_adv_xsim.ps1]
+set src [file nativename <WORKDIR>/04_WORK/seal_v8/src_p2]
+catch {exec powershell.exe -NoProfile -ExecutionPolicy Bypass -File $ps -SrcDir $src -Defines ADV_V8,ADV_P2,ADV_DET -Vec vec_7 -Tag p2d} out; puts $out
+catch {exec powershell.exe -NoProfile -ExecutionPolicy Bypass -File $ps -SrcDir $src -Defines ADV_V8,ADV_P2 -Vec vec_6 -Tag p2h} out; puts $out

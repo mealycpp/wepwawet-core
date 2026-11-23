@@ -1,0 +1,149 @@
+{
+  "kind": "REFERENCE_ORACLE_NOT_FPGA_OUTPUT",
+  "algorithm": "FIPS204 ML-DSA-44",
+  "library": "dilithium-py 1.5.1",
+  "message_sha256": "35604858fc44e68b3434e77e78581a6ad93b7b96d68eed0428f7214193de6275",
+  "public_key_sha256": "758487cee3e439cca0649630caae257c23695d2fd550826d52f4fe043577ff85",
+  "reference_signature_sha256": "b0c56e07c52e4222b4fb4fc2e1d08f091aa2822e32efb2f891b25070d609c480",
+  "accepted_kappa": 52,
+  "attempts": [
+    {
+      "kappa": 0,
+      "z_reject": false,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 69
+    },
+    {
+      "kappa": 4,
+      "z_reject": true,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 64
+    },
+    {
+      "kappa": 8,
+      "z_reject": true,
+      "r0_reject": false,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 71
+    },
+    {
+      "kappa": 12,
+      "z_reject": true,
+      "r0_reject": false,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 46
+    },
+    {
+      "kappa": 16,
+      "z_reject": true,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 74
+    },
+    {
+      "kappa": 20,
+      "z_reject": false,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 60
+    },
+    {
+      "kappa": 24,
+      "z_reject": true,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 63
+    },
+    {
+      "kappa": 28,
+      "z_reject": false,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 66
+    },
+    {
+      "kappa": 32,
+      "z_reject": false,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 37
+    },
+    {
+      "kappa": 36,
+      "z_reject": true,
+      "r0_reject": false,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 56
+    },
+    {
+      "kappa": 40,
+      "z_reject": true,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 65
+    },
+    {
+      "kappa": 44,
+      "z_reject": false,
+      "r0_reject": false,
+      "ct0_reject": false,
+      "hint_reject": true,
+      "hint_weight": 84
+    },
+    {
+      "kappa": 48,
+      "z_reject": true,
+      "r0_reject": true,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 58
+    },
+    {
+      "kappa": 52,
+      "z_reject": false,
+      "r0_reject": false,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 61
+    }
+  ],
+  "accepted_hint_weight": 61,
+  "accepted_reject_status": 0,
+  "file_bytes": {
+    "c_hat_128x64.mem": 2176,
+    "candidate_mask_seed_nonce_36x64.mem": 612,
+    "ct0_512x64.mem": 8704,
+    "ctilde_4x64.mem": 68,
+    "h_512x64.mem": 8704,
+    "msg.bin": 21,
+    "mu.bin": 64,
+    "mu_8x64.mem": 136,
+    "pk.bin": 1312,
+    "r0_512x64.mem": 8704,
+    "rho_4x64.mem": 68,
+    "rho_prime.bin": 64,
+    "s1_hat_512x64.mem": 8704,
+    "s2_hat_512x64.mem": 8704,
+    "signature_REFERENCE_ONLY.bin": 2420,
+    "sk_TEST_ONLY.bin": 2560,
+    "t0_hat_512x64.mem": 8704,
+    "w1_encoded_96x64.mem": 1632,
+    "w_512x64.mem": 8704,
+    "y_512x64.mem": 8704,
+    "z_512x64.mem": 8704
+  },
+  "warning": "V7 RTL not run with these data. Coherent oracle is not a V7 correctness proof."
+}

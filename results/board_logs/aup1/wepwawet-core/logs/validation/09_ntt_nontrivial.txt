@@ -1,0 +1,19 @@
+LOG_DIR: logs/validation/ntt_poly_20261119T085845Z_pid337204
+HOST_STATUS_BEFORE=0x7F10001A
+GPIO_BEFORE: {"raw": "0x008080F0", "busy": 0, "done": 0, "error": 0, "locked": 0, "init": 1, "tx_last": 1, "rx_last": 1, "nonzero_seen": 1, "tx_count": 128, "rx_count": 128, "error_code": 0}
+BACKING_UP bank0 and bank1, 128 words each
+RECOVERY_JOURNAL: logs/validation/ntt_poly_20261119T085845Z_pid337204/preimage.json
+LOADING polynomial a(x)=1+x: coefficient[0]=1 coefficient[1]=1
+INPUT_VECTOR_READBACK_PASS
+ISSUING_ONE_NTT_START
+RESULT: {"raw": "0x008080F2", "busy": 0, "done": 1, "error": 0, "locked": 0, "init": 1, "tx_last": 1, "rx_last": 1, "nonzero_seen": 1, "tx_count": 128, "rx_count": 128, "error_code": 0}
+AFTER_ACK: {"raw": "0x008080F0", "busy": 0, "done": 0, "error": 0, "locked": 0, "init": 1, "tx_last": 1, "rx_last": 1, "nonzero_seen": 1, "tx_count": 128, "rx_count": 128, "error_code": 0}
+NONZERO_STREAM_HANDSHAKE_PASS
+OUTPUT_CAPTURE: logs/validation/ntt_poly_20261119T085845Z_pid337204/ntt_output.json
+OUTPUT_FIRST_8: FFFFF928000006DA 001D883DFFE277C5 002894C6FFD76B3C 00163713FFE9C8EF FFD767C900289839 001B2A04FFE4D5FE 0000E70DFFFF18F5 FFD5B189002A4E79
+OUTPUT_NONZERO_WORDS: 128
+POLYNOMIAL_REFERENCE_MATCH: False
+RESTORATION_ATTEMPT
+SCRATCHPAD_RESTORED: True
+NTT_POLYNOMIAL_OUTPUT_CAPTURED_BUT_REFERENCE_UNRESOLVED
+Inspect ntt_output.json and NTT HLS source before declaring numerical PASS

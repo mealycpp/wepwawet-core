@@ -1,0 +1,44 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Sun Nov 22 15:03:23 2026
+| Host         : DESKTOP-QCD8H8U running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 3 -file <WORKDIR>/04_WORK/sign_impl/proj_v8_p3_300/synth_util_hier.rpt
+| Design       : wepwawet_sign_wrapper
+| Device       : xczu3eg-sfvc784-2-e
+| Speed File   : -2
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------------+--------------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+|          Instance         |                                  Module                                  | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | URAM | DSP Blocks |
++---------------------------+--------------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+| wepwawet_sign_wrapper     |                                                                    (top) |      44062 |      43141 |     640 |  281 | 37045 |     20 |      6 |    0 |         42 |
+|   wepwawet_sign_i         |                                                            wepwawet_sign |      44062 |      43141 |     640 |  281 | 37045 |     20 |      6 |    0 |         42 |
+|     (wepwawet_sign_i)     |                                                            wepwawet_sign |          0 |          0 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
+|     axi_sc                |                                                   wepwawet_sign_axi_sc_0 |        624 |        623 |       0 |    1 |   859 |      0 |      0 |    0 |          0 |
+|       (axi_sc)            |                                                   wepwawet_sign_axi_sc_0 |          0 |          0 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
+|       inst                |                                           wepwawet_sign_axi_sc_0_bd_b2ad |        624 |        623 |       0 |    1 |   859 |      0 |      0 |    0 |          0 |
+|     rst_pl0               |                                                  wepwawet_sign_rst_pl0_0 |         19 |         18 |       0 |    1 |    40 |      0 |      0 |    0 |          0 |
+|       U0                  |                                   wepwawet_sign_rst_pl0_0_proc_sys_reset |         19 |         18 |       0 |    1 |    40 |      0 |      0 |    0 |          0 |
+|     trng_0                |                                                   wepwawet_sign_trng_0_0 |        146 |        146 |       0 |    0 |   197 |      0 |      0 |    0 |          0 |
+|       (trng_0)            |                                                   wepwawet_sign_trng_0_0 |          0 |          0 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
+|       inst                |                                          wepwawet_sign_trng_0_0_trng_axi |        146 |        146 |       0 |    0 |   197 |      0 |      0 |    0 |          0 |
+|     wepwawet_sign_0       |                                          wepwawet_sign_wepwawet_sign_0_0 |      43009 |      42090 |     640 |  279 | 35949 |     20 |      6 |    0 |         42 |
+|       (wepwawet_sign_0)   |                                          wepwawet_sign_wepwawet_sign_0_0 |          0 |          0 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
+|       inst                |                       wepwawet_sign_wepwawet_sign_0_0_wepwawet_sign_axil |      43009 |      42090 |     640 |  279 | 35949 |     20 |      6 |    0 |         42 |
+|     zynq_ultra_ps_e_0     |                                        wepwawet_sign_zynq_ultra_ps_e_0_0 |        264 |        264 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
+|       (zynq_ultra_ps_e_0) |                                        wepwawet_sign_zynq_ultra_ps_e_0_0 |          0 |          0 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
+|       inst                | wepwawet_sign_zynq_ultra_ps_e_0_0_zynq_ultra_ps_e_v3_4_1_zynq_ultra_ps_e |        264 |        264 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
++---------------------------+--------------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+
+

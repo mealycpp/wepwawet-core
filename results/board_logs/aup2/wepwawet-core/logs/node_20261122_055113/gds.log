@@ -1,0 +1,3 @@
+[ERROR] /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Reading command-line configuration from: fprime-gds.yml
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.

@@ -1,0 +1,18 @@
+ATTACK_INFO magic=57435331 version=00030002 mode=known-key
+ATTACK_ZEROIZE_COMPLETES PASS (STATUS idle, init_done, not zeroizing)
+ATTACK_UNLOCKED_AFTER_ZEROIZE PASS seal=00000000
+ATTACK_LOCK_SET PASS seal=00000001
+ATTACK_SIGN1_OK PASS rc=0
+ATTACK_DUMP_NO_BUS_ERROR PASS bus_errors=0 (dump saved to /home/xilinx/aup_kit_v8/logs_20261122_234403/attack/window_dump.bin)
+ATTACK_SEALED_WORDS_READ_ZERO PASS non-zero words outside whitelist=0 first=b-1[-1] (whitelisted non-zero=585, sign_out_valid=1)
+ATTACK_RHOPP_REGS_READ_ZERO PASS non-zero rho'' register words=0
+ATTACK_READ_VIOLATION_STICKY PASS seal before=00000001 after=37f80003 status=00002c0e
+ATTACK_NO_KEY_WORD_IN_WINDOW PASS 64-bit hits=0
+ATTACK_NO_KEY_HALFWORD_IN_WINDOW PASS 32-bit hits=0 (halves >= 0x10000 only)
+ATTACK_NO_SK_OR_RHOPP_BYTES_IN_WINDOW PASS 16-byte window hits=0
+ATTACK_WRITE_VIOLATION_STICKY PASS seal=38080007
+ATTACK_SIGN2_OK PASS rc=0
+ATTACK_HEDGED_SIGS_DIFFER PASS (fresh PL rnd per job)
+ATTACK_KEY_AND_RHO_UNCHANGED_BY_HOST_WRITES PASS PL-verify sig1=1 sig2=1 (-1 = no --pk / verify unavailable: verify sig_1.bin, sig_2.bin offline)
+ATTACK_INFO signature written to /home/xilinx/aup_kit_v8/logs_20261122_234403/attack/sig_1.bin (verify offline against the TEST pk)
+ATTACK_SUMMARY PASS fails=0

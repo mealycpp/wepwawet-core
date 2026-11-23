@@ -1,0 +1,61 @@
+--- ../../../05_RESULTS/aup_kit_v7/fprime_src/HwAccelMgr/HwAccelMgr.cpp	2026-11-22 07:24:46.981879800 +0000
++++ HwAccelMgr/HwAccelMgr.cpp	2026-11-23 00:41:28.379461500 +0000
+@@ -14,9 +14,10 @@
+ 
+ static double nowUs() { timespec t; clock_gettime(CLOCK_MONOTONIC, &t); return t.tv_sec * 1e6 + t.tv_nsec / 1e3; }
+ static const char* STATS = "/home/xilinx/wepwawet-core/logs/fprime_hw_stats.csv";
++static const char* TR_PATH = "/home/xilinx/wepwawet-core/firmware/identity/node_tr.bin";   // public tr = H(pk)
+ 
+ HwAccelMgr::HwAccelMgr(const char* const compName)
+-    : HwAccelMgrComponentBase(compName), m_fpgaOpen(false), m_hasVerify(false), m_cpuBackend(false),
++    : HwAccelMgrComponentBase(compName), m_fpgaOpen(false), m_hasVerify(false), m_cpuBackend(false), m_sealed(false),
+       m_nttCount(0), m_inttCount(0), m_pmulCount(0), m_shake256Count(0), m_shake128Count(0), m_trngBytes(0),
+       m_signCount(0), m_verifyCount(0) {
+     std::memset(&m_wcore, 0, sizeof m_wcore);
+@@ -36,6 +37,23 @@
+     }
+     m_fpgaOpen = true;
+     m_hasVerify = wcore_has_verify(&m_wcore) != 0;
++    // seal_v8 (VERSION >= 0x0003_0002): the node key lives only in the PL. Attach to the key sealed at boot
++    // (phase 3: generated in the PL by wcore_keygen_tool; phase 2r: wcore_provision) using the PUBLIC tr = H(pk)
++    // file node_tr.bin written by that tool. F' never opens node_sk.bin on a v8 image.
++    m_sealed = wcore_is_v8(&m_wcore) != 0;
++    if (m_sealed) {
++        int ar = -1; U8 tr[64];
++        FILE* tf = std::fopen(TR_PATH, "rb");
++        if (tf) { if (std::fread(tr, 1, 64, tf) == 64) ar = wcore_attach_sealed_tr(&m_wcore, tr); std::fclose(tf); }
++        // No fallback to node_sk.bin: on a seal_v8 image F' never opens a secret-key file. The key must already be
++        // sealed in the PL (phase 3: wcore_keygen_tool, phase 2r: wcore_provision) and node_tr.bin written by that tool.
++        if (ar != 0) std::fprintf(stderr, "WCORE: seal_v8: no sealed key (PL not LOCKED or %s missing) rc=%d -> signing disabled\n", TR_PATH, ar);
++        if (ar != 0) {
++            this->log_WARNING_HI_HwError(Fw::String("seal"), Fw::String("seal_v8: no sealed key (run wcore_provision)"));
++            m_fpgaOpen = false; wcore_close(&m_wcore); return false;
++        }
++        std::fprintf(stderr, "WCORE: seal_v8 image: signing key SEALED in the PL; sk is never passed to the driver\n");
++    }
+     std::fprintf(stderr, "WCORE: FPGA open, verify program %s\n", m_hasVerify ? "PRESENT (v6)" : "absent (v5) -> PQClean verify");
+     this->log_ACTIVITY_HI_HwReady();
+     return true;
+@@ -62,7 +80,9 @@
+ void HwAccelMgr::signReq_handler(FwIndexType portNum, Fw::Buffer& skBuffer, Fw::Buffer& msgBuffer, Fw::Buffer& sigBuffer) {
+     (void)portNum;
+     std::lock_guard<std::mutex> lock(m_backendMutex);
+-    if (skBuffer.getSize() != WCORE_SK_BYTES || sigBuffer.getSize() < WCORE_SIG_BYTES || msgBuffer.getSize() == 0 ||
++    if (!m_cpuBackend && !ensureFpga()) { logLine("sign", "fpga-unavailable", -1, -1, nullptr, 0.0); sigBuffer.setSize(0); return; }
++    const bool sealed = !m_cpuBackend && m_sealed;      // v8: skBuffer is ignored (may be empty), never read
++    if ((!sealed && skBuffer.getSize() != WCORE_SK_BYTES) || sigBuffer.getSize() < WCORE_SIG_BYTES || msgBuffer.getSize() == 0 ||
+         msgBuffer.getSize() > 65536) {
+         sigBuffer.setSize(0);
+         return;
+@@ -79,8 +99,9 @@
+         logLine("sign", "cpu-neon", rc, -1, nullptr, nowUs() - t0);
+     } else {
+         if (!ensureFpga()) { logLine("sign", "fpga-unavailable", -1, -1, nullptr, nowUs() - t0); sigBuffer.setSize(0); return; }
+-        rc = wcore_sign(&m_wcore, sigBuffer.getData(), skBuffer.getData(), msgBuffer.getData(), msgBuffer.getSize(), 1, &st);
+-        logLine("sign", "fpga", rc, -1, &st, nowUs() - t0);
++        if (sealed) rc = wcore_sign_sealed(&m_wcore, sigBuffer.getData(), msgBuffer.getData(), msgBuffer.getSize(), &st);
++        else        rc = wcore_sign(&m_wcore, sigBuffer.getData(), skBuffer.getData(), msgBuffer.getData(), msgBuffer.getSize(), 1, &st);
++        logLine("sign", "fpga", rc, -1, &st, nowUs() - t0);   // CSV label unchanged (tools/final_analysis.py); sealed mode logged at init
+         if (rc == 0) { m_trngBytes += 128; this->tlmWrite_TrngBytes(m_trngBytes); }
+     }
+     if (rc != 0) {

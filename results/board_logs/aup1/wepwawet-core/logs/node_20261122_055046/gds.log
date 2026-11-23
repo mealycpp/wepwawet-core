@@ -1,0 +1,19 @@
+[INFO] Reading command-line configuration from: fprime-gds.yml
+ * Serving Flask app 'fprime_gds.flask.app'
+ * Debug mode: off
+[WARNING] Checksum validation failed.
+Exception in thread TcpCommThread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/communication/adapters/ip.py", line 113, in th_handler
+    self.data_chunks.put(handler.read())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/communication/adapters/ip.py", line 340, in read
+    return self.read_impl()
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/communication/adapters/ip.py", line 446, in read_impl
+    self.open_impl()
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/communication/adapters/ip.py", line 422, in open_impl
+    self.socket.listen(IpHandler.MAX_CLIENT_BACKLOG)
+AttributeError: 'NoneType' object has no attribute 'listen'

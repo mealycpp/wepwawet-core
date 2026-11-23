@@ -1,0 +1,5 @@
+AUP1 A53 (CPU part 0xd03 = Cortex-A53), scaling_cur_freq 1199999 kHz, pinned core 3, PQClean ML-DSA-44 hedged, N=1000
+{"impl":"pqclean-clean","verify_failures":0,"keygen":{"n":100,"mean_us":678.9,"p50_us":676.0,"p90_us":685.6,"p99_us":793.2,"min_us":664.7,"max_us":793.2},"sign":{"n":1000,"mean_us":3222.4,"p50_us":2606.7,"p90_us":5700.2,"p99_us":10380.8,"min_us":1398.3,"max_us":16134.4},"verify":{"n":1000,"mean_us":781.4,"p50_us":779.0,"p90_us":787.2,"p99_us":809.3,"min_us":777.2,"max_us":858.7}}
+cross-check dilithium-py verify of bench_clean signature: True
+{"impl":"pqclean-aarch64-neon","verify_failures":0,"keygen":{"n":100,"mean_us":366.5,"p50_us":362.2,"p90_us":371.9,"p99_us":462.7,"min_us":353.1,"max_us":462.7},"sign":{"n":1000,"mean_us":1098.6,"p50_us":886.8,"p90_us":1909.7,"p99_us":3506.8,"min_us":517.0,"max_us":4341.8},"verify":{"n":1000,"mean_us":371.0,"p50_us":369.3,"p90_us":373.2,"p99_us":398.8,"min_us":368.0,"max_us":584.7}}
+cross-check dilithium-py verify of bench_aarch64 signature: True

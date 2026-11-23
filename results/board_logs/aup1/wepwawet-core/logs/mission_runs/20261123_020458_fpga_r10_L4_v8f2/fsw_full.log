@@ -1,0 +1,385 @@
+WCORE: HwAccelMgr backend=fpga
+WCORE: listening on <AUP1_IP>:9091
+Hit Ctrl-C to quit
+EVENT: (16777216) (2:1795399608,73895) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000000 registered to port 0 slot 0
+EVENT: (16777216) (2:1795399608,73934) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000001 registered to port 0 slot 1
+EVENT: (16777216) (2:1795399608,73951) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000002 registered to port 0 slot 2
+EVENT: (16777216) (2:1795399608,73966) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000003 registered to port 0 slot 3
+EVENT: (16777216) (2:1795399608,73981) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001000 registered to port 1 slot 4
+EVENT: (16777216) (2:1795399608,73996) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001002 registered to port 1 slot 5
+EVENT: (16777216) (2:1795399608,74011) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001003 registered to port 1 slot 6
+EVENT: (16777216) (2:1795399608,74026) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002000 registered to port 2 slot 7
+EVENT: (16777216) (2:1795399608,74041) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002001 registered to port 2 slot 8
+EVENT: (16777216) (2:1795399608,74056) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002002 registered to port 2 slot 9
+EVENT: (16777216) (2:1795399608,74071) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003000 registered to port 3 slot 10
+EVENT: (16777216) (2:1795399608,74086) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003001 registered to port 3 slot 11
+EVENT: (16777216) (2:1795399608,74101) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000000 registered to port 4 slot 12
+EVENT: (16777216) (2:1795399608,74115) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000001 registered to port 4 slot 13
+EVENT: (16777216) (2:1795399608,74130) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000002 registered to port 4 slot 14
+EVENT: (16777216) (2:1795399608,74145) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000000 registered to port 5 slot 15
+EVENT: (16777216) (2:1795399608,74159) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000001 registered to port 5 slot 16
+EVENT: (16777216) (2:1795399608,74174) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000002 registered to port 5 slot 17
+EVENT: (16777216) (2:1795399608,74188) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000003 registered to port 5 slot 18
+EVENT: (16777216) (2:1795399608,74204) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4001000 registered to port 6 slot 19
+EVENT: (16777216) (2:1795399608,74219) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4002000 registered to port 7 slot 20
+EVENT: (16777216) (2:1795399608,74235) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001000 registered to port 8 slot 21
+EVENT: (16777216) (2:1795399608,74249) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001001 registered to port 8 slot 22
+EVENT: (16777216) (2:1795399608,74264) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001002 registered to port 8 slot 23
+EVENT: (16777216) (2:1795399608,74278) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002000 registered to port 9 slot 24
+EVENT: (16777216) (2:1795399608,74293) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002001 registered to port 9 slot 25
+EVENT: (16777216) (2:1795399608,74308) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002002 registered to port 9 slot 26
+EVENT: (16777216) (2:1795399608,74322) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002003 registered to port 9 slot 27
+EVENT: (16777216) (2:1795399608,74337) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002004 registered to port 9 slot 28
+EVENT: (16777216) (2:1795399608,74351) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002005 registered to port 9 slot 29
+EVENT: (16777216) (2:1795399608,74366) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002006 registered to port 9 slot 30
+EVENT: (16777216) (2:1795399608,74381) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002007 registered to port 9 slot 31
+EVENT: (16777216) (2:1795399608,74441) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002008 registered to port 9 slot 32
+EVENT: (16777216) (2:1795399608,74459) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003000 registered to port 10 slot 33
+EVENT: (16777216) (2:1795399608,74475) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003001 registered to port 10 slot 34
+EVENT: (16777216) (2:1795399608,74490) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003002 registered to port 10 slot 35
+EVENT: (16777216) (2:1795399608,74504) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004000 registered to port 11 slot 36
+EVENT: (16777216) (2:1795399608,74520) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004001 registered to port 11 slot 37
+EVENT: (16777216) (2:1795399608,74534) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004002 registered to port 11 slot 38
+EVENT: (16777216) (2:1795399608,74549) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004003 registered to port 11 slot 39
+EVENT: (16777216) (2:1795399608,74563) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004004 registered to port 11 slot 40
+EVENT: (16777216) (2:1795399608,74578) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004005 registered to port 11 slot 41
+EVENT: (16777216) (2:1795399608,74592) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004006 registered to port 11 slot 42
+EVENT: (16777216) (2:1795399608,74607) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004007 registered to port 11 slot 43
+EVENT: (16777216) (2:1795399608,74622) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10021000 registered to port 12 slot 44
+EVENT: (16777216) (2:1795399608,74637) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10022000 registered to port 13 slot 45
+EVENT: (16777216) (2:1795399608,74652) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10024000 registered to port 14 slot 46
+EVENT: (16777216) (2:1795399608,74668) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10023000 registered to port 15 slot 47
+EVENT: (16777216) (2:1795399608,74683) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10012000 registered to port 16 slot 48
+EVENT: (16789504) (2:1795399608,74705) ACTIVITY_LO: (version) FrameworkVersion : Framework Version: [v3.5.0]
+EVENT: (16789505) (2:1795399608,74741) ACTIVITY_LO: (version) ProjectVersion : Project Version: [v3.5.0]
+[WARNING] cmdDisp stack size of 65536  is too small, clamping to 131072
+[WARNING] events stack size of 65536  is too small, clamping to 131072
+[WARNING] tlmSend stack size of 65536  is too small, clamping to 131072
+[WARNING] aggregator stack size of 65536  is too small, clamping to 131072
+[WARNING] comQueue stack size of 65536  is too small, clamping to 131072
+[WARNING] dpCat stack size of 65536  is too small, clamping to 131072
+[WARNING] dpMgr stack size of 65536  is too small, clamping to 131072
+[WARNING] dpWriter stack size of 65536  is too small, clamping to 131072
+[WARNING] fileDownlink stack size of 65536  is too small, clamping to 131072
+[WARNING] fileManager stack size of 65536  is too small, clamping to 131072
+[WARNING] fileUplink stack size of 65536  is too small, clamping to 131072
+[WARNING] prmDb stack size of 65536  is too small, clamping to 131072
+[WARNING] cmdSeq stack size of 65536  is too small, clamping to 131072
+[WARNING] dilithiumSign stack size of 65536  is too small, clamping to 131072
+[WARNING] dilithiumVerify stack size of 65536  is too small, clamping to 131072
+[WARNING] pqcSecurityGateway stack size of 65536  is too small, clamping to 131072
+[WARNING] pqcTransport stack size of 65536  is too small, clamping to 131072
+[WARNING] rateGroup1 stack size of 65536  is too small, clamping to 131072
+[WARNING] rateGroup2 stack size of 65536  is too small, clamping to 131072
+EVENT: (268439552) (2:1795399608,76916) DIAGNOSTIC: (rateGroup1) RateGroupStarted : Rate group started.
+[WARNING] rateGroup3 stack size of 65536  is too small, clamping to 131072
+EVENT: (268443648) (2:1795399608,77004) DIAGNOSTIC: (rateGroup2) RateGroupStarted : Rate group started.
+EVENT: (268447744) (2:1795399608,77100) DIAGNOSTIC: (rateGroup3) RateGroupStarted : Rate group started.
+[WARNING] ReceiveTask stack size of 65536  is too small, clamping to 131072
+Connected to 127.0.0.1:50000 as a tcp client
+EVENT: (16777217) (2:1795399616,978620) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: seal_v8 image: signing key SEALED in the PL; sk is never passed to the driver
+WCORE: FPGA open, verify program PRESENT (v6)
+EVENT: (268566528) (2:1795399617,56484) ACTIVITY_HI: (hwAccelMgr) HwReady : Wepwawet hardware accelerator ready
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474584 pl_us=1581.9 host_total_us=2186.6
+EVENT: (268578817) (2:1795399617,71889) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,72038) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,78934) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792373 pl_us=5974.6 host_total_us=6525.7
+EVENT: (268578817) (2:1795399617,152319) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,152468) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,184804) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=914034 pl_us=3046.8 host_total_us=3678.0
+EVENT: (268578817) (2:1795399617,210051) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,210210) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,278886) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1353250 pl_us=4510.8 host_total_us=5117.9
+EVENT: (268578817) (2:1795399617,309992) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,310168) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,378438) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474652 pl_us=1582.2 host_total_us=2164.4
+EVENT: (268578817) (2:1795399617,411005) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,411167) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,478561) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1353110 pl_us=4510.4 host_total_us=5100.9
+EVENT: (268578817) (2:1795399617,509545) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,509705) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,578517) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1352966 pl_us=4509.9 host_total_us=5131.8
+EVENT: (268578817) (2:1795399617,615876) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,616042) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,678245) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792294 pl_us=5974.3 host_total_us=6639.9
+EVENT: (268578817) (2:1795399617,713324) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,713529) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,779031) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474618 pl_us=1582.1 host_total_us=2166.7
+EVENT: (268578817) (2:1795399617,805962) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,806107) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,878584) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=10 pl_cycles=4427887 pl_us=14759.6 host_total_us=15339.0
+EVENT: (268578817) (2:1795399617,918691) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399617,918855) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399617,990338) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474769 pl_us=1582.6 host_total_us=2177.0
+EVENT: (268578817) (2:1795399618,23142) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,23311) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,78908) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=914028 pl_us=3046.8 host_total_us=3654.9
+EVENT: (268578817) (2:1795399618,111869) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,112036) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,194652) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474388 pl_us=1581.3 host_total_us=2167.1
+EVENT: (268578817) (2:1795399618,227551) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,227707) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,284780) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2231770 pl_us=7439.2 host_total_us=8024.4
+EVENT: (268578817) (2:1795399618,329972) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,330130) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,378598) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792171 pl_us=5973.9 host_total_us=6552.8
+EVENT: (268578817) (2:1795399618,414141) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,414303) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,481009) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3549390 pl_us=11831.3 host_total_us=12420.0
+EVENT: (268578817) (2:1795399618,528129) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,528286) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,580799) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474802 pl_us=1582.7 host_total_us=2201.5
+EVENT: (268578817) (2:1795399618,609107) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,609275) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,678467) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474880 pl_us=1582.9 host_total_us=2157.7
+EVENT: (268578817) (2:1795399618,710115) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,710272) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,779784) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792522 pl_us=5975.1 host_total_us=6520.1
+EVENT: (268578817) (2:1795399618,818930) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,819100) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,886934) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=913666 pl_us=3045.6 host_total_us=3607.3
+EVENT: (268578817) (2:1795399618,923821) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399618,923995) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399618,997528) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1352928 pl_us=4509.8 host_total_us=5117.9
+EVENT: (268578817) (2:1795399619,35958) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,36133) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,98016) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474641 pl_us=1582.1 host_total_us=2168.5
+EVENT: (268578817) (2:1795399619,124679) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,124839) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,195327) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1352895 pl_us=4509.6 host_total_us=5148.1
+EVENT: (268578817) (2:1795399619,228642) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,228797) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,300647) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=13 pl_cycles=5746060 pl_us=19153.5 host_total_us=19715.4
+EVENT: (268578817) (2:1795399619,353602) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,353806) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,398008) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=9 pl_cycles=3988875 pl_us=13296.2 host_total_us=13924.9
+EVENT: (268578817) (2:1795399619,465732) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,465882) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,480570) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1353281 pl_us=4510.9 host_total_us=5139.3
+EVENT: (268578817) (2:1795399619,523475) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,523606) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,578493) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=914092 pl_us=3047.0 host_total_us=3643.3
+EVENT: (268578817) (2:1795399619,613736) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,613906) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,678980) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=10 pl_cycles=4428012 pl_us=14760.0 host_total_us=15359.8
+EVENT: (268578817) (2:1795399619,726731) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,726893) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,782133) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=914046 pl_us=3046.8 host_total_us=3640.7
+EVENT: (268578817) (2:1795399619,831961) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,832135) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,896718) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474621 pl_us=1582.1 host_total_us=2173.2
+EVENT: (268578817) (2:1795399619,933422) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399619,933580) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399619,993914) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792424 pl_us=5974.7 host_total_us=6520.2
+EVENT: (268578817) (2:1795399620,44094) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,44246) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,97683) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474377 pl_us=1581.3 host_total_us=2195.6
+EVENT: (268578817) (2:1795399620,129795) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,129985) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,203429) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2670953 pl_us=8903.2 host_total_us=9552.7
+EVENT: (268578817) (2:1795399620,255858) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,256003) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,306048) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=913690 pl_us=3045.6 host_total_us=3593.2
+EVENT: (268578817) (2:1795399620,343805) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,343968) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,395794) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474474 pl_us=1581.6 host_total_us=2176.9
+EVENT: (268578817) (2:1795399620,435340) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,435566) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,491766) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=914136 pl_us=3047.1 host_total_us=3688.8
+EVENT: (268578817) (2:1795399620,526482) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,526663) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,581676) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=30 pl_cycles=13213706 pl_us=44045.7 host_total_us=44600.1
+EVENT: (268578817) (2:1795399620,661504) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,661640) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,680329) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=14 pl_cycles=6185344 pl_us=20617.8 host_total_us=21254.1
+EVENT: (268578817) (2:1795399620,745529) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,745686) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,781243) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474401 pl_us=1581.3 host_total_us=2190.5
+EVENT: (268578817) (2:1795399620,808817) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,808975) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399620,878953) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2671122 pl_us=8903.7 host_total_us=9457.8
+EVENT: (268578817) (2:1795399620,925145) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399620,925298) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399621,3742) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792532 pl_us=5975.1 host_total_us=6574.6
+EVENT: (16777217) (2:1795399621,106536) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578817) (2:1795399621,128741) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399621,128894) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399621,242231) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399621,285835) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399621,388582) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792211 pl_us=5974.0 host_total_us=6540.0
+EVENT: (16777217) (2:1795399621,481856) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578817) (2:1795399621,486708) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399621,486847) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399621,582051) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399621,678714) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,398106) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,406065) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,408662) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,414126) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,416797) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,431680) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,437029) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,479551) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474800 pl_us=1582.7 host_total_us=2217.2
+EVENT: (268578817) (2:1795399622,545933) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399622,546117) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399622,580724) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,678606) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399622,778414) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399624,664822) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399624,673416) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399624,680085) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399624,682980) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399624,687652) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474607 pl_us=1582.0 host_total_us=2131.7
+EVENT: (16777217) (2:1795399625,243731) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399625,243797) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399625,243822) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777217) (2:1795399625,243878) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777222) (2:1795399625,243902) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,243927) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+Assert: "/home/xilinx/wepwawet-core/fprime/core-source/build-core/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp:1077" 8
+FATAL 16797697 handled.
+EVENT: (16777227) (2:1795399624,749982) WARNING_HI: (cmdDisp) CommandDroppedQueueOverflow : Opcode 0x10023000 was dropped due to buffer overflow and not processed. Context 0
+EVENT: (16777222) (2:1795399625,243982) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,244069) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,244094) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,244114) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,244134) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,244154) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,244178) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (268578817) (2:1795399625,263882) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,264001) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399625,272738) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (16777222) (2:1795399625,279215) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,282868) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474409 pl_us=1581.4 host_total_us=2170.3
+EVENT: (16777222) (2:1795399625,286819) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (16777222) (2:1795399625,292003) WARNING_HI: (cmdDisp) TooManyCommands : Too many outstanding commands. opcode=0x10023000
+EVENT: (268578817) (2:1795399625,298725) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,298864) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399625,306951) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474455 pl_us=1581.5 host_total_us=2161.7
+EVENT: (268578817) (2:1795399625,332451) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,332608) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2231944 pl_us=7439.8 host_total_us=8038.6
+EVENT: (268578817) (2:1795399625,365384) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,365531) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1353218 pl_us=4510.7 host_total_us=5137.0
+EVENT: (16777217) (2:1795399625,393969) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578817) (2:1795399625,399786) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,399965) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=10 pl_cycles=4428153 pl_us=14760.5 host_total_us=15387.1
+EVENT: (268578817) (2:1795399625,443498) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,443688) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474812 pl_us=1582.7 host_total_us=2153.4
+EVENT: (268578817) (2:1795399625,473080) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,473238) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399625,487299) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792243 pl_us=5974.1 host_total_us=6538.2
+EVENT: (268578817) (2:1795399625,514990) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,515146) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=15 pl_cycles=6624260 pl_us=22080.9 host_total_us=22672.9
+EVENT: (268578817) (2:1795399625,561007) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,561169) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399625,584041) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3549628 pl_us=11832.1 host_total_us=12399.3
+EVENT: (268578817) (2:1795399625,599286) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,599442) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=13 pl_cycles=5745794 pl_us=19152.6 host_total_us=19752.9
+EVENT: (268578817) (2:1795399625,655170) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,655320) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474382 pl_us=1581.3 host_total_us=2136.9
+EVENT: (16777217) (2:1795399625,678531) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578817) (2:1795399625,683902) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,684050) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474586 pl_us=1582.0 host_total_us=2178.7
+EVENT: (268578817) (2:1795399625,713598) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,713754) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1353056 pl_us=4510.2 host_total_us=5101.9
+EVENT: (268578817) (2:1795399625,742180) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,742322) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=914061 pl_us=3046.9 host_total_us=3650.1
+EVENT: (268578817) (2:1795399625,781416) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,781564) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399625,794615) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3549694 pl_us=11832.3 host_total_us=12402.0
+EVENT: (268578817) (2:1795399625,826080) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,826268) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=474377 pl_us=1581.3 host_total_us=2179.2
+EVENT: (268578817) (2:1795399625,862014) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,862159) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399625,893919) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=12 pl_cycles=5306831 pl_us=17689.4 host_total_us=18271.7
+EVENT: (268578817) (2:1795399625,914604) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,914768) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=17 pl_cycles=7503244 pl_us=25010.8 host_total_us=25644.3
+EVENT: (268578817) (2:1795399625,967698) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399625,967859) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399625,994572) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2231619 pl_us=7438.7 host_total_us=8195.9
+EVENT: (268578817) (2:1795399626,10250) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399626,10447) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=914142 pl_us=3047.1 host_total_us=3695.5
+EVENT: (268578817) (2:1795399626,39000) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399626,39147) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2231608 pl_us=7438.7 host_total_us=8073.7
+EVENT: (268578817) (2:1795399626,76962) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399626,77136) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795399626,84020) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792448 pl_us=5974.8 host_total_us=6614.8
+EVENT: (268578817) (2:1795399626,117895) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399626,118049) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2231475 pl_us=7438.2 host_total_us=8052.3
+EVENT: (268578817) (2:1795399626,156441) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399626,156605) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1792200 pl_us=5974.0 host_total_us=6526.2
+EVENT: (16777217) (2:1795399626,189293) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+EVENT: (268578817) (2:1795399626,190584) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399626,190650) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2231840 pl_us=7439.5 host_total_us=8043.1
+EVENT: (268578817) (2:1795399626,227652) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795399626,227852) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+Exiting with abort signal and core dump file.

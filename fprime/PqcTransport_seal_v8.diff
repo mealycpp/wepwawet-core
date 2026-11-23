@@ -1,0 +1,28 @@
+--- PqcTransport.cpp.v7_base	2026-11-22 22:13:52.747726400 +0000
++++ PqcTransport.cpp	2026-11-22 22:13:53.224289900 +0000
+@@ -282,18 +282,22 @@
+         "|SEQ=" + std::to_string(sequence) + "|PeerPing";
+     std::array<U8,2560> secret{};
+     std::array<U8,2420> signature{};
++    bool haveSecret = false;
+     {
+         std::ifstream in("/home/xilinx/wepwawet-core/firmware/identity/node_sk.bin",
+                          std::ios::binary);
+-        if (!in.read(reinterpret_cast<char*>(secret.data()), secret.size()) ||
+-            in.peek() != std::char_traits<char>::eof()) {
++        // seal_v8: with the key sealed in the PL the operator removes node_sk.bin; then no secret is read here and an
++        // empty buffer is passed (HwAccelMgr signs with the sealed key and never reads skBuffer on a v8 image).
++        if (in.is_open() && (!in.read(reinterpret_cast<char*>(secret.data()), secret.size()) ||
++            in.peek() != std::char_traits<char>::eof())) {
+             this->log_WARNING_HI_PeerError(Fw::String("Signing key unavailable"));
+             this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::EXECUTION_ERROR);
+             return;
+         }
++        haveSecret = in.is_open();
+     }
+ 
+-    Fw::Buffer secretBuf(secret.data(), secret.size());
++    Fw::Buffer secretBuf(secret.data(), haveSecret ? secret.size() : 0);
+     Fw::Buffer msgBuf(reinterpret_cast<U8*>(const_cast<char*>(message.data())),
+                       message.size());
+     Fw::Buffer sigBuf(signature.data(), signature.size());

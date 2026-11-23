@@ -1,0 +1,14 @@
+S0 VERSION=0x00030002 TRNG=0x00000000 DET_RND=0
+S1 provision+LOCK rc=0 status=0x00000c08
+S2 locked probes: key words readable=0 seed regs readable=0 violations 6 -> 16 (expect +10)
+S3 sig 0: attempts=4 pl_cycles=1792437 wait=5997us total=6539us verify=1 mut_rej=1 fpga_verify=1 trng apt=530 run=10
+S3 sig 1: attempts=2 pl_cycles=913996 wait=3121us total=3651us verify=1 mut_rej=1 fpga_verify=1 trng apt=533 run=8
+S3 sig 2: attempts=2 pl_cycles=913829 wait=3150us total=3725us verify=1 mut_rej=1 fpga_verify=1 trng apt=523 run=12
+S3 50 hedged signatures: 0 driver failures, 0 verify failures
+S4 same message twice: rc=0/0 verify=1/1 signatures_differ=1
+S5 sweep LOCKED_AFTER   8192 words: secret_hits=0 unexpected_nonzero=0 seal=0x38080007
+S6 ZEROIZE rc=0 status=0x0000000e seal=0x00000000
+S5 sweep AFTER_ZEROIZE  8192 words: secret_hits=0 unexpected_nonzero=0 seal=0x00000000
+S6 re-provision rc=0 sign rc=0 verify=1
+NOTE: the test key stays SEALED in the PL; run with a fresh process or reset the PL to remove it.
+RESULT: PASS (0 failing steps)

@@ -1,0 +1,6 @@
+PROGRAMMING: Stage 7F; explicitly requested by operator
+CAPTURE_STARTED: up to 4096 words, raw little-endian uint32
+PROGRESS words=4096 ones_fraction=0.474495
+CAPTURE_COMPLETE: 4096 32-bit raw words
+MANIFEST: /home/xilinx/wepwawet-core/logs/trng_runs/20261119T060637Z_pid40802/manifest.json
+STATE: CAPTURE_COMPLETE_NOT_ENTROPY_CERTIFIED; COMPLETED WORDS: 4096

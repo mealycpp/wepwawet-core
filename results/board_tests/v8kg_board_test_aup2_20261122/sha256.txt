@@ -1,0 +1,14 @@
+./KAT_XI_PROOF.txt: OK
+./READBACK_SECURITY.txt: OK
+./SIGN_IMG_SUMMARY.txt: OK
+./TEST_PLAN.md: OK
+./load_v8.sh: OK
+./run_board_test_v8kg.sh: OK
+./wcore_check_v8.c: OK
+./wcore_drv/build_selftest_v8kg.sh: OK
+./wcore_drv/wcore_fpga.c: OK
+./wcore_drv/wcore_fpga.h: OK
+./wcore_drv/wcore_provision.c: OK
+./wcore_drv/wcore_selftest_v8kg.c: OK
+./wepwawet_sign_v8.bit: OK
+./wepwawet_sign_v8.hwh: OK

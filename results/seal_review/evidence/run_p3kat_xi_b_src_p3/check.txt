@@ -1,0 +1,66 @@
+VERDICT PASS  fails=0 warns=0 passes=65 sizes={'S': 5, 'E': 36146, 'RZ': 2644, 'RLOW': 786, 'trace_rows': 160166}
+  [PASS] internal scratchpad after SIGN1 (backdoor): 0 non-zero non-key/non-output/non-public words, 0 in VERIFY input slots b3[0..1023]/b3[1536..]
+  [PASS] p0_reset: no host-readable word matches any of 5 S + 36146 E + 2644 rejected-z values
+  [PASS] p0_reset: every non-whitelisted scratchpad word reads 0
+  [PASS] p0_reset: 0 non-zero scratchpad words after reset/zeroize
+  [PASS] p8_after_keygen: no host-readable word matches any of 5 S + 36146 E + 2644 rejected-z values
+  [PASS] p8_after_keygen: every non-whitelisted scratchpad word reads 0
+  [PASS] p1_locked_prejob: no host-readable word matches any of 5 S + 36146 E + 2644 rejected-z values
+  [PASS] p1_locked_prejob: every non-whitelisted scratchpad word reads 0
+  [PASS] p2_after_sign: no host-readable word matches any of 5 S + 36146 E + 2644 rejected-z values
+  [PASS] p2_after_sign: every non-whitelisted scratchpad word reads 0
+  [PASS] p2_after_sign: signature read through the window: byte-identical to deterministic PQClean/dilithium-py KAT=True, PQClean verify=VERIFY_OK
+  [PASS] p3_after_verify_residue: no host-readable word matches any of 5 S + 36146 E + 2644 rejected-z values
+  [PASS] p3_after_verify_residue: every non-whitelisted scratchpad word reads 0
+  [PASS] p5_after_sign2: no host-readable word matches any of 5 S + 36146 E + 2644 rejected-z values
+  [PASS] p5_after_sign2: every non-whitelisted scratchpad word reads 0
+  [PASS] p5_after_sign2: signature read through the window: byte-identical to deterministic PQClean/dilithium-py KAT=True, PQClean verify=VERIFY_OK
+  [PASS] p6_after_zeroize: no host-readable word matches any of 5 S + 36146 E + 2644 rejected-z values
+  [PASS] p6_after_zeroize: every non-whitelisted scratchpad word reads 0
+  [PASS] p6_after_zeroize: 0 non-zero scratchpad words after reset/zeroize
+  [PASS] p7_after_midreset: no host-readable word matches any of 5 S + 36146 E + 2644 rejected-z values
+  [PASS] p7_after_midreset: every non-whitelisted scratchpad word reads 0
+  [PASS] p7_after_midreset: 0 non-zero scratchpad words after reset/zeroize
+  [PASS] BUSY_RD_S1[kg1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_S1[sign1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_Y[kg1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_Y[sign1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_Z[kg1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_Z[sign1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_B2[kg1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_B2[sign1] while busy: resp=2 data=00000000
+  [PASS] rho'' register page read while busy: 0 non-zero words
+  [PASS] BUSY_RELAUNCH_SIGN: resp=2
+  [PASS] BUSY_RELAUNCH_SIGN: resp=2
+  [PASS] BUSY_RELAUNCH_VERIFY: resp=2
+  [PASS] BUSY_RELAUNCH_VERIFY: resp=2
+  [PASS] BUSY_WR_MU_LO while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_MU_LO while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_MU_HI while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_MU_HI while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_SEEDREG while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_SEEDREG while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_RHOREG while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_RHOREG while busy: resp=2 (2=SLVERR)
+  [PASS] LOCKED_RD_S1: data=00000000 resp=0
+  [PASS] LOCKED_RD_T0: data=00000000 resp=0
+  [PASS] LOCKED_RD_RHOPP: data=00000000 resp=0
+  [PASS] LOCKED_RD_K: data=00000000 resp=0
+  [PASS] LOCKED_RD_K3: data=00000000 resp=0
+  [PASS] SEAL read-violation sticky after sealed reads: seal=3c060007 status=00008d0e
+  [PASS] SEAL write-violation sticky after sealed writes: seal=3c0b0007
+  [PASS] LOCK released only after ZEROIZE completes: seal=00000000
+  [PASS] SCRUBWIN_RD_Z during post-SIGN scrub window: resp=2 data=00000000
+  [PASS] SCRUBWIN_RD_Y during post-SIGN scrub window: resp=2 data=00000000
+  [PASS] SCRUBWIN_RD_RHOPP during post-SIGN scrub window: resp=2 data=00000000
+  [PASS] SCRUBWIN_RD_H during post-SIGN scrub window: resp=2 data=00000000
+  [PASS] SCRUBWIN_WR_Z during post-SIGN scrub window refused: resp=2
+  [PASS] SCRUBWIN_RELAUNCH during post-SIGN scrub window refused: resp=2
+  [PASS] SCRUBWIN_LAUNCH_VERIFY during post-SIGN scrub window refused: resp=2
+  [PASS] proper VERIFY after sign: c~' == oracle: 1
+  [PASS] VERIFY launched over SIGN residue without z/h/t1 inputs: status=00004f0e errors=00ea0000 c~'=61fce4749073e8c05b4378e40f870f77... -> VERIFY input slots held no SIGN residue (scrubbed), output is a function of public/host data only
+  [PASS] KEYGEN outputs readable through the window (rho b2[1028..1031], t1 b3[1536..2047]) == PQClean pk(xi): rho=True t1=True
+  [PASS] internal scratchpad after KEYGEN (backdoor): 0 non-zero words outside key homes / A_hat / rho / t1
+  [PASS] KEYGEN filled the sealed key homes internally: 1540 non-zero words (s1_hat, s2_hat, t0_hat, K)
+  [PASS] KEYGEN while LOCKED refused (write-violation, not running): seal=3bfa0007 status=00008d0e
+  [PASS] PL KeyGen K (internal, b2[1040..1043]) == PQClean sk K

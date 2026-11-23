@@ -1,0 +1,110 @@
+{
+ "params": {
+  "host": "aup1",
+  "backend": "cpu",
+  "rate": 5,
+  "load_level": 4,
+  "seconds": 60,
+  "tag": "rep3",
+  "adcs_rate": 100,
+  "adcs_prio": 80,
+  "payload_rate": 8,
+  "core_order": "1 3 0 2",
+  "driver_mode": "open",
+  "payload_input": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "started_epoch": 1795377722
+ },
+ "driver": {
+  "command": "WepwawetDeployment.pqcTransport.PeerPing",
+  "mode": "open",
+  "rate_requested": 5.0,
+  "seconds": 60.0,
+  "sent": 300,
+  "late_sends": 83,
+  "send_errors": 0,
+  "achieved_rate": 5.016702850797713,
+  "t_first": 1795377781.8514748,
+  "t_last": 1795377841.651708,
+  "closed_completion_s": null
+ },
+ "adcs": {
+  "tool": "adcs_load",
+  "rate_hz": 100.0,
+  "substeps": 10,
+  "cpu": 1,
+  "prio": 80,
+  "cycles": 7500,
+  "deadline_misses": 4,
+  "skipped_releases": 1374,
+  "miss_rate": 0.000533,
+  "exec_us": {
+   "p50": 70.3,
+   "p99": 105.9,
+   "max": 162.2
+  },
+  "release_jitter_us": {
+   "p50": 26.7,
+   "p99": 86.4,
+   "max": 12476826.7
+  },
+  "final_pointing_error_deg": 0.0253,
+  "attitude_estimation_error_deg": 0.0224,
+  "gyro_bias_estimation_error_deg_per_h": 3.493,
+  "body_rate_deg_s": 0.00236
+ },
+ "payload": {
+  "tool": "payload_load",
+  "algorithm": "CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128",
+  "data": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "frame": "1024x1024 x 16-bit",
+  "frame_bytes": 2097152,
+  "tiles": 16,
+  "threads": 3,
+  "cpus": "3,0,2",
+  "rate_fps_per_thread": 8.0,
+  "wall_s": 74.924,
+  "frames": 1800,
+  "deadline_ms": 125.0,
+  "deadline_misses": 204,
+  "miss_rate": 0.11333,
+  "proc_ms_p50": 50.35,
+  "proc_ms_p99": 193.335,
+  "proc_ms_max": 256.809,
+  "compression_ratio": 1.603,
+  "throughput_MBps_busy": 32.17,
+  "cpu_busy_fraction_per_thread": 0.5221,
+  "verified_frames": 0,
+  "verify_ok": 0,
+  "errors": 0
+ },
+ "sign": {
+  "requested": 300,
+  "done": 107,
+  "ok": 107,
+  "failed": 0,
+  "backends": [
+   "cpu-neon"
+  ],
+  "lat_ms_p50": 1.0463,
+  "lat_ms_p99": 4.1845,
+  "lat_ms_max": 5.394,
+  "lat_ms_mean": 1.188073831775701,
+  "pl_attempts_mean": null
+ },
+ "fprime": {
+  "cycle_slips": 0,
+  "hw_errors": 0,
+  "queue_full": 1,
+  "peer_accepted": 107,
+  "peer_failed": 0,
+  "peer_frames_received_here": 0
+ },
+ "cpu_util_mean": {
+  "cpu0": 65.6,
+  "cpu1": 77.2,
+  "cpu2": 65.4,
+  "cpu3": 66.1
+ },
+ "image_before": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE",
+ "image_after": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE"
+}

@@ -1,0 +1,21 @@
+===== ACTIVE FPGA METADATA =====
+Bitstream: /home/xilinx/wepwawet-core/firmware/bitstream/wepwawet_stage7f_333MHz.bit
+Timestamp: 2026/11/19 6:6:45 +98875
+
+===== AXI / FPGA IP INVENTORY =====
+axi_dma_0                                          BASE=0x80000000 SIZE=0x10000
+intt_top_0                                         BASE=0x80020000 SIZE=0x10000
+ntt_top_0                                          BASE=0x80030000 SIZE=0x10000
+polymulacc_top_0                                   BASE=0x80040000 SIZE=0x10000
+shake128_axis_0                                    BASE=0x80050000 SIZE=0x10000
+shake256_axis_0                                    BASE=0x80070000 SIZE=0x10000
+trng_axi_0                                         BASE=0xA0000000 SIZE=0x1000
+wcore_collector_0                                  BASE=0xA0010000 SIZE=0x10000
+wcore_distributor_0                                BASE=0xA0020000 SIZE=0x10000
+wcore_host_mem_axi_0                               BASE=0xA0040000 SIZE=0x10000
+wcore_ntt_gpio_0                                   BASE=0xA0030000 SIZE=0x10000
+zynq_ultra_ps_e_0                                  BASE=N/A SIZE=N/A
+
+===== FPGA HIERARCHIES =====
+
+INVENTORY COMPLETE

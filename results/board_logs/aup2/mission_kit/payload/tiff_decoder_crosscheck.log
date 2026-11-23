@@ -1,0 +1,11 @@
+RGB.byte.tif         band 0 718x718  8-bit : MATCH tifffile
+RGB.byte.tif         band 2 718x718  8-bit : MATCH tifffile
+rgb_lzw.tif          band 1 718x718  8-bit : MATCH tifffile
+rgb_deflate.tif      band 1 718x718  8-bit : MATCH tifffile
+world.byte.tif       band 0 1200x1200  8-bit : MATCH tifffile
+rotated.tif          band 0 10x10  8-bit : MATCH tifffile
+RGBA.uint16.tif      band 0 411x411 16-bit : MATCH tifffile
+world.rgb.tif        band 2 256x256  8-bit : MATCH tifffile
+u16_cog_like.tif     band 0 411x411 16-bit : MATCH tifffile
+u16_lzw_pred2.tif    band 0 411x411 16-bit : MATCH tifffile
+TIFF DECODER CROSS-CHECK: PASS

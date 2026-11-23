@@ -1,0 +1,45 @@
+{
+  "kind": "REFERENCE_ORACLE_NOT_FPGA_OUTPUT",
+  "algorithm": "FIPS204 ML-DSA-44",
+  "library": "dilithium-py 1.5.1",
+  "message_sha256": "c1cacaa555fb9cb9d1f1b21ed9f357d456c8a85a648cdf980f30503b449a86bf",
+  "public_key_sha256": "f31a0525e09e9f321845d5918fb1d36004c12f3447f76b10396c027c268879dc",
+  "reference_signature_sha256": "758dba0bb5da046d6ded8757d74e7fb0a6e848f8541bc15889bef1f661ee3a48",
+  "accepted_kappa": 0,
+  "attempts": [
+    {
+      "kappa": 0,
+      "z_reject": false,
+      "r0_reject": false,
+      "ct0_reject": false,
+      "hint_reject": false,
+      "hint_weight": 65
+    }
+  ],
+  "accepted_hint_weight": 65,
+  "accepted_reject_status": 0,
+  "file_bytes": {
+    "c_hat_128x64.mem": 2176,
+    "candidate_mask_seed_nonce_36x64.mem": 612,
+    "ct0_512x64.mem": 8704,
+    "ctilde_4x64.mem": 68,
+    "h_512x64.mem": 8704,
+    "msg.bin": 34,
+    "mu.bin": 64,
+    "mu_8x64.mem": 136,
+    "pk.bin": 1312,
+    "r0_512x64.mem": 8704,
+    "rho_4x64.mem": 68,
+    "rho_prime.bin": 64,
+    "s1_hat_512x64.mem": 8704,
+    "s2_hat_512x64.mem": 8704,
+    "signature_REFERENCE_ONLY.bin": 2420,
+    "sk_TEST_ONLY.bin": 2560,
+    "t0_hat_512x64.mem": 8704,
+    "w1_encoded_96x64.mem": 1632,
+    "w_512x64.mem": 8704,
+    "y_512x64.mem": 8704,
+    "z_512x64.mem": 8704
+  },
+  "warning": "V7 RTL not run with these data. Coherent oracle is not a V7 correctness proof."
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WEPWAWET-CORE · Ground Station</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top">
+  <img id="logo" src="assets/rscl_logo_300.png" alt="RSCL">
+  <div id="titles">
+    <div class="kicker">RSCL @ Cal Poly Pomona</div>
+    <h1>WEPWAWET-CORE</h1>
+    <div class="sub">Post-quantum crosslink · ML-DSA-44 sign and verify in the FPGA fabric · F′ flight software on four A53 cores</div>
+  </div>
+  <div id="controls">
+    <div class="seg" id="mode">
+      <button data-mode="replay" class="on">REPLAY</button>
+      <button data-mode="live">LIVE</button>
+    </div>
+    <div id="replayCtl">
+      <select id="runPick" title="Recorded run"></select>
+      <button id="play" title="Play / pause">▶</button>
+      <select id="speed" title="Playback speed">
+        <option value="1">1×</option><option value="2">2×</option><option value="5" selected>5×</option><option value="10">10×</option><option value="20">20×</option>
+      </select>
+      <button id="cmpBtn" title="Compare two runs">COMPARE</button>
+    </div>
+    <div id="liveCtl" hidden>
+      <span id="liveState">connecting…</span>
+      <button id="liveStop">STOP LIVE</button>
+    </div>
+    <div id="clock">--</div>
+  </div>
+</header>
+
+<div id="banner" hidden></div>
+
+<section id="stage">
+  <svg id="stageSvg" viewBox="0 0 1880 460" preserveAspectRatio="xMidYMid meet"></svg>
+</section>
+
+<section id="panels">
+  <div class="panel board" id="p-aup1"></div>
+  <div class="panel center" id="p-link"></div>
+  <div class="panel board" id="p-aup2"></div>
+</section>
+
+<section id="bottom">
+  <div class="panel" id="tlWrap">
+    <div class="ptitle">Run timeline <span id="tlHint" class="muted"></span></div>
+    <canvas id="timeline"></canvas>
+  </div>
+  <div class="panel" id="logWrap">
+    <div class="ptitle">Event log</div>
+    <div id="log"></div>
+  </div>
+</section>
+
+<div id="cmp" hidden>
+  <div class="cmpBox">
+    <div class="cmpHead">
+      <h2>Compare runs</h2>
+      <select id="cmpA"></select><span class="vs">vs</span><select id="cmpB"></select>
+      <button id="cmpClose">CLOSE</button>
+    </div>
+    <div id="cmpBody"></div>
+  </div>
+</div>
+
+<footer>Every number on this screen is read from a board log or a live board line. Missing data is shown as “no data”.</footer>
+<script src="data.js"></script>
+<script src="cubesat.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

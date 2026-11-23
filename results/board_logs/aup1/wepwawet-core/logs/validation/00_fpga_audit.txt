@@ -1,0 +1,36 @@
+{
+  "artifacts": {
+    "bitstream": {
+      "expected_sha256": "b81c8634ffa71946ca56cb2487c4596e35f606af4a0baba1ec62bc893e55cd4a",
+      "match": true,
+      "path": "/home/xilinx/wepwawet-core/firmware/bitstream/wepwawet_stage7f_333MHz.bit",
+      "sha256": "b81c8634ffa71946ca56cb2487c4596e35f606af4a0baba1ec62bc893e55cd4a"
+    },
+    "hwh": {
+      "expected_sha256": "781a4fffa7b456014a83371e03771815b95e5fad1caa722494bc463932a6144a",
+      "match": true,
+      "path": "/home/xilinx/wepwawet-core/firmware/bitstream/wepwawet_stage7f_333MHz.hwh",
+      "sha256": "781a4fffa7b456014a83371e03771815b95e5fad1caa722494bc463932a6144a"
+    }
+  },
+  "fpga_manager_state": "operating",
+  "hostname": "aup1",
+  "known_competing_processes": [],
+  "note": "PYNQ state is software metadata, not physical bitstream attestation.",
+  "pynq": {
+    "bitfile_name": "/home/xilinx/wepwawet-core/firmware/bitstream/wepwawet_stage7f_333MHz.bit",
+    "ip": {
+      "axi_dma_0": {
+        "addr_range": 65536,
+        "phys_addr": 2147483648
+      },
+      "trng_axi_0": {
+        "addr_range": 4096,
+        "phys_addr": 2684354560
+      }
+    },
+    "timestamp": "2026/11/19 6:6:45 +98875"
+  },
+  "stage7f_metadata_matches": true
+}
+OBSERVATIONAL PREFLIGHT CLEAR; still requires exclusive board reservation.

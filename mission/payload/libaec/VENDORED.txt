@@ -1,0 +1,1 @@
+libaec 1.1.8 (git 41eeb90) vendored from https://github.com/MathisRosenhauer/libaec, BSD-2-Clause (LICENSE.txt)

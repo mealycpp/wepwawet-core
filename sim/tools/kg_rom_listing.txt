@@ -1,0 +1,112 @@
+  0 0751324400800223 KG: xi = SHAKE256(1024 health-tested raw TRNG bits b2[1100..1115], 32) -> b2[1160..1163]  [hedged entry PC0]
+  1 075221000028082b KG: (rho,rho',K) = H(xi||k||l,128) -> b2[512..527] (rho at b2[512] for ExpandA)  [KAT entry PC1]
+  2 075222020028082b KG: (rho,rho',K) again -> b2[1028..1043]: rho b2[1028..1031] (pk), K b2[1040..1043] (sealed home)
+  3 075222668028063b KG: (rho,rho') = H(xi||k||l,96) -> b2[1229..1240]: rho' in ExpandS block 7 b2[1233..1240]
+  4 075222620028063b KG: (rho,rho') = H(xi||k||l,96) -> b2[1220..1231]: rho' in ExpandS block 6 b2[1224..1231]
+  5 0752225d8028063b KG: (rho,rho') = H(xi||k||l,96) -> b2[1211..1222]: rho' in ExpandS block 5 b2[1215..1222]
+  6 075222590028063b KG: (rho,rho') = H(xi||k||l,96) -> b2[1202..1213]: rho' in ExpandS block 4 b2[1206..1213]
+  7 075222548028063b KG: (rho,rho') = H(xi||k||l,96) -> b2[1193..1204]: rho' in ExpandS block 3 b2[1197..1204]
+  8 075222500028063b KG: (rho,rho') = H(xi||k||l,96) -> b2[1184..1195]: rho' in ExpandS block 2 b2[1188..1195]
+  9 0752224b8028063b KG: (rho,rho') = H(xi||k||l,96) -> b2[1175..1186]: rho' in ExpandS block 1 b2[1179..1186]
+ 10 075222470028063b KG: (rho,rho') = H(xi||k||l,96) -> b2[1166..1177]: rho' in ExpandS block 0 b2[1170..1177]
+ 11 835a400960004000 KG: ExpandA (copy of SIGN PC0)
+ 12 0929600000283f44 KG: ExpandA (copy of SIGN PC1)
+ 13 83040000001f8000 KG: ExpandA (copy of SIGN PC2)
+ 14 835a400960008000 KG: ExpandA (copy of SIGN PC3)
+ 15 0929600000283f44 KG: ExpandA (copy of SIGN PC4)
+ 16 83040002001f8000 KG: ExpandA (copy of SIGN PC5)
+ 17 835a40096000c000 KG: ExpandA (copy of SIGN PC6)
+ 18 0929600000283f44 KG: ExpandA (copy of SIGN PC7)
+ 19 83040004001f8000 KG: ExpandA (copy of SIGN PC8)
+ 20 835a400960010000 KG: ExpandA (copy of SIGN PC9)
+ 21 0929600000283f44 KG: ExpandA (copy of SIGN PC10)
+ 22 83040006001f8000 KG: ExpandA (copy of SIGN PC11)
+ 23 835a400960014000 KG: ExpandA (copy of SIGN PC12)
+ 24 0929600000283f44 KG: ExpandA (copy of SIGN PC13)
+ 25 83040008001f8000 KG: ExpandA (copy of SIGN PC14)
+ 26 835a400960018000 KG: ExpandA (copy of SIGN PC15)
+ 27 0929600000283f44 KG: ExpandA (copy of SIGN PC16)
+ 28 8304000a001f8000 KG: ExpandA (copy of SIGN PC17)
+ 29 835a40096001c000 KG: ExpandA (copy of SIGN PC18)
+ 30 0929600000283f44 KG: ExpandA (copy of SIGN PC19)
+ 31 8304000c001f8000 KG: ExpandA (copy of SIGN PC20)
+ 32 835a400960020000 KG: ExpandA (copy of SIGN PC21)
+ 33 0929600000283f44 KG: ExpandA (copy of SIGN PC22)
+ 34 8304000e001f8000 KG: ExpandA (copy of SIGN PC23)
+ 35 835a400960024000 KG: ExpandA (copy of SIGN PC24)
+ 36 0929600000283f44 KG: ExpandA (copy of SIGN PC25)
+ 37 83040010001f8000 KG: ExpandA (copy of SIGN PC26)
+ 38 835a400960028000 KG: ExpandA (copy of SIGN PC27)
+ 39 0929600000283f44 KG: ExpandA (copy of SIGN PC28)
+ 40 83040012001f8000 KG: ExpandA (copy of SIGN PC29)
+ 41 835a40096002c000 KG: ExpandA (copy of SIGN PC30)
+ 42 0929600000283f44 KG: ExpandA (copy of SIGN PC31)
+ 43 83040014001f8000 KG: ExpandA (copy of SIGN PC32)
+ 44 835a400960030000 KG: ExpandA (copy of SIGN PC33)
+ 45 0929600000283f44 KG: ExpandA (copy of SIGN PC34)
+ 46 83040016001f8000 KG: ExpandA (copy of SIGN PC35)
+ 47 835a400960034000 KG: ExpandA (copy of SIGN PC36)
+ 48 0929600000283f44 KG: ExpandA (copy of SIGN PC37)
+ 49 83040018001f8000 KG: ExpandA (copy of SIGN PC38)
+ 50 835a400960038000 KG: ExpandA (copy of SIGN PC39)
+ 51 0929600000283f44 KG: ExpandA (copy of SIGN PC40)
+ 52 8304001a001f8000 KG: ExpandA (copy of SIGN PC41)
+ 53 835a40096003c000 KG: ExpandA (copy of SIGN PC42)
+ 54 0929600000283f44 KG: ExpandA (copy of SIGN PC43)
+ 55 8304001c001f8000 KG: ExpandA (copy of SIGN PC44)
+ 56 835a400960040000 KG: ExpandA (copy of SIGN PC45)
+ 57 0929600000283f44 KG: ExpandA (copy of SIGN PC46)
+ 58 8304001e001f8000 KG: ExpandA (copy of SIGN PC47)
+ 59 0732480000482443 KG: ExpandS XOF r=0: SHAKE256(rho'||0) -> b1[0..71]
+ 60 8347000000120000 KG: eta2 RejBoundedPoly -> s1[0] b3[0..127]
+ 61 07326c0000482443 KG: ExpandS XOF r=1: SHAKE256(rho'||1) -> b1[0..71]
+ 62 8347000200120000 KG: eta2 RejBoundedPoly -> s1[1] b3[128..255]
+ 63 0732900000482443 KG: ExpandS XOF r=2: SHAKE256(rho'||2) -> b1[0..71]
+ 64 8347000400120000 KG: eta2 RejBoundedPoly -> s1[2] b3[256..383]
+ 65 0732b40000482443 KG: ExpandS XOF r=3: SHAKE256(rho'||3) -> b1[0..71]
+ 66 8347000600120000 KG: eta2 RejBoundedPoly -> s1[3] b3[384..511]
+ 67 0732d80000482443 KG: ExpandS XOF r=4: SHAKE256(rho'||4) -> b1[0..71]
+ 68 8347000800120000 KG: eta2 RejBoundedPoly -> s2[0] b3[512..639]
+ 69 0732fc0000482443 KG: ExpandS XOF r=5: SHAKE256(rho'||5) -> b1[0..71]
+ 70 8347000a00120000 KG: eta2 RejBoundedPoly -> s2[1] b3[640..767]
+ 71 0733200000482443 KG: ExpandS XOF r=6: SHAKE256(rho'||6) -> b1[0..71]
+ 72 8347000c00120000 KG: eta2 RejBoundedPoly -> s2[2] b3[768..895]
+ 73 0733440000482443 KG: ExpandS XOF r=7: SHAKE256(rho'||7) -> b1[0..71]
+ 74 8347000e00120000 KG: eta2 RejBoundedPoly -> s2[3] b3[896..1023]
+ 75 01a0000004004000 KG: NTT(s1[0]) b3[0] -> b1[0] (DOT4 operand)
+ 76 01a2004004004000 KG: NTT(s1[1]) b3[128] -> b1[128] (DOT4 operand)
+ 77 01a4008004004000 KG: NTT(s1[2]) b3[256] -> b1[256] (DOT4 operand)
+ 78 01a600c004004000 KG: NTT(s1[3]) b3[384] -> b1[384] (DOT4 operand)
+ 79 01a0010004004000 KG: NTT(s1[0]) -> b1[512] (sealed s1_hat)
+ 80 01a2014004004000 KG: NTT(s1[1]) -> b1[640] (sealed s1_hat)
+ 81 01a4018004004000 KG: NTT(s1[2]) -> b1[768] (sealed s1_hat)
+ 82 01a601c004004000 KG: NTT(s1[3]) -> b1[896] (sealed s1_hat)
+ 83 01a8030004004000 KG: NTT(s2[0]) -> b1[1536] (sealed s2_hat)
+ 84 01aa034004004000 KG: NTT(s2[1]) -> b1[1664] (sealed s2_hat)
+ 85 01ac038004004000 KG: NTT(s2[2]) -> b1[1792] (sealed s2_hat)
+ 86 01ae03c004004000 KG: NTT(s2[3]) -> b1[1920] (sealed s2_hat)
+ 87 8332000000200000 KG: DOT4 row 0: A_hat[0] . s1_hat -> b2[0]
+ 88 0360020004004001 KG: INTT row 0 -> b3[1024]
+ 89 8332400200200000 KG: DOT4 row 1: A_hat[1] . s1_hat -> b2[128]
+ 90 0362024004004001 KG: INTT row 1 -> b3[1152]
+ 91 8332800400200000 KG: DOT4 row 2: A_hat[2] . s1_hat -> b2[256]
+ 92 0364028004004001 KG: INTT row 2 -> b3[1280]
+ 93 8332c00600200000 KG: DOT4 row 3: A_hat[3] . s1_hat -> b2[384]
+ 94 036602c004004001 KG: INTT row 3 -> b3[1408]
+ 95 810f401000200000 KG: t[0] = A*s1 + s2 (mod q) in b3[1024]
+ 96 810f501200200000 KG: t[1] = A*s1 + s2 (mod q) in b3[1152]
+ 97 810f601400200000 KG: t[2] = A*s1 + s2 (mod q) in b3[1280]
+ 98 810f701600200000 KG: t[3] = A*s1 + s2 (mod q) in b3[1408]
+ 99 805f801800200000 KG: t1[0] = Power2Round high -> b3[1536] (pk, host-readable)
+100 806f801000200000 KG: t0[0] = Power2Round low in place
+101 805f901a00200000 KG: t1[1] = Power2Round high -> b3[1664] (pk, host-readable)
+102 806f901200200000 KG: t0[1] = Power2Round low in place
+103 805fa01c00200000 KG: t1[2] = Power2Round high -> b3[1792] (pk, host-readable)
+104 806fa01400200000 KG: t0[2] = Power2Round low in place
+105 805fb01e00200000 KG: t1[3] = Power2Round high -> b3[1920] (pk, host-readable)
+106 806fb01600200000 KG: t0[3] = Power2Round low in place
+107 01d0030004004000 KG: NTT(t0[0]) -> b2[1536] (sealed t0_hat)
+108 01d2034004004000 KG: NTT(t0[1]) -> b2[1664] (sealed t0_hat)
+109 01d4038004004000 KG: NTT(t0[2]) -> b2[1792] (sealed t0_hat)
+110 01d603c004004000 KG: NTT(t0[3]) -> b2[1920] (sealed t0_hat)
+111 7000000000000000 KG: HALT keygen-complete

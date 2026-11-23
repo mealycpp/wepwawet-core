@@ -1,0 +1,88 @@
+pid 470226's current affinity mask: f
+pid 470226's new affinity mask: f
+pid 470229's current affinity mask: f
+pid 470229's new affinity mask: f
+pid 470231's current affinity mask: f
+pid 470231's new affinity mask: f
+pid 470232's current affinity mask: f
+pid 470232's new affinity mask: f
+pid 470233's current affinity mask: f
+pid 470233's new affinity mask: f
+pid 470234's current affinity mask: f
+pid 470234's new affinity mask: f
+pid 470235's current affinity mask: f
+pid 470235's new affinity mask: f
+pid 470236's current affinity mask: f
+pid 470236's new affinity mask: f
+pid 470237's current affinity mask: f
+pid 470237's new affinity mask: f
+pid 470238's current affinity mask: f
+pid 470238's new affinity mask: f
+pid 470239's current affinity mask: f
+pid 470239's new affinity mask: f
+pid 470240's current affinity mask: f
+pid 470240's new affinity mask: f
+pid 470241's current affinity mask: f
+pid 470241's new affinity mask: f
+pid 470242's current affinity mask: f
+pid 470242's new affinity mask: f
+pid 470243's current affinity mask: f
+pid 470243's new affinity mask: f
+pid 470244's current affinity mask: 1
+pid 470244's new affinity mask: f
+pid 470245's current affinity mask: 2
+pid 470245's new affinity mask: f
+pid 470246's current affinity mask: 8
+pid 470246's new affinity mask: f
+pid 470247's current affinity mask: 4
+pid 470247's new affinity mask: f
+pid 470248's current affinity mask: f
+pid 470248's new affinity mask: f
+pid 470249's current affinity mask: f
+pid 470249's new affinity mask: f
+pid 470250's current affinity mask: f
+pid 470250's new affinity mask: f
+pid 470251's current affinity mask: f
+pid 470251's new affinity mask: f
+pid 470252's current affinity mask: f
+pid 470252's new affinity mask: f
+pid 470296's current affinity mask: 2
+pid 470296's new affinity mask: f
+pid 470300's current affinity mask: f
+pid 470300's new affinity mask: f
+pid 470302's current affinity mask: 8
+pid 470302's new affinity mask: f
+pid 470303's current affinity mask: 1
+pid 470303's new affinity mask: f
+pid 470304's current affinity mask: 4
+pid 470304's new affinity mask: f
+== affinity/policy after setup
+470226/470226 f  SCHED_OTHER
+470226/470229 f  SCHED_OTHER
+470226/470231 f  SCHED_RR
+470226/470232 f  SCHED_RR
+470226/470233 f  SCHED_RR
+470226/470234 f  SCHED_RR
+470226/470235 f  SCHED_RR
+470226/470236 f  SCHED_RR
+470226/470237 f  SCHED_RR
+470226/470238 f  SCHED_RR
+470226/470239 f  SCHED_RR
+470226/470240 f  SCHED_RR
+470226/470241 f  SCHED_RR
+470226/470242 f  SCHED_RR
+470226/470243 f  SCHED_RR
+470226/470244 f  SCHED_RR
+470226/470245 f  SCHED_RR
+470226/470246 f  SCHED_RR
+470226/470247 f  SCHED_RR
+470226/470248 f  SCHED_RR
+470226/470249 f  SCHED_RR
+470226/470250 f  SCHED_RR
+470226/470251 f  SCHED_OTHER
+470226/470252 f  SCHED_RR
+470296/470296 f  SCHED_FIFO
+470300/470300 f  SCHED_OTHER
+470300/470302 f  SCHED_OTHER
+470300/470303 f  SCHED_OTHER
+470300/470304 f  SCHED_OTHER

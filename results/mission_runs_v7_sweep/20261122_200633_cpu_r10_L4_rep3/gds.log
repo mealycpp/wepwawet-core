@@ -1,0 +1,18 @@
+[INFO] Reading command-line configuration from: fprime-gds.yml
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+[INFO] Ensuring comm[ip] Application is stable for at least 1 seconds
+[INFO] Running Application: /home/xilinx/Wepwawet/fprime-venv/bin/python3
+[INFO] Ensuring HTML GUI is stable for at least 2 seconds
+[INFO] Running Application: /home/xilinx/Wepwawet/fprime-venv/bin/python3
+[INFO] Launched UI at: http://127.0.0.1:5000/
+[INFO] Ensuring custom-data-handlers-app Plugin App is stable for at least 1 seconds
+[INFO] Running Application: /home/xilinx/Wepwawet/fprime-venv/bin/python3
+[INFO] F prime is now running. CTRL-C to shutdown all components.
+[INFO] Reading command-line configuration from: fprime-gds.yml
+ * Serving Flask app 'fprime_gds.flask.app'
+ * Debug mode: off
+[WARNING] Checksum validation failed.
+[WARNING] Checksum validation failed.
+[WARNING] Checksum validation failed.
+[WARNING] Checksum validation failed.
+[WARNING] Checksum validation failed.

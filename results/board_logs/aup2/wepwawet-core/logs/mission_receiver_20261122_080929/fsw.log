@@ -1,0 +1,630 @@
+WCORE: HwAccelMgr backend=fpga
+WCORE: listening on <AUP2_IP>:9091
+Hit Ctrl-C to quit
+EVENT: (16777216) (2:1795335080,615216) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000000 registered to port 0 slot 0
+EVENT: (16777216) (2:1795335080,615250) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000001 registered to port 0 slot 1
+EVENT: (16777216) (2:1795335080,615266) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000002 registered to port 0 slot 2
+EVENT: (16777216) (2:1795335080,615281) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000003 registered to port 0 slot 3
+EVENT: (16777216) (2:1795335080,615296) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001000 registered to port 1 slot 4
+EVENT: (16777216) (2:1795335080,615310) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001002 registered to port 1 slot 5
+EVENT: (16777216) (2:1795335080,615324) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001003 registered to port 1 slot 6
+EVENT: (16777216) (2:1795335080,615339) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002000 registered to port 2 slot 7
+EVENT: (16777216) (2:1795335080,615353) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002001 registered to port 2 slot 8
+EVENT: (16777216) (2:1795335080,615367) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002002 registered to port 2 slot 9
+EVENT: (16777216) (2:1795335080,615382) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003000 registered to port 3 slot 10
+EVENT: (16777216) (2:1795335080,615396) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003001 registered to port 3 slot 11
+EVENT: (16777216) (2:1795335080,615411) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000000 registered to port 4 slot 12
+EVENT: (16777216) (2:1795335080,615425) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000001 registered to port 4 slot 13
+EVENT: (16777216) (2:1795335080,615439) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000002 registered to port 4 slot 14
+EVENT: (16777216) (2:1795335080,615454) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000000 registered to port 5 slot 15
+EVENT: (16777216) (2:1795335080,615468) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000001 registered to port 5 slot 16
+EVENT: (16777216) (2:1795335080,615483) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000002 registered to port 5 slot 17
+EVENT: (16777216) (2:1795335080,615497) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000003 registered to port 5 slot 18
+EVENT: (16777216) (2:1795335080,615511) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4001000 registered to port 6 slot 19
+EVENT: (16777216) (2:1795335080,615526) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4002000 registered to port 7 slot 20
+EVENT: (16777216) (2:1795335080,615541) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001000 registered to port 8 slot 21
+EVENT: (16777216) (2:1795335080,615555) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001001 registered to port 8 slot 22
+EVENT: (16777216) (2:1795335080,615570) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001002 registered to port 8 slot 23
+EVENT: (16777216) (2:1795335080,615584) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002000 registered to port 9 slot 24
+EVENT: (16777216) (2:1795335080,615599) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002001 registered to port 9 slot 25
+EVENT: (16777216) (2:1795335080,615613) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002002 registered to port 9 slot 26
+EVENT: (16777216) (2:1795335080,615627) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002003 registered to port 9 slot 27
+EVENT: (16777216) (2:1795335080,615641) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002004 registered to port 9 slot 28
+EVENT: (16777216) (2:1795335080,615656) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002005 registered to port 9 slot 29
+EVENT: (16777216) (2:1795335080,615670) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002006 registered to port 9 slot 30
+EVENT: (16777216) (2:1795335080,615684) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002007 registered to port 9 slot 31
+EVENT: (16777216) (2:1795335080,615734) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002008 registered to port 9 slot 32
+EVENT: (16777216) (2:1795335080,615751) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003000 registered to port 10 slot 33
+EVENT: (16777216) (2:1795335080,615766) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003001 registered to port 10 slot 34
+EVENT: (16777216) (2:1795335080,615780) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003002 registered to port 10 slot 35
+EVENT: (16777216) (2:1795335080,615795) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004000 registered to port 11 slot 36
+EVENT: (16777216) (2:1795335080,615810) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004001 registered to port 11 slot 37
+EVENT: (16777216) (2:1795335080,615824) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004002 registered to port 11 slot 38
+EVENT: (16777216) (2:1795335080,615838) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004003 registered to port 11 slot 39
+EVENT: (16777216) (2:1795335080,615853) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004004 registered to port 11 slot 40
+EVENT: (16777216) (2:1795335080,615867) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004005 registered to port 11 slot 41
+EVENT: (16777216) (2:1795335080,615881) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004006 registered to port 11 slot 42
+EVENT: (16777216) (2:1795335080,615895) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004007 registered to port 11 slot 43
+EVENT: (16777216) (2:1795335080,615910) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10021000 registered to port 12 slot 44
+EVENT: (16777216) (2:1795335080,615924) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10022000 registered to port 13 slot 45
+EVENT: (16777216) (2:1795335080,615939) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10024000 registered to port 14 slot 46
+EVENT: (16777216) (2:1795335080,615954) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10023000 registered to port 15 slot 47
+EVENT: (16777216) (2:1795335080,615968) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10012000 registered to port 16 slot 48
+EVENT: (16789504) (2:1795335080,615990) ACTIVITY_LO: (version) FrameworkVersion : Framework Version: [v3.5.0]
+EVENT: (16789505) (2:1795335080,616025) ACTIVITY_LO: (version) ProjectVersion : Project Version: [v3.5.0]
+[WARNING] cmdDisp stack size of 65536  is too small, clamping to 131072
+[WARNING] events stack size of 65536  is too small, clamping to 131072
+[WARNING] tlmSend stack size of 65536  is too small, clamping to 131072
+[WARNING] aggregator stack size of 65536  is too small, clamping to 131072
+[WARNING] comQueue stack size of 65536  is too small, clamping to 131072
+[WARNING] dpCat stack size of 65536  is too small, clamping to 131072
+[WARNING] dpMgr stack size of 65536  is too small, clamping to 131072
+[WARNING] dpWriter stack size of 65536  is too small, clamping to 131072
+[WARNING] fileDownlink stack size of 65536  is too small, clamping to 131072
+[WARNING] fileManager stack size of 65536  is too small, clamping to 131072
+[WARNING] fileUplink stack size of 65536  is too small, clamping to 131072
+[WARNING] prmDb stack size of 65536  is too small, clamping to 131072
+[WARNING] cmdSeq stack size of 65536  is too small, clamping to 131072
+[WARNING] dilithiumSign stack size of 65536  is too small, clamping to 131072
+[WARNING] dilithiumVerify stack size of 65536  is too small, clamping to 131072
+[WARNING] pqcSecurityGateway stack size of 65536  is too small, clamping to 131072
+[WARNING] pqcTransport stack size of 65536  is too small, clamping to 131072
+[WARNING] rateGroup1 stack size of 65536  is too small, clamping to 131072
+[WARNING] rateGroup2 stack size of 65536  is too small, clamping to 131072
+EVENT: (268439552) (2:1795335080,618083) DIAGNOSTIC: (rateGroup1) RateGroupStarted : Rate group started.
+[WARNING] rateGroup3 stack size of 65536  is too small, clamping to 131072
+EVENT: (268443648) (2:1795335080,618174) DIAGNOSTIC: (rateGroup2) RateGroupStarted : Rate group started.
+EVENT: (268447744) (2:1795335080,618264) DIAGNOSTIC: (rateGroup3) RateGroupStarted : Rate group started.
+[WARNING] ReceiveTask stack size of 65536  is too small, clamping to 131072
+Connected to 127.0.0.1:50000 as a tcp client
+WCORE: FPGA open, verify program PRESENT (v6)
+EVENT: (268566528) (2:1795335192,422501) ACTIVITY_HI: (hwAccelMgr) HwReady : Wepwawet hardware accelerator ready
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=2291.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1510.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1495.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1499.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1489.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1490.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1518.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1515.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1663.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1428.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1498.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1495.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1499.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1496.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1534.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214206 pl_us=714.0 host_total_us=1562.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=4968.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1522.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1562.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1497.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1492.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1485.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1535.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1495.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1538.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=3775.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=3745.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1538.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1503.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1518.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1499.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1494.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1495.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1496.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1521.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1496.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1489.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1497.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1497.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1523.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1526.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1499.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1498.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1496.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1496.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1496.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1518.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=4052.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1522.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1496.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1496.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1502.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1496.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1501.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1500.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1500.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1498.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1494.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1496.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1494.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1519.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1498.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1542.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1519.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1495.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1500.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1515.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1497.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1521.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214208 pl_us=714.0 host_total_us=1552.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1532.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1500.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1494.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1499.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1502.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1496.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1456.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1527.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1509.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1498.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1496.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1501.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1524.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1486.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1495.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1517.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1495.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1490.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1507.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1490.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1524.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214206 pl_us=714.0 host_total_us=1498.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1802.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1513.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1520.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1977.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1517.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1513.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1506.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1498.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1452.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1496.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1500.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1505.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1497.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1488.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1519.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1497.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1497.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1502.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1523.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1498.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1502.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1490.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1515.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1514.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1537.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1501.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1505.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1616.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1486.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1469.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1497.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1498.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1505.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1466.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1516.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1520.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1450.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1496.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1573.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1508.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1501.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1589.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=2152.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1511.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1496.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=2001.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1492.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1567.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1498.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1499.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1493.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1488.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1497.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1496.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1497.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1496.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1497.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1500.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1538.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1495.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1521.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1503.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1500.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1492.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1439.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1499.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1487.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1500.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=6276.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1555.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1491.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1510.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1505.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1519.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1569.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1490.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1462.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1502.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1493.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1501.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1725.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1548.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1531.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1503.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1512.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1508.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1655.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1491.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1567.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1533.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1498.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1523.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1499.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1497.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1502.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1492.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1500.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1496.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1499.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1497.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1496.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1497.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1497.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1497.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1520.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1554.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1500.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1523.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1501.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1491.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1499.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1639.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1477.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1631.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1444.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1529.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1530.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1495.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1504.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1575.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1544.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=5782.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1545.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=5374.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1511.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=3834.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1603.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=4281.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=3800.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=3784.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1546.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1505.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1455.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1529.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1498.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1491.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1497.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1499.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1497.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1526.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1553.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=17891.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1555.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1519.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=4172.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=6171.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1524.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1525.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1491.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1498.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1534.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1497.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1491.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1506.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1489.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1519.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1496.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1500.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1618.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1843.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1532.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1497.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1471.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1487.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1437.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1585.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=2637.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1546.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1512.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1501.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1495.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1507.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1506.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1507.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1495.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1528.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1504.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1515.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1468.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1523.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1540.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1536.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1563.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1497.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1491.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1477.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1497.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1504.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1499.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1497.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1499.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1497.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1498.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1489.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1499.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1499.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1500.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1508.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1499.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1498.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1497.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1568.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1500.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1501.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1510.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1509.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1518.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1532.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1588.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1757.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1557.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1907.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=2330.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1500.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1528.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1416.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1541.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1505.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1509.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1539.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=3786.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=2804.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1532.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=4078.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1470.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=2190.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=2549.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=6618.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1446.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=3676.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1432.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1513.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1472.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1533.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1492.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1494.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1430.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1492.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1503.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1510.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1499.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1520.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=6240.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1500.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=7293.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1680.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1559.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1534.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1498.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1510.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1530.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=2285.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1492.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=4990.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1497.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1530.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1515.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1525.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1792.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1538.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1540.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1574.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=4123.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1530.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1514.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1613.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=2118.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1508.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1431.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1502.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1490.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1495.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1499.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1572.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1499.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1505.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1506.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1535.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1523.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1497.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1532.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1595.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1466.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1539.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1573.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1511.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214206 pl_us=714.0 host_total_us=1578.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1530.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1495.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1521.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1503.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1500.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214206 pl_us=714.0 host_total_us=1493.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1523.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1517.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214206 pl_us=714.0 host_total_us=1511.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1498.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1496.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1500.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1523.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1516.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1476.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1497.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1489.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1499.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1499.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1498.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1510.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1544.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1501.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1500.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1501.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1498.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1502.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1559.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1513.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1502.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1529.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1536.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=3103.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=4237.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=2897.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=4148.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1509.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=4243.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1538.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214206 pl_us=714.0 host_total_us=1546.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1724.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1521.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1502.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1506.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1759.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1498.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1499.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1504.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=4436.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=2849.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=3531.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1506.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=3849.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1510.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1474.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1511.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1518.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1512.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1498.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1512.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1511.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1497.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1497.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1432.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1498.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1500.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1518.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1501.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1497.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1498.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1499.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1499.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1490.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1497.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1499.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1537.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1422.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1505.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1496.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1496.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214217 pl_us=714.1 host_total_us=1497.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1553.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1536.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214206 pl_us=714.0 host_total_us=1512.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=3190.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1499.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1589.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1500.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1512.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1527.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1520.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1488.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1518.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1488.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1492.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1504.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1493.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1489.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1500.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1489.2
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214204 pl_us=714.0 host_total_us=1493.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1490.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1510.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=2942.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1490.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=4798.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1507.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=2252.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1494.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1488.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1496.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1488.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1497.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1527.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1514.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1566.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1496.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1518.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1499.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1491.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1516.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1501.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1509.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1501.6
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1503.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214202 pl_us=714.0 host_total_us=1537.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1498.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1499.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1502.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1497.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1499.3
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1497.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1496.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1499.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1536.9
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1505.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1499.8
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1500.4
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1489.7
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1499.1
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214185 pl_us=714.0 host_total_us=1496.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1500.5
+WCORE: authenticated receive verdict=ACCEPT\n[WARNING] ReceiveTask failed to recv from port with status -8 and errno 0
+[WARNING] ReceiveTask failed to open port with status -4 and errno 111
+Exiting...

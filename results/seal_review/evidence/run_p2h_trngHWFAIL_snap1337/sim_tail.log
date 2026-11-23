@@ -1,0 +1,6 @@
+ADV_TB_STOPPED phase=2
+- /sessions/rcw-01pcc8tmstl4s7tbrf1fwrcp/mnt/HLS/<WORKDIR>/04_WORK/seal_v8/review/tb/tb_adv_seal.sv:139: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 670us; walltime 1.022 s; speed 656.206 us/s
+- Verilator: cpu 1.021 s on 1 threads; allocated 7 MB
+EXIT=0

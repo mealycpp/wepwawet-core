@@ -1,0 +1,782 @@
+[Thu Nov 19 05:49:47 2026] Key type id_legacy registered
+[Thu Nov 19 05:49:47 2026] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[Thu Nov 19 05:49:47 2026] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[Thu Nov 19 05:49:47 2026] jffs2: version 2.2. (NAND) (SUMMARY)  © 2001-2006 Red Hat, Inc.
+[Thu Nov 19 05:49:47 2026] NET: Registered PF_ALG protocol family
+[Thu Nov 19 05:49:47 2026] xor: measuring software checksum speed
+[Thu Nov 19 05:49:47 2026]    8regs           :  2524 MB/sec
+[Thu Nov 19 05:49:47 2026]    32regs          :  2524 MB/sec
+[Thu Nov 19 05:49:47 2026]    arm64_neon      :  2364 MB/sec
+[Thu Nov 19 05:49:47 2026] xor: using function: 32regs (2524 MB/sec)
+[Thu Nov 19 05:49:47 2026] Key type asymmetric registered
+[Thu Nov 19 05:49:47 2026] Asymmetric key parser 'x509' registered
+[Thu Nov 19 05:49:47 2026] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+[Thu Nov 19 05:49:47 2026] io scheduler mq-deadline registered
+[Thu Nov 19 05:49:47 2026] io scheduler kyber registered
+[Thu Nov 19 05:49:47 2026] io scheduler bfq registered
+[Thu Nov 19 05:49:47 2026] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[Thu Nov 19 05:49:47 2026] Serial: AMBA driver
+[Thu Nov 19 05:49:47 2026] brd: module loaded
+[Thu Nov 19 05:49:47 2026] loop: module loaded
+[Thu Nov 19 05:49:47 2026] tun: Universal TUN/TAP device driver, 1.6
+[Thu Nov 19 05:49:47 2026] CAN device driver interface
+[Thu Nov 19 05:49:47 2026] VFIO - User Level meta-driver version: 0.3
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver cdc_acm
+[Thu Nov 19 05:49:47 2026] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver cdc_wdm
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver uas
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver usb-storage
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver usbserial_generic
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for generic
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver usb_serial_simple
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for carelink
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for flashloader
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for funsoft
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for google
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for hp4x
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for kaufmann
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for libtransistor
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for moto_modem
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for motorola_tetra
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for nokia
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for novatel_gps
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for siemens_mpi
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for suunto
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for vivopay
+[Thu Nov 19 05:49:47 2026] usbserial: USB Serial support registered for zio
+[Thu Nov 19 05:49:47 2026] gadgetfs: USB Gadget filesystem, version 24 Aug 2004
+[Thu Nov 19 05:49:47 2026] mousedev: PS/2 mouse device common for all mice
+[Thu Nov 19 05:49:47 2026] rtc_zynqmp ffa60000.rtc: registered as rtc0
+[Thu Nov 19 05:49:47 2026] rtc_zynqmp ffa60000.rtc: setting system clock to 2099-07-25T10:35:42 UTC (4088658942)
+[Thu Nov 19 05:49:47 2026] i2c_dev: i2c /dev entries driver
+[Thu Nov 19 05:49:47 2026] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+[Thu Nov 19 05:49:47 2026] Bluetooth: HCI UART driver ver 2.3
+[Thu Nov 19 05:49:47 2026] Bluetooth: HCI UART protocol H4 registered
+[Thu Nov 19 05:49:47 2026] Bluetooth: HCI UART protocol BCSP registered
+[Thu Nov 19 05:49:47 2026] Bluetooth: HCI UART protocol LL registered
+[Thu Nov 19 05:49:47 2026] Bluetooth: HCI UART protocol ATH3K registered
+[Thu Nov 19 05:49:47 2026] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[Thu Nov 19 05:49:47 2026] Bluetooth: HCI UART protocol Intel registered
+[Thu Nov 19 05:49:47 2026] Bluetooth: HCI UART protocol QCA registered
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver bcm203x
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver bpa10x
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver bfusb
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver btusb
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver ath3k
+[Thu Nov 19 05:49:47 2026] EDAC MC: ECC not enabled
+[Thu Nov 19 05:49:47 2026] sdhci: Secure Digital Host Controller Interface driver
+[Thu Nov 19 05:49:47 2026] sdhci: Copyright(c) Pierre Ossman
+[Thu Nov 19 05:49:47 2026] sdhci-pltfm: SDHCI platform and OF driver helper
+[Thu Nov 19 05:49:47 2026] ledtrig-cpu: registered to indicate activity on CPUs
+[Thu Nov 19 05:49:47 2026] SMCCC: SOC_ID: ID = jep106:0049:0000 Revision = 0x14710093
+[Thu Nov 19 05:49:47 2026] zynqmp_firmware_probe Platform Management API v1.1
+[Thu Nov 19 05:49:47 2026] zynqmp_firmware_probe Trustzone version v1.0
+[Thu Nov 19 05:49:47 2026] securefw securefw: securefw probed
+[Thu Nov 19 05:49:47 2026] zynqmp-aes zynqmp-aes.0: will run requests pump with realtime priority
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver usbhid
+[Thu Nov 19 05:49:47 2026] usbhid: USB HID core driver
+[Thu Nov 19 05:49:47 2026] ARM CCI_400_r1 PMU driver probed
+[Thu Nov 19 05:49:47 2026] hw perfevents: enabled with armv8_pmuv3 PMU driver, 7 counters available
+[Thu Nov 19 05:49:47 2026] fpga_manager fpga0: Xilinx ZynqMP FPGA Manager registered
+[Thu Nov 19 05:49:47 2026] usbcore: registered new interface driver snd-usb-audio
+[Thu Nov 19 05:49:47 2026] pktgen: Packet Generator for packet performance testing. Version: 2.75
+[Thu Nov 19 05:49:47 2026] IPVS: Registered protocols (TCP, UDP)
+[Thu Nov 19 05:49:47 2026] IPVS: Connection hash table configured (size=4096, memory=32Kbytes)
+[Thu Nov 19 05:49:47 2026] IPVS: ipvs loaded.
+[Thu Nov 19 05:49:47 2026] IPVS: [rr] scheduler registered.
+[Thu Nov 19 05:49:47 2026] Initializing XFRM netlink socket
+[Thu Nov 19 05:49:47 2026] NET: Registered PF_INET6 protocol family
+[Thu Nov 19 05:49:47 2026] Segment Routing with IPv6
+[Thu Nov 19 05:49:47 2026] In-situ OAM (IOAM) with IPv6
+[Thu Nov 19 05:49:47 2026] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[Thu Nov 19 05:49:47 2026] NET: Registered PF_PACKET protocol family
+[Thu Nov 19 05:49:47 2026] NET: Registered PF_KEY protocol family
+[Thu Nov 19 05:49:47 2026] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[Thu Nov 19 05:49:47 2026] can: controller area network core
+[Thu Nov 19 05:49:47 2026] NET: Registered PF_CAN protocol family
+[Thu Nov 19 05:49:47 2026] can: raw protocol
+[Thu Nov 19 05:49:47 2026] can: broadcast manager protocol
+[Thu Nov 19 05:49:47 2026] can: netlink gateway - max_hops=1
+[Thu Nov 19 05:49:47 2026] Bluetooth: RFCOMM TTY layer initialized
+[Thu Nov 19 05:49:47 2026] Bluetooth: RFCOMM socket layer initialized
+[Thu Nov 19 05:49:47 2026] Bluetooth: RFCOMM ver 1.11
+[Thu Nov 19 05:49:47 2026] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[Thu Nov 19 05:49:47 2026] Bluetooth: BNEP filters: protocol multicast
+[Thu Nov 19 05:49:47 2026] Bluetooth: BNEP socket layer initialized
+[Thu Nov 19 05:49:47 2026] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[Thu Nov 19 05:49:47 2026] Bluetooth: HIDP socket layer initialized
+[Thu Nov 19 05:49:47 2026] 8021q: 802.1Q VLAN Support v1.8
+[Thu Nov 19 05:49:47 2026] 9pnet: Installing 9P2000 support
+[Thu Nov 19 05:49:47 2026] Key type dns_resolver registered
+[Thu Nov 19 05:49:47 2026] registered taskstats version 1
+[Thu Nov 19 05:49:47 2026] Loading compiled-in X.509 certificates
+[Thu Nov 19 05:49:47 2026] Btrfs loaded, zoned=no, fsverity=no
+[Thu Nov 19 05:49:47 2026] alg: No test for xilinx-zynqmp-rsa (zynqmp-rsa)
+[Thu Nov 19 05:49:47 2026] "cryptomgr_test" (146) uses obsolete ecb(arc4) skcipher
+[Thu Nov 19 05:49:48 2026] ff010000.serial: ttyPS0 at MMIO 0xff010000 (irq = 23, base_baud = 6249999) is a xuartps
+[Thu Nov 19 05:49:48 2026] printk: console [ttyPS0] enabled
+[Thu Nov 19 05:49:49 2026] of-fpga-region fpga-region: FPGA Region probed
+[Thu Nov 19 05:49:49 2026] xilinx-zynqmp-dpdma fd4c0000.dma-controller: Xilinx DPDMA engine is probed
+[Thu Nov 19 05:49:49 2026] zynqmp-display fd4a0000.display: vtc bridge property not present
+[Thu Nov 19 05:49:49 2026] xilinx-dp-snd-codec fd4a0000.display:zynqmp-dp-snd-codec0: Failed to get required clock freq
+[Thu Nov 19 05:49:49 2026] xilinx-dp-snd-codec: probe of fd4a0000.display:zynqmp-dp-snd-codec0 failed with error -22
+[Thu Nov 19 05:49:49 2026] xilinx-dp-snd-pcm zynqmp_dp_snd_pcm0: Xilinx DisplayPort Sound PCM probed
+[Thu Nov 19 05:49:49 2026] xilinx-dp-snd-pcm zynqmp_dp_snd_pcm1: Xilinx DisplayPort Sound PCM probed
+[Thu Nov 19 05:49:49 2026] xlnx-drm xlnx-drm.0: bound fd4a0000.display (ops 0xffff8000812180a8)
+[Thu Nov 19 05:49:51 2026] zynqmp-display fd4a0000.display: [drm] Cannot find any crtc or sizes
+[Thu Nov 19 05:49:51 2026] [drm] Initialized xlnx 1.0.0 20130509 for fd4a0000.display on minor 0
+[Thu Nov 19 05:49:51 2026] zynqmp-display fd4a0000.display: ZynqMP DisplayPort Subsystem driver probed
+[Thu Nov 19 05:49:51 2026] xilinx-axipmon ffa00000.perf-monitor: Probed Xilinx APM
+[Thu Nov 19 05:49:51 2026] xilinx-axipmon fd0b0000.perf-monitor: Probed Xilinx APM
+[Thu Nov 19 05:49:51 2026] xilinx-axipmon fd490000.perf-monitor: Probed Xilinx APM
+[Thu Nov 19 05:49:51 2026] xilinx-axipmon ffa10000.perf-monitor: Probed Xilinx APM
+[Thu Nov 19 05:49:51 2026] xhci-hcd xhci-hcd.1.auto: xHCI Host Controller
+[Thu Nov 19 05:49:51 2026] xhci-hcd xhci-hcd.1.auto: new USB bus registered, assigned bus number 1
+[Thu Nov 19 05:49:51 2026] xhci-hcd xhci-hcd.1.auto: hcc params 0x0238f625 hci version 0x100 quirks 0x0000000022000810
+[Thu Nov 19 05:49:51 2026] xhci-hcd xhci-hcd.1.auto: irq 46, io mem 0xfe300000
+[Thu Nov 19 05:49:51 2026] xhci-hcd xhci-hcd.1.auto: xHCI Host Controller
+[Thu Nov 19 05:49:51 2026] xhci-hcd xhci-hcd.1.auto: new USB bus registered, assigned bus number 2
+[Thu Nov 19 05:49:51 2026] xhci-hcd xhci-hcd.1.auto: Host supports USB 3.0 SuperSpeed
+[Thu Nov 19 05:49:51 2026] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.06
+[Thu Nov 19 05:49:51 2026] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Thu Nov 19 05:49:51 2026] usb usb1: Product: xHCI Host Controller
+[Thu Nov 19 05:49:51 2026] usb usb1: Manufacturer: Linux 6.6.10-xilinx-v2024.1-g0e84683a8258 xhci-hcd
+[Thu Nov 19 05:49:51 2026] usb usb1: SerialNumber: xhci-hcd.1.auto
+[Thu Nov 19 05:49:51 2026] hub 1-0:1.0: USB hub found
+[Thu Nov 19 05:49:51 2026] hub 1-0:1.0: 1 port detected
+[Thu Nov 19 05:49:51 2026] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.06
+[Thu Nov 19 05:49:51 2026] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Thu Nov 19 05:49:51 2026] usb usb2: Product: xHCI Host Controller
+[Thu Nov 19 05:49:51 2026] usb usb2: Manufacturer: Linux 6.6.10-xilinx-v2024.1-g0e84683a8258 xhci-hcd
+[Thu Nov 19 05:49:51 2026] usb usb2: SerialNumber: xhci-hcd.1.auto
+[Thu Nov 19 05:49:51 2026] hub 2-0:1.0: USB hub found
+[Thu Nov 19 05:49:51 2026] hub 2-0:1.0: 1 port detected
+[Thu Nov 19 05:49:51 2026] cdns-i2c ff020000.i2c: can't get pinctrl, bus recovery not supported
+[Thu Nov 19 05:49:51 2026] cdns-i2c ff020000.i2c: 400 kHz mmio ff020000 irq 47
+[Thu Nov 19 05:49:51 2026] cdns-i2c ff030000.i2c: can't get pinctrl, bus recovery not supported
+[Thu Nov 19 05:49:51 2026] cdns-i2c ff030000.i2c: 400 kHz mmio ff030000 irq 48
+[Thu Nov 19 05:49:51 2026] input: gpio-keys as /devices/platform/gpio-keys/input/input0
+[Thu Nov 19 05:49:51 2026] of_cfs_init
+[Thu Nov 19 05:49:51 2026] of_cfs_init: OK
+[Thu Nov 19 05:49:51 2026] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Nov 19 05:49:51 2026] mmc0: SDHCI controller on ff160000.mmc [ff160000.mmc] using ADMA 64-bit
+[Thu Nov 19 05:49:51 2026] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[Thu Nov 19 05:49:51 2026] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[Thu Nov 19 05:49:51 2026] clk: Not disabling unused clocks
+[Thu Nov 19 05:49:51 2026] ALSA device list:
+[Thu Nov 19 05:49:51 2026]   No soundcards found.
+[Thu Nov 19 05:49:51 2026] mmc0: new high speed SDXC card at address aaaa
+[Thu Nov 19 05:49:51 2026] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[Thu Nov 19 05:49:51 2026] mmcblk0: mmc0:aaaa SR128 119 GiB
+[Thu Nov 19 05:49:51 2026] cfg80211: failed to load regulatory.db
+[Thu Nov 19 05:49:51 2026]  mmcblk0: p1 p2
+[Thu Nov 19 05:49:51 2026] EXT4-fs (mmcblk0p2): recovery complete
+[Thu Nov 19 05:49:51 2026] EXT4-fs (mmcblk0p2): mounted filesystem 59e442a7-90fc-45ae-8ee3-7932fb7bcbfc r/w with ordered data mode. Quota mode: none.
+[Thu Nov 19 05:49:51 2026] VFS: Mounted root (ext4 filesystem) on device 179:2.
+[Thu Nov 19 05:49:51 2026] devtmpfs: mounted
+[Thu Nov 19 05:49:51 2026] Freeing unused kernel memory: 3008K
+[Thu Nov 19 05:49:51 2026] Run /sbin/init as init process
+[Thu Nov 19 05:49:51 2026]   with arguments:
+[Thu Nov 19 05:49:51 2026]     /sbin/init
+[Thu Nov 19 05:49:51 2026]     earlyprintk
+[Thu Nov 19 05:49:51 2026]   with environment:
+[Thu Nov 19 05:49:51 2026]     HOME=/
+[Thu Nov 19 05:49:51 2026]     TERM=linux
+[Thu Nov 19 05:49:52 2026] zynqmp-display fd4a0000.display: [drm] Cannot find any crtc or sizes
+[Thu Nov 19 05:49:52 2026] usb 2-1: new SuperSpeed USB device number 2 using xhci-hcd
+[Thu Nov 19 05:49:52 2026] usb 2-1: New USB device found, idVendor=0b95, idProduct=1790, bcdDevice= 2.00
+[Thu Nov 19 05:49:52 2026] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[Thu Nov 19 05:49:52 2026] usb 2-1: Product: AX88179B
+[Thu Nov 19 05:49:52 2026] usb 2-1: Manufacturer: ASIX
+[Thu Nov 19 05:49:52 2026] usb 2-1: SerialNumber: 00C8C214
+[Thu Nov 19 05:49:52 2026] systemd[1]: systemd 249.11-0ubuntu3 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS -OPENSSL +ACL +BLKID +CURL +ELFUTILS -FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP -LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[Thu Nov 19 05:49:52 2026] systemd[1]: Detected architecture arm64.
+[Thu Nov 19 05:49:52 2026] systemd[1]: Hostname set to <aup1>.
+[Thu Nov 19 05:49:52 2026] systemd[1]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+[Thu Nov 19 05:49:53 2026] systemd[1]: Queued start job for default target Multi-User System.
+[Thu Nov 19 05:49:55 2026] random: crng init done
+[Thu Nov 19 05:49:55 2026] systemd[1]: Created slice Slice /system/modprobe.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Created slice Slice /system/serial-getty.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Created slice User and Session Slice.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Condition check resulted in Arbitrary Executable File Formats File System Automount Point being skipped.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Reached target Local Encrypted Volumes.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Reached target Remote File Systems.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Reached target Slice Units.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Reached target Local Verity Protected Volumes.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Listening on Syslog Socket.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Listening on Journal Audit Socket.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Listening on Journal Socket (/dev/log).
+[Thu Nov 19 05:49:55 2026] systemd[1]: Listening on Journal Socket.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Listening on Network Service Netlink Socket.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Listening on udev Control Socket.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Listening on udev Kernel Socket.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Mounting Huge Pages File System...
+[Thu Nov 19 05:49:55 2026] systemd[1]: Mounting POSIX Message Queue File System...
+[Thu Nov 19 05:49:55 2026] systemd[1]: Mounting Kernel Debug File System...
+[Thu Nov 19 05:49:55 2026] systemd[1]: Condition check resulted in Kernel Trace File System being skipped.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Starting Journal Service...
+[Thu Nov 19 05:49:55 2026] systemd[1]: Starting Restore / save the current clock...
+[Thu Nov 19 05:49:55 2026] systemd[1]: Starting Set the console keyboard layout...
+[Thu Nov 19 05:49:55 2026] systemd[1]: Condition check resulted in Create List of Static Device Nodes being skipped.
+[Thu Nov 19 05:49:55 2026] systemd[1]: Starting Load Kernel Module configfs...
+[Thu Nov 19 05:49:56 2026] systemd[1]: Starting Load Kernel Module drm...
+[Thu Nov 19 05:49:56 2026] systemd[1]: Starting Load Kernel Module fuse...
+[Thu Nov 19 05:49:56 2026] systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+[Thu Nov 19 05:49:56 2026] systemd[1]: Started Nameserver information manager.
+[Thu Nov 19 05:49:56 2026] systemd[1]: Reached target Preparation for Network.
+[Thu Nov 19 05:49:56 2026] systemd[1]: Starting Load Kernel Modules...
+[Thu Nov 19 05:49:56 2026] systemd[1]: Starting Remount Root and Kernel File Systems...
+[Thu Nov 19 05:49:56 2026] systemd[1]: Starting Coldplug All udev Devices...
+[Thu Nov 19 05:49:56 2026] systemd[1]: Started Journal Service.
+[Thu Nov 19 05:49:56 2026] systemd-journald[222]: Received client request to flush runtime journal.
+[Thu Nov 19 05:49:56 2026] Adding 524284k swap on /var/swap.  Priority:-2 extents:6 across:655360k SS
+[Thu Nov 19 05:49:56 2026] systemd-journald[222]: File /var/log/journal/260fb05d7fe844f6a41c3b70f4a7958d/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[Thu Nov 19 05:49:58 2026] zocl: loading out-of-tree module taints kernel.
+[Thu Nov 19 05:49:58 2026] [drm] Probing for xlnx,zocl
+[Thu Nov 19 05:49:58 2026] zocl-drm axi:zyxclmm_drm: error -ENXIO: IRQ index 8 not found
+[Thu Nov 19 05:49:58 2026] [drm] FPGA programming device pcap founded.
+[Thu Nov 19 05:49:58 2026] [drm] PR[0] Isolation addr 0x0
+[Thu Nov 19 05:49:58 2026] [drm] Initialized zocl 2.17.0 20250828 for axi:zyxclmm_drm on minor 1
+[Thu Nov 19 05:49:58 2026] usbcore: registered new interface driver cdc_ether
+[Thu Nov 19 05:49:58 2026] cdc_ncm 2-1:2.0: MAC-Address: c8:a3:62:c8:c2:14
+[Thu Nov 19 05:49:58 2026] cdc_ncm 2-1:2.0: setting rx_max = 16384
+[Thu Nov 19 05:49:58 2026] cdc_ncm 2-1:2.0: setting tx_max = 16384
+[Thu Nov 19 05:49:58 2026] cdc_ncm 2-1:2.0 eth0: register 'cdc_ncm' at usb-xhci-hcd.1.auto-1, CDC NCM (NO ZLP), c8:a3:62:c8:c2:14
+[Thu Nov 19 05:49:58 2026] usbcore: registered new interface driver cdc_ncm
+[Thu Nov 19 05:49:58 2026] usbcore: registered new interface driver cdc_mbim
+[Thu Nov 19 05:50:00 2026] loop0: detected capacity change from 0 to 102400
+[Thu Nov 19 05:50:01 2026] Mass Storage Function, version: 2009/09/11
+[Thu Nov 19 05:50:01 2026] LUN: removable file: (no medium)
+[Thu Nov 19 05:50:01 2026] configfs-gadget.g gadget.0: HOST MAC 9e:b6:c4:f7:20:7d
+[Thu Nov 19 05:50:01 2026] configfs-gadget.g gadget.0: MAC da:c3:9f:91:c8:b1
+[Thu Nov 19 05:50:02 2026] FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[Thu Nov 19 05:50:05 2026] systemd-journald[222]: File /var/log/journal/260fb05d7fe844f6a41c3b70f4a7958d/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[Thu Nov 19 05:50:05 2026] loop0: detected capacity change from 0 to 8
+[Thu Nov 19 05:50:07 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(855), ret: 0
+[Thu Nov 19 05:50:07 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(855)
+[Thu Nov 19 05:50:10 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(855), ret: 0
+[Thu Nov 19 05:50:10 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(855)
+[Thu Nov 19 05:50:11 2026] platform fd4a0000.display:zynqmp-dp-snd-card: deferred probe pending
+[Thu Nov 19 05:50:21 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(608), ret: 0
+[Thu Nov 19 05:50:21 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(447), ret: 0
+[Thu Nov 19 05:50:21 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(447)
+[Thu Nov 19 05:50:21 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(608)
+[Thu Nov 19 05:50:21 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(447), ret: 0
+[Thu Nov 19 05:50:21 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(608), ret: 0
+[Thu Nov 19 05:50:23 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(608)
+[Thu Nov 19 05:50:26 2026] fpga_manager fpga0: writing <OTHER_PL_IMAGE>.bin to Xilinx ZynqMP FPGA Manager
+[Thu Nov 19 05:50:26 2026] [drm] Loading xclbin 30251f18-15ee-4ddb-bc69-2fa270d9d47c to slot 0
+[Thu Nov 19 05:50:26 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Thu Nov 19 05:50:26 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Thu Nov 19 05:50:26 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Thu Nov 19 05:50:26 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Thu Nov 19 05:50:26 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Thu Nov 19 05:50:26 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Thu Nov 19 05:50:26 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Thu Nov 19 05:50:26 2026] [drm] zocl_xclbin_read_axlf 30251f18-15ee-4ddb-bc69-2fa270d9d47c ret: 0
+[Thu Nov 19 05:50:26 2026] [drm] bitstream 30251f18-15ee-4ddb-bc69-2fa270d9d47c locked, ref=1
+[Thu Nov 19 05:50:26 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(447) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 05:50:26 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(447) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 05:50:26 2026] [drm] bitstream 30251f18-15ee-4ddb-bc69-2fa270d9d47c unlocked, ref=0
+[Thu Nov 19 05:50:39 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1509), ret: 0
+[Thu Nov 19 05:50:39 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1509)
+[Thu Nov 19 05:50:39 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1509), ret: 0
+[Thu Nov 19 05:50:39 2026] [drm] bitstream 30251f18-15ee-4ddb-bc69-2fa270d9d47c locked, ref=1
+[Thu Nov 19 05:50:39 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1509) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 05:50:39 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1509) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 05:50:39 2026] [drm] bitstream 30251f18-15ee-4ddb-bc69-2fa270d9d47c unlocked, ref=0
+[Thu Nov 19 05:50:41 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1579), ret: 0
+[Thu Nov 19 05:50:41 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1579)
+[Thu Nov 19 05:50:41 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1579), ret: 0
+[Thu Nov 19 05:50:41 2026] [drm] bitstream 30251f18-15ee-4ddb-bc69-2fa270d9d47c locked, ref=1
+[Thu Nov 19 05:50:41 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1579) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 05:50:41 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1579) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 05:50:41 2026] [drm] bitstream 30251f18-15ee-4ddb-bc69-2fa270d9d47c unlocked, ref=0
+[Thu Nov 19 05:50:43 2026] fpga_manager fpga0: writing <OTHER_PL_IMAGE>.bin to Xilinx ZynqMP FPGA Manager
+[Thu Nov 19 05:50:43 2026] [drm] Loading xclbin d4035582-4a2e-2376-f546-c74a957a6796 to slot 0
+[Thu Nov 19 05:50:43 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Thu Nov 19 05:50:43 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Thu Nov 19 05:50:43 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Thu Nov 19 05:50:43 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Thu Nov 19 05:50:43 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Thu Nov 19 05:50:43 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Thu Nov 19 05:50:43 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Thu Nov 19 05:50:43 2026] [drm] zocl_xclbin_read_axlf d4035582-4a2e-2376-f546-c74a957a6796 ret: 0
+[Thu Nov 19 05:50:43 2026] [drm] bitstream d4035582-4a2e-2376-f546-c74a957a6796 locked, ref=1
+[Thu Nov 19 05:50:43 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1509) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 05:50:43 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1509) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 05:50:43 2026] [drm] bitstream d4035582-4a2e-2376-f546-c74a957a6796 unlocked, ref=0
+[Thu Nov 19 05:50:44 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1579)
+[Thu Nov 19 06:03:59 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(34912), ret: 0
+[Thu Nov 19 06:03:59 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(34912)
+[Thu Nov 19 06:03:59 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(34912), ret: 0
+[Thu Nov 19 06:03:59 2026] [drm] bitstream d4035582-4a2e-2376-f546-c74a957a6796 locked, ref=1
+[Thu Nov 19 06:03:59 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(34912) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 06:03:59 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(34912) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 06:03:59 2026] [drm] bitstream d4035582-4a2e-2376-f546-c74a957a6796 unlocked, ref=0
+[Thu Nov 19 06:03:59 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(34912)
+[Thu Nov 19 06:06:13 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(447)
+[Thu Nov 19 06:06:13 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1509)
+[Thu Nov 19 06:06:23 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(40513), ret: 0
+[Thu Nov 19 06:06:23 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(40513)
+[Thu Nov 19 06:06:23 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(40513), ret: 0
+[Thu Nov 19 06:06:23 2026] [drm] bitstream d4035582-4a2e-2376-f546-c74a957a6796 locked, ref=1
+[Thu Nov 19 06:06:23 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(40513) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 06:06:23 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(40513) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 06:06:23 2026] [drm] bitstream d4035582-4a2e-2376-f546-c74a957a6796 unlocked, ref=0
+[Thu Nov 19 06:06:23 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(40513)
+[Thu Nov 19 06:06:42 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(40802), ret: 0
+[Thu Nov 19 06:06:42 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(40802)
+[Thu Nov 19 06:06:42 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(40802), ret: 0
+[Thu Nov 19 06:06:42 2026] [drm] bitstream d4035582-4a2e-2376-f546-c74a957a6796 locked, ref=1
+[Thu Nov 19 06:06:42 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(40802) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 06:06:42 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(40802) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 06:06:42 2026] [drm] bitstream d4035582-4a2e-2376-f546-c74a957a6796 unlocked, ref=0
+[Thu Nov 19 06:06:47 2026] fpga_manager fpga0: writing wepwawet_stage7f_333MHz.bin to Xilinx ZynqMP FPGA Manager
+[Thu Nov 19 06:06:47 2026] [drm] Loading xclbin 875c84a9-567b-0d9a-b1da-ef07112f7679 to slot 0
+[Thu Nov 19 06:06:47 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Thu Nov 19 06:06:47 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Thu Nov 19 06:06:47 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Thu Nov 19 06:06:47 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Thu Nov 19 06:06:47 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Thu Nov 19 06:06:47 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Thu Nov 19 06:06:47 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Thu Nov 19 06:06:47 2026] [drm] zocl_xclbin_read_axlf 875c84a9-567b-0d9a-b1da-ef07112f7679 ret: 0
+[Thu Nov 19 06:06:47 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 06:06:47 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(40802) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 06:06:47 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(40802) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 06:06:47 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 06:06:50 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(40802)
+[Thu Nov 19 06:12:36 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(50866), ret: 0
+[Thu Nov 19 06:12:36 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(50866)
+[Thu Nov 19 06:12:36 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(50866), ret: 0
+[Thu Nov 19 06:12:36 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 06:12:36 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(50866) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 06:12:36 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(50866) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 06:12:36 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 06:12:39 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(50866)
+[Thu Nov 19 06:12:45 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(51297), ret: 0
+[Thu Nov 19 06:12:45 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(51297)
+[Thu Nov 19 06:12:45 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(51297), ret: 0
+[Thu Nov 19 06:12:45 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 06:12:45 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(51297) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 06:12:45 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(51297) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 06:12:45 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 06:12:47 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(51297)
+[Thu Nov 19 06:19:49 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(63537), ret: 0
+[Thu Nov 19 06:19:49 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(63537)
+[Thu Nov 19 06:19:49 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(63537), ret: 0
+[Thu Nov 19 06:19:49 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 06:19:49 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(63537) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 06:19:49 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(63537) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 06:19:49 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 06:19:52 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(63537)
+[Thu Nov 19 07:56:36 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(230504), ret: 0
+[Thu Nov 19 07:56:36 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(230504)
+[Thu Nov 19 07:56:36 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(230504), ret: 0
+[Thu Nov 19 07:56:36 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 07:56:36 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(230504) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 07:56:36 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(230504) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 07:56:36 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 07:56:38 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(230504)
+[Thu Nov 19 07:58:52 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(234145), ret: 0
+[Thu Nov 19 07:58:52 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(234145)
+[Thu Nov 19 07:58:52 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(234145), ret: 0
+[Thu Nov 19 07:58:52 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 07:58:52 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(234145) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 07:58:52 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(234145) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 07:58:52 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 07:58:54 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(234145)
+[Thu Nov 19 08:09:12 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(250994), ret: 0
+[Thu Nov 19 08:09:12 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(250994)
+[Thu Nov 19 08:09:12 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(250994), ret: 0
+[Thu Nov 19 08:09:12 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:09:12 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(250994) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:09:12 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(250994) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:09:12 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:09:14 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(250994)
+[Thu Nov 19 08:10:10 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(252626), ret: 0
+[Thu Nov 19 08:10:10 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(252626)
+[Thu Nov 19 08:10:10 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(252626), ret: 0
+[Thu Nov 19 08:10:10 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:10:10 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(252626) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:10:10 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(252626) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:10:10 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:10:13 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(252626)
+[Thu Nov 19 08:16:39 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(264657), ret: 0
+[Thu Nov 19 08:16:39 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(264657)
+[Thu Nov 19 08:16:39 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(264657), ret: 0
+[Thu Nov 19 08:16:39 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:16:39 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(264657) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:16:39 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(264657) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:16:39 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:16:41 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(264657)
+[Thu Nov 19 08:18:48 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(268527), ret: 0
+[Thu Nov 19 08:18:48 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(268527)
+[Thu Nov 19 08:18:48 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(268527), ret: 0
+[Thu Nov 19 08:18:48 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:18:48 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(268527) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:18:48 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(268527) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:18:48 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:18:49 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(268527)
+[Thu Nov 19 08:27:49 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(284590), ret: 0
+[Thu Nov 19 08:27:49 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(284590)
+[Thu Nov 19 08:27:49 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(284590), ret: 0
+[Thu Nov 19 08:27:49 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:27:49 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(284590) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:27:49 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(284590) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:27:49 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:27:51 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(284590)
+[Thu Nov 19 08:43:17 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(310862), ret: 0
+[Thu Nov 19 08:43:17 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(310862)
+[Thu Nov 19 08:43:17 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(310862), ret: 0
+[Thu Nov 19 08:43:17 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:43:17 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(310862) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:43:17 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(310862) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:43:17 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:43:19 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(310862)
+[Thu Nov 19 08:46:46 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(316606), ret: 0
+[Thu Nov 19 08:46:46 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(316606)
+[Thu Nov 19 08:46:46 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(316606), ret: 0
+[Thu Nov 19 08:46:46 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:46:46 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(316606) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:46:46 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(316606) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:46:46 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:46:49 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(316606)
+[Thu Nov 19 08:46:56 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(316974), ret: 0
+[Thu Nov 19 08:46:56 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(316974)
+[Thu Nov 19 08:46:56 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(316974), ret: 0
+[Thu Nov 19 08:46:56 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:46:56 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(316974) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:46:56 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(316974) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:46:56 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:46:59 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(316974)
+[Thu Nov 19 08:58:45 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(337204), ret: 0
+[Thu Nov 19 08:58:45 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(337204)
+[Thu Nov 19 08:58:45 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(337204), ret: 0
+[Thu Nov 19 08:58:45 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 08:58:45 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(337204) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 08:58:45 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(337204) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 08:58:45 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 08:58:47 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(337204)
+[Thu Nov 19 22:15:38 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1699467), ret: 0
+[Thu Nov 19 22:15:38 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1699467)
+[Thu Nov 19 22:15:38 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1699467), ret: 0
+[Thu Nov 19 22:15:38 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 22:15:38 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1699467) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 22:15:38 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1699467) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 22:15:38 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 22:15:40 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1699467)
+[Thu Nov 19 22:21:06 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1708797), ret: 0
+[Thu Nov 19 22:21:06 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1708797)
+[Thu Nov 19 22:21:06 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1708797), ret: 0
+[Thu Nov 19 22:21:06 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 22:21:06 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1708797) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 22:21:06 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1708797) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 22:21:06 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 22:21:06 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1708797)
+[Thu Nov 19 22:21:12 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1709135), ret: 0
+[Thu Nov 19 22:21:12 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1709135)
+[Thu Nov 19 22:21:12 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1709135), ret: 0
+[Thu Nov 19 22:21:12 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 locked, ref=1
+[Thu Nov 19 22:21:12 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1709135) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 22:21:12 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1709135) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 22:21:12 2026] [drm] bitstream 875c84a9-567b-0d9a-b1da-ef07112f7679 unlocked, ref=0
+[Thu Nov 19 22:21:16 2026] fpga_manager fpga0: writing wepwawet_stage8.bin to Xilinx ZynqMP FPGA Manager
+[Thu Nov 19 22:21:17 2026] [drm] Loading xclbin 3905fdd4-c090-363b-d773-8127d067c9f6 to slot 0
+[Thu Nov 19 22:21:17 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Thu Nov 19 22:21:17 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Thu Nov 19 22:21:17 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Thu Nov 19 22:21:17 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Thu Nov 19 22:21:17 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Thu Nov 19 22:21:17 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Thu Nov 19 22:21:17 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Thu Nov 19 22:21:17 2026] [drm] zocl_xclbin_read_axlf 3905fdd4-c090-363b-d773-8127d067c9f6 ret: 0
+[Thu Nov 19 22:21:17 2026] [drm] bitstream 3905fdd4-c090-363b-d773-8127d067c9f6 locked, ref=1
+[Thu Nov 19 22:21:17 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1709135) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 22:21:17 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1709135) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 22:21:17 2026] [drm] bitstream 3905fdd4-c090-363b-d773-8127d067c9f6 unlocked, ref=0
+[Thu Nov 19 22:21:18 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1709135)
+[Thu Nov 19 22:31:42 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1726897), ret: 0
+[Thu Nov 19 22:31:42 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1726897)
+[Thu Nov 19 22:31:42 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1726897), ret: 0
+[Thu Nov 19 22:31:42 2026] [drm] bitstream 3905fdd4-c090-363b-d773-8127d067c9f6 locked, ref=1
+[Thu Nov 19 22:31:42 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1726897) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 22:31:42 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1726897) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 22:31:42 2026] [drm] bitstream 3905fdd4-c090-363b-d773-8127d067c9f6 unlocked, ref=0
+[Thu Nov 19 22:31:44 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1726897)
+[Thu Nov 19 22:33:10 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1729159), ret: 0
+[Thu Nov 19 22:33:10 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1729159)
+[Thu Nov 19 22:33:10 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1729159), ret: 0
+[Thu Nov 19 22:33:10 2026] [drm] bitstream 3905fdd4-c090-363b-d773-8127d067c9f6 locked, ref=1
+[Thu Nov 19 22:33:10 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1729159) add context Domain(65535) CU(0xffff) shared(true)
+[Thu Nov 19 22:33:10 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1729159) del context Domain(65535) CU(0xffff)
+[Thu Nov 19 22:33:10 2026] [drm] bitstream 3905fdd4-c090-363b-d773-8127d067c9f6 unlocked, ref=0
+[Thu Nov 19 22:33:13 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1729159)
+[Sun Nov 22 04:24:28 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(2948640), ret: 0
+[Sun Nov 22 04:24:28 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(2948640)
+[Sun Nov 22 04:24:28 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(2948640), ret: 0
+[Sun Nov 22 04:24:28 2026] [drm] bitstream 3905fdd4-c090-363b-d773-8127d067c9f6 locked, ref=1
+[Sun Nov 22 04:24:28 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(2948640) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 04:24:28 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(2948640) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 04:24:28 2026] [drm] bitstream 3905fdd4-c090-363b-d773-8127d067c9f6 unlocked, ref=0
+[Sun Nov 22 04:24:29 2026] fpga_manager fpga0: writing wepwawet_sign_v5.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 04:24:31 2026] [drm] Loading xclbin 278b24af-fc16-bb74-d722-7072deab56a1 to slot 0
+[Sun Nov 22 04:24:31 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 04:24:31 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 04:24:31 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 04:24:31 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 04:24:31 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 04:24:31 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 04:24:31 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 04:24:31 2026] [drm] zocl_xclbin_read_axlf 278b24af-fc16-bb74-d722-7072deab56a1 ret: 0
+[Sun Nov 22 04:24:31 2026] [drm] bitstream 278b24af-fc16-bb74-d722-7072deab56a1 locked, ref=1
+[Sun Nov 22 04:24:31 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(2948640) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 04:24:31 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(2948640) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 04:24:31 2026] [drm] bitstream 278b24af-fc16-bb74-d722-7072deab56a1 unlocked, ref=0
+[Sun Nov 22 04:24:54 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(2948640)
+[Sun Nov 22 04:27:59 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(2954729), ret: 0
+[Sun Nov 22 04:27:59 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(2954729)
+[Sun Nov 22 04:27:59 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(2954729), ret: 0
+[Sun Nov 22 04:27:59 2026] [drm] bitstream 278b24af-fc16-bb74-d722-7072deab56a1 locked, ref=1
+[Sun Nov 22 04:27:59 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(2954729) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 04:27:59 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(2954729) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 04:27:59 2026] [drm] bitstream 278b24af-fc16-bb74-d722-7072deab56a1 unlocked, ref=0
+[Sun Nov 22 04:28:00 2026] fpga_manager fpga0: writing wepwawet_sign_v5.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 04:28:00 2026] [drm] Loading xclbin 61db9469-7758-9c76-69c6-e489adc5d95e to slot 0
+[Sun Nov 22 04:28:00 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 04:28:00 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 04:28:00 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 04:28:00 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 04:28:00 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 04:28:00 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 04:28:00 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 04:28:00 2026] [drm] zocl_xclbin_read_axlf 61db9469-7758-9c76-69c6-e489adc5d95e ret: 0
+[Sun Nov 22 04:28:00 2026] [drm] bitstream 61db9469-7758-9c76-69c6-e489adc5d95e locked, ref=1
+[Sun Nov 22 04:28:00 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(2954729) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 04:28:00 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(2954729) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 04:28:00 2026] [drm] bitstream 61db9469-7758-9c76-69c6-e489adc5d95e unlocked, ref=0
+[Sun Nov 22 04:28:07 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(2954729)
+[Sun Nov 22 05:16:30 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3035435), ret: 0
+[Sun Nov 22 05:16:30 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3035435)
+[Sun Nov 22 05:16:30 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3035435), ret: 0
+[Sun Nov 22 05:16:30 2026] [drm] bitstream 61db9469-7758-9c76-69c6-e489adc5d95e locked, ref=1
+[Sun Nov 22 05:16:30 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3035435) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 05:16:30 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3035435) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 05:16:30 2026] [drm] bitstream 61db9469-7758-9c76-69c6-e489adc5d95e unlocked, ref=0
+[Sun Nov 22 05:16:31 2026] fpga_manager fpga0: writing wepwawet_sign_v6.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 05:16:31 2026] [drm] Loading xclbin 8a1a1f49-e725-91e4-caec-163b36d4c367 to slot 0
+[Sun Nov 22 05:16:31 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 05:16:31 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 05:16:31 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 05:16:31 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 05:16:31 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 05:16:31 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 05:16:31 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 05:16:31 2026] [drm] zocl_xclbin_read_axlf 8a1a1f49-e725-91e4-caec-163b36d4c367 ret: 0
+[Sun Nov 22 05:16:31 2026] [drm] bitstream 8a1a1f49-e725-91e4-caec-163b36d4c367 locked, ref=1
+[Sun Nov 22 05:16:31 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3035435) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 05:16:31 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3035435) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 05:16:31 2026] [drm] bitstream 8a1a1f49-e725-91e4-caec-163b36d4c367 unlocked, ref=0
+[Sun Nov 22 05:16:32 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3035435)
+[Sun Nov 22 05:50:56 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3097056), ret: 0
+[Sun Nov 22 05:50:56 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3097056)
+[Sun Nov 22 05:50:56 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3097056), ret: 0
+[Sun Nov 22 05:50:56 2026] [drm] bitstream 8a1a1f49-e725-91e4-caec-163b36d4c367 locked, ref=1
+[Sun Nov 22 05:50:56 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3097056) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 05:50:56 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3097056) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 05:50:56 2026] [drm] bitstream 8a1a1f49-e725-91e4-caec-163b36d4c367 unlocked, ref=0
+[Sun Nov 22 05:50:57 2026] fpga_manager fpga0: writing wepwawet_sign_v6.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 05:50:58 2026] [drm] Loading xclbin e1cff14e-0b3a-ed92-fa96-7509c2fa15cc to slot 0
+[Sun Nov 22 05:50:58 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 05:50:58 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 05:50:58 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 05:50:58 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 05:50:58 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 05:50:58 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 05:50:58 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 05:50:58 2026] [drm] zocl_xclbin_read_axlf e1cff14e-0b3a-ed92-fa96-7509c2fa15cc ret: 0
+[Sun Nov 22 05:50:58 2026] [drm] bitstream e1cff14e-0b3a-ed92-fa96-7509c2fa15cc locked, ref=1
+[Sun Nov 22 05:50:58 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3097056) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 05:50:58 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3097056) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 05:50:58 2026] [drm] bitstream e1cff14e-0b3a-ed92-fa96-7509c2fa15cc unlocked, ref=0
+[Sun Nov 22 05:50:59 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3097056)
+[Sun Nov 22 06:06:14 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3123435), ret: 0
+[Sun Nov 22 06:06:14 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3123435)
+[Sun Nov 22 06:06:14 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3123435), ret: 0
+[Sun Nov 22 06:06:14 2026] [drm] bitstream e1cff14e-0b3a-ed92-fa96-7509c2fa15cc locked, ref=1
+[Sun Nov 22 06:06:14 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3123435) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 06:06:14 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3123435) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 06:06:14 2026] [drm] bitstream e1cff14e-0b3a-ed92-fa96-7509c2fa15cc unlocked, ref=0
+[Sun Nov 22 06:06:34 2026] fpga_manager fpga0: writing wepwawet_sign_v6.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 06:06:34 2026] [drm] Loading xclbin bc88fc6e-3488-f094-af7e-aaa05ac3411e to slot 0
+[Sun Nov 22 06:06:34 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 06:06:34 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 06:06:34 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 06:06:34 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 06:06:34 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 06:06:34 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 06:06:34 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 06:06:34 2026] [drm] zocl_xclbin_read_axlf bc88fc6e-3488-f094-af7e-aaa05ac3411e ret: 0
+[Sun Nov 22 06:06:34 2026] [drm] bitstream bc88fc6e-3488-f094-af7e-aaa05ac3411e locked, ref=1
+[Sun Nov 22 06:06:34 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3123435) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 06:06:34 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3123435) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 06:06:34 2026] [drm] bitstream bc88fc6e-3488-f094-af7e-aaa05ac3411e unlocked, ref=0
+[Sun Nov 22 06:06:35 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3123435)
+[Sun Nov 22 06:12:08 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3132562), ret: 0
+[Sun Nov 22 06:12:08 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3132562)
+[Sun Nov 22 06:12:08 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3132562), ret: 0
+[Sun Nov 22 06:12:08 2026] [drm] bitstream bc88fc6e-3488-f094-af7e-aaa05ac3411e locked, ref=1
+[Sun Nov 22 06:12:08 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3132562) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 06:12:08 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3132562) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 06:12:08 2026] [drm] bitstream bc88fc6e-3488-f094-af7e-aaa05ac3411e unlocked, ref=0
+[Sun Nov 22 06:12:09 2026] fpga_manager fpga0: writing wepwawet_sign_v6.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 06:12:09 2026] [drm] Loading xclbin 77429741-f30d-67ca-b639-cda1732a74ed to slot 0
+[Sun Nov 22 06:12:09 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 06:12:09 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 06:12:09 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 06:12:09 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 06:12:09 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 06:12:09 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 06:12:09 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 06:12:09 2026] [drm] zocl_xclbin_read_axlf 77429741-f30d-67ca-b639-cda1732a74ed ret: 0
+[Sun Nov 22 06:12:09 2026] [drm] bitstream 77429741-f30d-67ca-b639-cda1732a74ed locked, ref=1
+[Sun Nov 22 06:12:09 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3132562) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 06:12:09 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3132562) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 06:12:09 2026] [drm] bitstream 77429741-f30d-67ca-b639-cda1732a74ed unlocked, ref=0
+[Sun Nov 22 06:12:11 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3132562)
+[Sun Nov 22 07:28:51 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3258635), ret: 0
+[Sun Nov 22 07:28:51 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3258635)
+[Sun Nov 22 07:28:51 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3258635), ret: 0
+[Sun Nov 22 07:28:51 2026] [drm] bitstream 77429741-f30d-67ca-b639-cda1732a74ed locked, ref=1
+[Sun Nov 22 07:28:51 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3258635) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 07:28:51 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3258635) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 07:28:51 2026] [drm] bitstream 77429741-f30d-67ca-b639-cda1732a74ed unlocked, ref=0
+[Sun Nov 22 07:28:53 2026] fpga_manager fpga0: writing wepwawet_sign_v7.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 07:28:53 2026] [drm] Loading xclbin a78c8c0d-f0c3-abbc-d422-6d1db8768909 to slot 0
+[Sun Nov 22 07:28:53 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 07:28:53 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 07:28:53 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 07:28:53 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 07:28:53 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 07:28:53 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 07:28:53 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 07:28:53 2026] [drm] zocl_xclbin_read_axlf a78c8c0d-f0c3-abbc-d422-6d1db8768909 ret: 0
+[Sun Nov 22 07:28:53 2026] [drm] bitstream a78c8c0d-f0c3-abbc-d422-6d1db8768909 locked, ref=1
+[Sun Nov 22 07:28:53 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3258635) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 07:28:53 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3258635) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 07:28:53 2026] [drm] bitstream a78c8c0d-f0c3-abbc-d422-6d1db8768909 unlocked, ref=0
+[Sun Nov 22 07:28:54 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3258635)
+[Sun Nov 22 07:42:24 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3283739), ret: 0
+[Sun Nov 22 07:42:24 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3283739)
+[Sun Nov 22 07:42:24 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3283739), ret: 0
+[Sun Nov 22 07:42:24 2026] [drm] bitstream a78c8c0d-f0c3-abbc-d422-6d1db8768909 locked, ref=1
+[Sun Nov 22 07:42:24 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3283739) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 07:42:24 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3283739) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 07:42:24 2026] [drm] bitstream a78c8c0d-f0c3-abbc-d422-6d1db8768909 unlocked, ref=0
+[Sun Nov 22 07:42:25 2026] fpga_manager fpga0: writing wepwawet_sign_v7.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 07:42:26 2026] [drm] Loading xclbin 8d82e770-4488-d7e4-7659-7871b566ded8 to slot 0
+[Sun Nov 22 07:42:26 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 07:42:26 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 07:42:26 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 07:42:26 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 07:42:26 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 07:42:26 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 07:42:26 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 07:42:26 2026] [drm] zocl_xclbin_read_axlf 8d82e770-4488-d7e4-7659-7871b566ded8 ret: 0
+[Sun Nov 22 07:42:26 2026] [drm] bitstream 8d82e770-4488-d7e4-7659-7871b566ded8 locked, ref=1
+[Sun Nov 22 07:42:26 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3283739) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 07:42:26 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3283739) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 07:42:26 2026] [drm] bitstream 8d82e770-4488-d7e4-7659-7871b566ded8 unlocked, ref=0
+[Sun Nov 22 07:42:27 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3283739)
+[Sun Nov 22 07:46:22 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3290568), ret: 0
+[Sun Nov 22 07:46:22 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3290568)
+[Sun Nov 22 07:46:22 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3290568), ret: 0
+[Sun Nov 22 07:46:22 2026] [drm] bitstream 8d82e770-4488-d7e4-7659-7871b566ded8 locked, ref=1
+[Sun Nov 22 07:46:22 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3290568) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 07:46:22 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3290568) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 07:46:22 2026] [drm] bitstream 8d82e770-4488-d7e4-7659-7871b566ded8 unlocked, ref=0
+[Sun Nov 22 07:46:23 2026] fpga_manager fpga0: writing wepwawet_sign_v7.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 07:46:24 2026] [drm] Loading xclbin 98133fc9-2890-0036-eb4c-97ce13fcf868 to slot 0
+[Sun Nov 22 07:46:24 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 07:46:24 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 07:46:24 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 07:46:24 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 07:46:24 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 07:46:24 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 07:46:24 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 07:46:24 2026] [drm] zocl_xclbin_read_axlf 98133fc9-2890-0036-eb4c-97ce13fcf868 ret: 0
+[Sun Nov 22 07:46:24 2026] [drm] bitstream 98133fc9-2890-0036-eb4c-97ce13fcf868 locked, ref=1
+[Sun Nov 22 07:46:24 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3290568) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 07:46:24 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3290568) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 07:46:24 2026] [drm] bitstream 98133fc9-2890-0036-eb4c-97ce13fcf868 unlocked, ref=0
+[Sun Nov 22 07:46:25 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3290568)
+[Sun Nov 22 07:50:12 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3297074), ret: 0
+[Sun Nov 22 07:50:12 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3297074)
+[Sun Nov 22 07:50:12 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(3297074), ret: 0
+[Sun Nov 22 07:50:12 2026] [drm] bitstream 98133fc9-2890-0036-eb4c-97ce13fcf868 locked, ref=1
+[Sun Nov 22 07:50:12 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3297074) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 07:50:12 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3297074) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 07:50:12 2026] [drm] bitstream 98133fc9-2890-0036-eb4c-97ce13fcf868 unlocked, ref=0
+[Sun Nov 22 07:50:13 2026] fpga_manager fpga0: writing wepwawet_sign_v7.bin to Xilinx ZynqMP FPGA Manager
+[Sun Nov 22 07:50:13 2026] [drm] Loading xclbin 011da3f8-cd16-5490-9493-563b6135a6be to slot 0
+[Sun Nov 22 07:50:13 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Sun Nov 22 07:50:13 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Sun Nov 22 07:50:13 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Sun Nov 22 07:50:13 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Sun Nov 22 07:50:13 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Sun Nov 22 07:50:13 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Sun Nov 22 07:50:13 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Sun Nov 22 07:50:13 2026] [drm] zocl_xclbin_read_axlf 011da3f8-cd16-5490-9493-563b6135a6be ret: 0
+[Sun Nov 22 07:50:13 2026] [drm] bitstream 011da3f8-cd16-5490-9493-563b6135a6be locked, ref=1
+[Sun Nov 22 07:50:13 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(3297074) add context Domain(65535) CU(0xffff) shared(true)
+[Sun Nov 22 07:50:13 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(3297074) del context Domain(65535) CU(0xffff)
+[Sun Nov 22 07:50:13 2026] [drm] bitstream 011da3f8-cd16-5490-9493-563b6135a6be unlocked, ref=0
+[Sun Nov 22 07:50:14 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(3297074)
+[Mon Nov 23 01:08:37 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1064656), ret: 0
+[Mon Nov 23 01:08:37 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1064656)
+[Mon Nov 23 01:08:37 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1064656), ret: 0
+[Mon Nov 23 01:08:37 2026] [drm] bitstream 011da3f8-cd16-5490-9493-563b6135a6be locked, ref=1
+[Mon Nov 23 01:08:37 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1064656) add context Domain(65535) CU(0xffff) shared(true)
+[Mon Nov 23 01:08:37 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1064656) del context Domain(65535) CU(0xffff)
+[Mon Nov 23 01:08:37 2026] [drm] bitstream 011da3f8-cd16-5490-9493-563b6135a6be unlocked, ref=0
+[Mon Nov 23 01:08:51 2026] fpga_manager fpga0: writing wepwawet_sign_v8.bin to Xilinx ZynqMP FPGA Manager
+[Mon Nov 23 01:08:52 2026] [drm] Loading xclbin 44103fb2-596d-9d5b-d870-e962ff69647c to slot 0
+[Mon Nov 23 01:08:52 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Mon Nov 23 01:08:52 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Mon Nov 23 01:08:52 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Mon Nov 23 01:08:52 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Mon Nov 23 01:08:52 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Mon Nov 23 01:08:52 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Mon Nov 23 01:08:52 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Mon Nov 23 01:08:52 2026] [drm] zocl_xclbin_read_axlf 44103fb2-596d-9d5b-d870-e962ff69647c ret: 0
+[Mon Nov 23 01:08:52 2026] [drm] bitstream 44103fb2-596d-9d5b-d870-e962ff69647c locked, ref=1
+[Mon Nov 23 01:08:52 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1064656) add context Domain(65535) CU(0xffff) shared(true)
+[Mon Nov 23 01:08:52 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1064656) del context Domain(65535) CU(0xffff)
+[Mon Nov 23 01:08:52 2026] [drm] bitstream 44103fb2-596d-9d5b-d870-e962ff69647c unlocked, ref=0
+[Mon Nov 23 01:08:53 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1064656)
+[Mon Nov 23 01:53:17 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1187494), ret: 0
+[Mon Nov 23 01:53:17 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1187494)
+[Mon Nov 23 01:53:17 2026] zocl-drm axi:zyxclmm_drm: zocl_create_client: created KDS client for pid(1187494), ret: 0
+[Mon Nov 23 01:53:17 2026] [drm] bitstream 44103fb2-596d-9d5b-d870-e962ff69647c locked, ref=1
+[Mon Nov 23 01:53:17 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1187494) add context Domain(65535) CU(0xffff) shared(true)
+[Mon Nov 23 01:53:17 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1187494) del context Domain(65535) CU(0xffff)
+[Mon Nov 23 01:53:17 2026] [drm] bitstream 44103fb2-596d-9d5b-d870-e962ff69647c unlocked, ref=0
+[Mon Nov 23 01:53:19 2026] fpga_manager fpga0: writing wepwawet_sign_v8.bin to Xilinx ZynqMP FPGA Manager
+[Mon Nov 23 01:53:19 2026] [drm] Loading xclbin 9b41a920-fe1a-aef3-90b9-af908ba14a50 to slot 0
+[Mon Nov 23 01:53:19 2026] [drm] skip kind 29(AIE_RESOURCES) return code: -22
+[Mon Nov 23 01:53:19 2026] [drm] skip kind 8(IP_LAYOUT) return code: -22
+[Mon Nov 23 01:53:19 2026] [drm] skip kind 9(DEBUG_IP_LAYOUT) return code: -22
+[Mon Nov 23 01:53:19 2026] [drm] skip kind 25(AIE_METADATA) return code: -22
+[Mon Nov 23 01:53:19 2026] [drm] skip kind 7(CONNECTIVITY) return code: -22
+[Mon Nov 23 01:53:19 2026] [drm] found kind 6(MEM_TOPOLOGY)
+[Mon Nov 23 01:53:19 2026] [drm] Memory 0 is not reserved in device tree. Will allocate memory from CMA
+[Mon Nov 23 01:53:19 2026] [drm] zocl_xclbin_read_axlf 9b41a920-fe1a-aef3-90b9-af908ba14a50 ret: 0
+[Mon Nov 23 01:53:19 2026] [drm] bitstream 9b41a920-fe1a-aef3-90b9-af908ba14a50 locked, ref=1
+[Mon Nov 23 01:53:19 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_add_context: Client pid(1187494) add context Domain(65535) CU(0xffff) shared(true)
+[Mon Nov 23 01:53:19 2026] zocl-drm axi:zyxclmm_drm:  ffff00080012b810 kds_del_context: Client pid(1187494) del context Domain(65535) CU(0xffff)
+[Mon Nov 23 01:53:19 2026] [drm] bitstream 9b41a920-fe1a-aef3-90b9-af908ba14a50 unlocked, ref=0
+[Mon Nov 23 01:53:20 2026] zocl-drm axi:zyxclmm_drm: zocl_destroy_client: client exits pid(1187494)

@@ -1,0 +1,2 @@
+raw==TRNG words[-32:]=True (consumed 64)  xi==SHAKE256(raw)=True  PQClean KeyGen(xi).pk==PL pk=True
+P3_DERIVATION PASS

@@ -1,0 +1,48 @@
+E LAUNCH_SIGN resp=0
+E BUSY_RD_S1 tag=sign1 resp=2 data=00000000
+E BUSY_RD_Y tag=sign1 resp=2 data=00000000
+E BUSY_RD_Z tag=sign1 resp=2 data=00000000
+E BUSY_RD_B2 tag=sign1 resp=2 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=0 resp=0 data=de940e2b
+E BUSY_RD_SEEDREG tag=sign1 i=1 resp=0 data=494de546
+E BUSY_RD_SEEDREG tag=sign1 i=2 resp=0 data=1688e8c0
+E BUSY_RD_SEEDREG tag=sign1 i=3 resp=0 data=05612f3b
+E BUSY_RD_SEEDREG tag=sign1 i=4 resp=0 data=ff4f7df9
+E BUSY_RD_SEEDREG tag=sign1 i=5 resp=0 data=f4cc3131
+E BUSY_RD_SEEDREG tag=sign1 i=6 resp=0 data=b61561ae
+E BUSY_RD_SEEDREG tag=sign1 i=7 resp=0 data=b2fe7eb4
+E BUSY_RD_SEEDREG tag=sign1 i=8 resp=0 data=7db85a47
+E BUSY_RD_SEEDREG tag=sign1 i=9 resp=0 data=52c09f36
+E BUSY_RD_SEEDREG tag=sign1 i=10 resp=0 data=41624a4a
+E BUSY_RD_SEEDREG tag=sign1 i=11 resp=0 data=e55682e2
+E BUSY_RD_SEEDREG tag=sign1 i=12 resp=0 data=5061db3f
+E BUSY_RD_SEEDREG tag=sign1 i=13 resp=0 data=89891dc0
+E BUSY_RD_SEEDREG tag=sign1 i=14 resp=0 data=ffbd5619
+E BUSY_RD_SEEDREG tag=sign1 i=15 resp=0 data=50b512bb
+E BUSY_WR_MU_LO tag=sign1 resp=2
+E BUSY_WR_MU_HI tag=sign1 resp=2
+E BUSY_WR_SEEDREG tag=sign1 resp=2
+E BUSY_WR_RHOREG tag=sign1 resp=2
+E BUSY_RELAUNCH_SIGN tag=sign1 resp=2
+E BUSY_RELAUNCH_VERIFY tag=sign1 resp=2
+E BUSY_STATUS tag=sign1 status=00000009
+E REGS tag=sign1_done status=0000010e kappa_att=00010000 errors=00920000 cycles=439270 seal=00000000
+E LAUNCH_VERIFY_RESIDUE resp=0
+E REGS tag=verify_residue_done status=0000030e kappa_att=00010000 errors=00ea0000 cycles=214171 seal=00000000
+E VERIFY_RESIDUE_CTP i=0 data=4882711f6d3a9c96 resp=0
+E VERIFY_RESIDUE_CTP i=1 data=c7f3f1fa2218a640 resp=0
+E VERIFY_RESIDUE_CTP i=2 data=fbebf6d29d1e8b92 resp=0
+E VERIFY_RESIDUE_CTP i=3 data=aeeb4391270ead57 resp=0
+E LAUNCH_VERIFY_VALID resp=0
+E REGS tag=verify_valid_done status=0000030e kappa_att=00010000 errors=00ea0000 cycles=214186 seal=00000000
+E VERIFY_VALID_CTP i=0 data=aca73f5d2349b4e5 exp=aca73f5d2349b4e5 resp=0
+E VERIFY_VALID_CTP i=1 data=54e4a14ef3e936af exp=54e4a14ef3e936af resp=0
+E VERIFY_VALID_CTP i=2 data=cc745f7899c5c50d exp=cc745f7899c5c50d resp=0
+E VERIFY_VALID_CTP i=3 data=e547d81808dea011 exp=e547d81808dea011 resp=0
+E VERIFY_VALID_RESULT match_oracle_ctilde_prime=1
+E LAUNCH_SIGN2 resp=0
+E REGS tag=sign2_done status=0000010e kappa_att=00010000 errors=00920000 cycles=439270 seal=00000000
+E LAUNCH_SIGN3 resp=0
+E MIDRESET at_pc=66 kappa=0 running=1
+E REGS tag=after_midreset status=00000008 kappa_att=00000000 errors=00000000 cycles=0 seal=00000000
+E END axi_writes=14755 axi_reads=84643

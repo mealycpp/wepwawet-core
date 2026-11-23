@@ -1,0 +1,19 @@
+== Sun Nov 22 06:34:36 UTC 2026 VM x86 test: x86_64 2 cpus
+CCSDS 121.0-B-2 conformance (libaec 1.1.8): 40/40 checks pass -> PASS
+sample_data/RGB.byte.tif: 791x718 region 0,0,791x718 8-bit spp=3 comp=1 pred=1 -> 1 tiles 256x256 band 0 -> /tmp/l7.raw
+-- 1 thread, verify every frame
+{"tool":"payload_load","algorithm":"CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128","data":"/tmp/l7.raw","frame":"256x256 x 8-bit","frame_bytes":65536,"tiles":1,"threads":1,"cpus":"0","rate_fps_per_thread":100.000,"wall_s":4.991,"frames":500,"deadline_ms":10.000,"deadline_misses":0,"miss_rate":0.00000,"proc_ms_p50":1.089,"proc_ms_p99":2.576,"proc_ms_max":3.597,"compression_ratio":1.3019,"throughput_MBps_busy":57.11,"cpu_busy_fraction_per_thread":0.1149,"verified_frames":500,"verify_ok":500,"errors":0}
+-- 1 thread, compress only, high rate (capacity)
+{"tool":"payload_load","algorithm":"CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128","data":"/tmp/l7.raw","frame":"256x256 x 8-bit","frame_bytes":65536,"tiles":1,"threads":1,"cpus":"0","rate_fps_per_thread":2000.000,"wall_s":5.000,"frames":10000,"deadline_ms":0.500,"deadline_misses":4539,"miss_rate":0.45390,"proc_ms_p50":0.407,"proc_ms_p99":0.908,"proc_ms_max":3.369,"compression_ratio":1.3019,"throughput_MBps_busy":150.95,"cpu_busy_fraction_per_thread":0.8683,"verified_frames":0,"verify_ok":0,"errors":0}
+-- all cpus, 80% target
+{"tool":"payload_load","algorithm":"CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128","data":"/tmp/l7.raw","frame":"256x256 x 8-bit","frame_bytes":65536,"tiles":1,"threads":2,"cpus":"0,1","rate_fps_per_thread":400.000,"wall_s":4.998,"frames":4000,"deadline_ms":2.500,"deadline_misses":8,"miss_rate":0.00200,"proc_ms_p50":0.425,"proc_ms_p99":1.171,"proc_ms_max":3.206,"compression_ratio":1.3019,"throughput_MBps_busy":127.01,"cpu_busy_fraction_per_thread":0.2065,"verified_frames":400,"verify_ok":400,"errors":0}
+-- SIGINT after 2 s
+{"tool":"payload_load","algorithm":"CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128","data":"/tmp/l7.raw","frame":"256x256 x 8-bit","frame_bytes":65536,"tiles":1,"threads":1,"cpus":"0","rate_fps_per_thread":50.000,"wall_s":2.020,"frames":101,"deadline_ms":20.000,"deadline_misses":0,"miss_rate":0.00000,"proc_ms_p50":0.484,"proc_ms_p99":1.283,"proc_ms_max":2.408,"compression_ratio":1.3019,"throughput_MBps_busy":118.49,"cpu_busy_fraction_per_thread":0.0277,"verified_frames":0,"verify_ok":0,"errors":0}
+exit=0
+-- csv
+thread,cpu,frame,tile,release_s,start_s,proc_us,lateness_us,in_bytes,out_bytes,deadline_miss,verified,verify_ok
+0,0,0,0,0.000000,0.000183,1303.6,-8513.6,65536,50340,0,1,1
+0,0,1,0,0.010000,0.010206,1478.5,-8315.6,65536,50340,0,1,1
+   501 /tmp/pl1.csv
+  4001 /tmp/pl4.csv
+  4502 total

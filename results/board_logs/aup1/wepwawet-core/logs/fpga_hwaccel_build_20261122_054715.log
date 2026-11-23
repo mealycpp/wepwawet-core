@@ -1,0 +1,34 @@
+-- [python3] python3 found at: /home/xilinx/Wepwawet/fprime-venv/bin/python3
+-- [fpp-tools] fpp-depend found at: /home/xilinx/Wepwawet/fprime-venv/bin/fpp-depend
+-- [fpp-tools] fpp-to-cpp found at: /home/xilinx/Wepwawet/fprime-venv/bin/fpp-to-cpp
+-- [fpp-tools] fpp-to-dict found at: /home/xilinx/Wepwawet/fprime-venv/bin/fpp-to-dict
+-- [fpp-tools] fpp-locate-defs found at: /home/xilinx/Wepwawet/fprime-venv/bin/fpp-locate-defs
+-- [FPRIME] Module locations: /home/xilinx/wepwawet-core/fprime/core-source/lib/fprime/home/xilinx/wepwawet-core/fprime/core-source/home/xilinx/wepwawet-core/fprime/core-source/build-core/F-Prime/home/xilinx/wepwawet-core/fprime/core-source/build-core
+-- [FPRIME] Installation directory: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts
+-- Target build toolchain/platform: Linux/Linux
+-- [sub-build] Performing sub-build: info-cache
+-- [sub-build] Generating: info-cache with target/sub-build/fpp_locstarget/sub-build/fpp_dependtarget/sub-build/module_info
+-- [sub-build] Executing: info-cache with fpp_locs
+-- [sub-build] Executing: info-cache with fpp_depend
+-- [sub-build] Executing: info-cache with module_info
+-- [sub-build] Performing sub-build: info-cache - DONE
+-- [INFO] Failed to find 'syft' on PATH, please install to generate software bill-of-materials
+-- [LIBRARY] Adding modules from F´ framework
+-- Including /home/xilinx/wepwawet-core/fprime/core-source/lib/fprime/cmake/platform/Linux.cmake
+-- Adding Library: UnixPlatformTypes
+-- Adding Library: PlatformLinux
+-- Adding Library: FppToCppSettings
+-- Adding Library: default_config
+-- Adding Library: Fw_Buffer
+-- Adding Library: Fw_Cmd
+-- Adding Library: Fw_Com
+-- Adding Library: Fw_DataStructures
+-- Adding Library: Fw_Dp
+-- Adding Library: Fw_Fpy
+-- Adding Library: Fw_Interfaces
+-- Adding Library: Fw_Log
+-- Adding Library: Fw_Logger
+-- Adding Library: Fw_Prm
+-- Adding Library: Fw_Time
+-- Adding Library: Fw_Tlm
+-- Adding Library: Fw_Comp

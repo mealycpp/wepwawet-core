@@ -1,0 +1,2 @@
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+{"command": "WepwawetDeployment.pqcTransport.PeerPing", "mode": "open", "rate_requested": 5.0, "seconds": 60.0, "sent": 300, "late_sends": 57, "send_errors": 0, "achieved_rate": 4.773472886281428, "t_first": 1795375989.9435012, "t_last": 1795376052.7908258}

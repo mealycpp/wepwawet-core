@@ -1,0 +1,115 @@
+{
+ "mode": "v8",
+ "rundir": "run_v8_vec7",
+ "phases": {
+  "p0_reset": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p1_locked_prejob": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p2_after_sign": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p3_after_verify_residue": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p5_after_sign2": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p6_after_zeroize": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p7_after_midreset": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  }
+ },
+ "fail": [],
+ "warn": [
+  "post-SIGN scrub window not caught by the TB poll (no evidence either way)"
+ ],
+ "pass": [
+  "internal scratchpad after SIGN1 (backdoor): 0 non-zero non-key/non-output/non-public words, 0 in VERIFY input slots b3[0..1023]/b3[1536..]",
+  "p0_reset: no host-readable word matches any of 3596 S + 5816 E + 0 rejected-z values",
+  "p0_reset: every non-whitelisted scratchpad word reads 0",
+  "p0_reset: 0 non-zero scratchpad words after reset/zeroize",
+  "p1_locked_prejob: no host-readable word matches any of 3596 S + 5816 E + 0 rejected-z values",
+  "p1_locked_prejob: every non-whitelisted scratchpad word reads 0",
+  "p2_after_sign: no host-readable word matches any of 3596 S + 5816 E + 0 rejected-z values",
+  "p2_after_sign: every non-whitelisted scratchpad word reads 0",
+  "p2_after_sign: signature read through the window: byte-identical to deterministic PQClean/dilithium-py KAT=True, PQClean verify=VERIFY_OK",
+  "p3_after_verify_residue: no host-readable word matches any of 3596 S + 5816 E + 0 rejected-z values",
+  "p3_after_verify_residue: every non-whitelisted scratchpad word reads 0",
+  "p5_after_sign2: no host-readable word matches any of 3596 S + 5816 E + 0 rejected-z values",
+  "p5_after_sign2: every non-whitelisted scratchpad word reads 0",
+  "p5_after_sign2: signature read through the window: byte-identical to deterministic PQClean/dilithium-py KAT=True, PQClean verify=VERIFY_OK",
+  "p6_after_zeroize: no host-readable word matches any of 3596 S + 5816 E + 0 rejected-z values",
+  "p6_after_zeroize: every non-whitelisted scratchpad word reads 0",
+  "p6_after_zeroize: 0 non-zero scratchpad words after reset/zeroize",
+  "p7_after_midreset: no host-readable word matches any of 3596 S + 5816 E + 0 rejected-z values",
+  "p7_after_midreset: every non-whitelisted scratchpad word reads 0",
+  "p7_after_midreset: 0 non-zero scratchpad words after reset/zeroize",
+  "BUSY_RD_S1[sign1] while busy: resp=2 data=00000000",
+  "BUSY_RD_Y[sign1] while busy: resp=2 data=00000000",
+  "BUSY_RD_Z[sign1] while busy: resp=2 data=00000000",
+  "BUSY_RD_B2[sign1] while busy: resp=2 data=00000000",
+  "rho'' register page read while busy: 0 non-zero words",
+  "BUSY_RELAUNCH_SIGN: resp=2",
+  "BUSY_RELAUNCH_VERIFY: resp=2",
+  "BUSY_WR_MU_LO while busy: resp=2 (2=SLVERR)",
+  "BUSY_WR_MU_HI while busy: resp=2 (2=SLVERR)",
+  "BUSY_WR_SEEDREG while busy: resp=2 (2=SLVERR)",
+  "BUSY_WR_RHOREG while busy: resp=2 (2=SLVERR)",
+  "LOCKED_RD_S1: data=00000000 resp=0",
+  "LOCKED_RD_T0: data=00000000 resp=0",
+  "LOCKED_RD_RHOPP: data=00000000 resp=0",
+  "SEAL read-violation sticky after sealed reads: seal=00030003 status=00000c08",
+  "SEAL write-violation sticky after sealed writes: seal=00080007",
+  "LOCK released only after ZEROIZE completes: seal=00000000",
+  "proper VERIFY after sign: c~' == oracle: 1",
+  "VERIFY launched over SIGN residue without z/h/t1 inputs: status=00004f0e errors=00ea0000 c~'=6dfc50cf4f3b634ed8933945bfe93806... -> VERIFY input slots held no SIGN residue (scrubbed), output is a function of public/host data only"
+ ],
+ "sizes": {
+  "S": 3596,
+  "E": 5816,
+  "RZ": 0,
+  "RLOW": 0,
+  "trace_rows": 54144
+ },
+ "verdict": "PASS"
+}

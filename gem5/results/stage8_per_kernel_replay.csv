@@ -1,0 +1,8 @@
+kernel_call,tx_words,rx_words,software_calls,kernel_dispatches,word_cmd_load,word_cmd_zero,word_cmd_read,word_cmd_scrub,word_commands,mmio_reads,mmio_writes,mmio_total,mmio_scratch_load,mmio_scratch_zero,mmio_scratch_read,mmio_scratch_scrub,mmio_host_check,mmio_descriptor,mmio_start_ack,mmio_seq_status,mmio_kernel_cfg,driver_sleeps,driver_sleep_seconds,closed_form_word_commands,closed_form_mmio_total,closed_form_matches,basis
+ntt,128,128,1,1,128,128,128,256,640,1544,2312,3856,768,768,768,1536,1,6,4,5,0,2,0.004,640,3856,True,replay of unmodified handoff backend on register model (not AUP1)
+intt,128,128,1,1,128,128,128,256,640,1544,2312,3856,768,768,768,1536,1,6,4,5,0,2,0.004,640,3856,True,replay of unmodified handoff backend on register model (not AUP1)
+polymulacc,256,128,1,1,256,128,128,384,896,2056,3336,5392,1536,768,768,2304,1,6,4,5,0,2,0.004,896,5392,True,replay of unmodified handoff backend on register model (not AUP1)
+shake128 34B->256B,5,32,1,1,5,32,32,37,106,284,370,654,30,192,192,222,1,6,4,5,2,2,0.004,106,654,True,replay of unmodified handoff backend on register model (not AUP1)
+shake128 34B->1024B,5,128,1,1,5,128,128,133,394,1052,1330,2382,30,768,768,798,1,6,4,5,2,2,0.004,394,2382,True,replay of unmodified handoff backend on register model (not AUP1)
+shake256 66B->576B,9,72,1,1,9,72,72,81,234,620,802,1422,54,432,432,486,1,6,4,5,2,2,0.004,234,1422,True,replay of unmodified handoff backend on register model (not AUP1)
+shake256 832B->256B,104,32,1,1,104,32,32,136,304,680,1162,1842,624,192,192,816,1,6,4,5,2,2,0.004,304,1842,True,replay of unmodified handoff backend on register model (not AUP1)

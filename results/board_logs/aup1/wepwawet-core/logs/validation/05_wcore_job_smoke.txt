@@ -1,0 +1,9 @@
+===== STAGE 7F WCORE JOB TEST =====
+BITSTREAM: /home/xilinx/wepwawet-core/firmware/bitstream/wepwawet_stage7f_333MHz.bit
+FPGA_METADATA_PASS
+WCORE_ID=0x57434F52
+HOST_STATUS=0x7F10001A
+WCORE_HOST_READY_PASS
+GPIO_TRI=0xFFFFFFFF
+GPIO2_TRI=0xFFFFFFFF
+STOP: GPIO START/ACK bits are not outputs

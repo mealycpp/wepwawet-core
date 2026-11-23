@@ -1,0 +1,30 @@
+== 0 sha256
+SHA256 OK
+55:(* CORE_GENERATION_INFO = "wepwawet_sign_wepwawet_sign_0_0,wepwawet_sign_axil,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=wepwawet_sign_axil,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_ADDR_W=17,MAX_ATTEMPTS=814,DET_RND=0,KAT_XI=0}" *)
+144:    .DET_RND(0),
+145:    .KAT_XI(0)
+PARAMETER NAME="DET_RND" VALUE="0"
+PARAMETER NAME="KAT_XI" VALUE="0"
+== 1 load
+WCORE_CHECK MAGIC=0x57435331 VERSION=0x00030003 STATUS=0x00000008 locked=0 SEAL=0x00000000 TRNG=0x00000000 DET_RND=0 -> seal_v8 ALIVE
+== 2 build
+build OK
+== 3 selftest (PL KeyGen)
+K0 VERSION=0x00030003 TRNG=0x00000000 DET_RND=0
+K1 KEYGEN rc=0 cycles=326318 wait=1121us errors=0x7b0000 trng=0x5236 status=0x0000840e
+sweep AFTER_KEYGEN   8192 words: unexpected_nonzero=0 seal=0x3bf80003
+K2/K3 key words readable=0; KEYGEN-while-LOCKED violations 15352 -> 15361 (expect +9: 8 probe halves + 1), rho unchanged=1
+  pk1 sig 0: rc=0 attempts=1 cycles=474865 pqclean_verify=1 mut_rej=1 other_pk_rej=1 fpga_verify=1
+  pk1 sig 1: rc=0 attempts=6 cycles=2671318 pqclean_verify=1 mut_rej=1 other_pk_rej=1 fpga_verify=1
+K4 20 hedged signatures under the PL key: 0 failures
+sweep AFTER_SIGN     8192 words: unexpected_nonzero=0 seal=0x73f90007
+K6 ZEROIZE rc=0 status=0x0000000e
+sweep AFTER_ZEROIZE  8192 words: unexpected_nonzero=0 seal=0x00000000
+K7 second KEYGEN rc=0 pk_differs=1
+  pk2 sig 0: rc=0 attempts=2 cycles=914142 pqclean_verify=1 mut_rej=1 other_pk_rej=1 fpga_verify=1
+  pk2 sig 1: rc=0 attempts=5 cycles=2231689 pqclean_verify=1 mut_rej=1 other_pk_rej=1 fpga_verify=1
+K7 3 signatures under pk2 (must not verify under pk1): 0 failures
+K8 final ZEROIZE rc=0
+RESULT: PASS (0 failing steps)
+WCORE_PROVISION rc=0 STATUS=0x0000020e SEAL=0x00000000 TRNG=0x0000521e locked=0
+== RESULT selftest_rc=0 -> PASS

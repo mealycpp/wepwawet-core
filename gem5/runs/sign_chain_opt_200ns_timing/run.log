@@ -1,0 +1,21 @@
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:691: warn: DRAM device capacity (16384 Mbytes) does not match the address range assigned (64 Mbytes)
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/socket.cc:249: info: board.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 26.0.0.0
+gem5 compiled Nov 19 2026 14:09:50
+gem5 started Nov 19 2026 21:06:47
+gem5 executing on DESKTOP-QCD8H8U, pid 2499
+command line: build/ARM/gem5.opt --outdir=wcore_runs/sign_chain_opt_200ns_timing /home/hadedy/gem5/wcore_gem5/gem5/wcore_se.py --binary /home/hadedy/gem5/wcore_gem5/gem5/build/wcore_replay_sign_chain_opt --mmio-latency 200ns --cpu timing
+
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1123: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/hadedy/gem5/wcore_gem5/gem5/build/wcore_replay_sign_chain_opt'
+src/arch/arm/insts/pseudo.cc:174: warn: 	instruction 'bti' unimplemented
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+wcore_replay jobs 211 mode chain done 0000000000000000
+exit cause: exiting with last active thread context

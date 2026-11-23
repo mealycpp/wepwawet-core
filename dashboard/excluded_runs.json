@@ -1,0 +1,8 @@
+[
+ {"match": "^20261122_215751_fpga_r10_L4_duplex$", "tag": "CONTAMINATED — excluded",
+  "reason": "AUP1 ran this duplex with a stray GDS link process spinning on a core (process started 13:54 PT with the last sweep run, found at 17:13 PT)."},
+ {"match": "^20261122_220108_cpu_r10_L4_duplex$", "tag": "CONTAMINATED — excluded",
+  "reason": "AUP1 ran this duplex with a stray GDS link process spinning on a core (process started 13:54 PT, found at 17:13 PT)."},
+ {"match": "idleoff_", "tag": "CONTAMINATED — excluded",
+  "reason": "The idle-test runs on AUP1 ran with one or two stray GDS link processes spinning on its cores (started 13:54 and 14:50 PT, found at 17:13 PT)."}
+]

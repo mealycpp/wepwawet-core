@@ -1,0 +1,12 @@
+===== RELOAD PRESERVED STAGE 7F =====
+PASS: Stage 7F FPGA programmed
+===== RUN GUARDED HARDWARE TRNG =====
+STAGE 7F TRNG SAFE TEST
+CTRL: 0x00000000
+OFFSET 0x34: 0x00000000
+WORDS: 64
+UNIQUE: 64
+NONZERO: 64
+PASS: Hardware TRNG returned varying words
+Entropy certification remains a separate task.
+===== TEST COMPLETE =====

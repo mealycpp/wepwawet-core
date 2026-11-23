@@ -1,0 +1,110 @@
+{
+ "params": {
+  "host": "aup1",
+  "backend": "fpga",
+  "rate": 5,
+  "load_level": 4,
+  "seconds": 60,
+  "tag": "rep1",
+  "adcs_rate": 100,
+  "adcs_prio": 80,
+  "payload_rate": 8,
+  "core_order": "1 3 0 2",
+  "driver_mode": "open",
+  "payload_input": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "started_epoch": 1795375863
+ },
+ "driver": {
+  "command": "WepwawetDeployment.pqcTransport.PeerPing",
+  "mode": "open",
+  "rate_requested": 5.0,
+  "seconds": 60.0,
+  "sent": 300,
+  "late_sends": 57,
+  "send_errors": 0,
+  "achieved_rate": 4.773472886281428,
+  "t_first": 1795375989.9435012,
+  "t_last": 1795376052.7908258,
+  "closed_completion_s": null
+ },
+ "adcs": {
+  "tool": "adcs_load",
+  "rate_hz": 100.0,
+  "substeps": 10,
+  "cpu": 1,
+  "prio": 80,
+  "cycles": 7500,
+  "deadline_misses": 3,
+  "skipped_releases": 3618,
+  "miss_rate": 0.0004,
+  "exec_us": {
+   "p50": 70.3,
+   "p99": 134.4,
+   "max": 366.0
+  },
+  "release_jitter_us": {
+   "p50": 29.1,
+   "p99": 111.6,
+   "max": 23292223.2
+  },
+  "final_pointing_error_deg": 0.0253,
+  "attitude_estimation_error_deg": 0.0224,
+  "gyro_bias_estimation_error_deg_per_h": 3.493,
+  "body_rate_deg_s": 0.00236
+ },
+ "payload": {
+  "tool": "payload_load",
+  "algorithm": "CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128",
+  "data": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "frame": "1024x1024 x 16-bit",
+  "frame_bytes": 2097152,
+  "tiles": 16,
+  "threads": 3,
+  "cpus": "3,0,2",
+  "rate_fps_per_thread": 8.0,
+  "wall_s": 74.925,
+  "frames": 1800,
+  "deadline_ms": 125.0,
+  "deadline_misses": 227,
+  "miss_rate": 0.12611,
+  "proc_ms_p50": 50.129,
+  "proc_ms_p99": 185.035,
+  "proc_ms_max": 318.386,
+  "compression_ratio": 1.603,
+  "throughput_MBps_busy": 31.43,
+  "cpu_busy_fraction_per_thread": 0.5343,
+  "verified_frames": 0,
+  "verify_ok": 0,
+  "errors": 0
+ },
+ "sign": {
+  "requested": 300,
+  "done": 232,
+  "ok": 232,
+  "failed": 0,
+  "backends": [
+   "fpga"
+  ],
+  "lat_ms_p50": 5.333,
+  "lat_ms_p99": 30.1934,
+  "lat_ms_max": 34.5479,
+  "lat_ms_mean": 7.616666379310344,
+  "pl_attempts_mean": 4.577586206896552
+ },
+ "fprime": {
+  "cycle_slips": 0,
+  "hw_errors": 0,
+  "queue_full": 1,
+  "peer_accepted": 232,
+  "peer_failed": 0,
+  "peer_frames_received_here": 0
+ },
+ "cpu_util_mean": {
+  "cpu0": 63.4,
+  "cpu1": 69.8,
+  "cpu2": 66.0,
+  "cpu3": 64.2
+ },
+ "image_before": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE",
+ "image_after": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE"
+}

@@ -1,0 +1,1 @@
+built ./wcore_attack_v8 (driver helpers from ../wcore_drv)

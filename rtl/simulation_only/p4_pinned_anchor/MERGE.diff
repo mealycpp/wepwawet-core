@@ -1,0 +1,255 @@
+diff -ru src_p2/wepwawet_sign_axil.v pin/src/wepwawet_sign_axil.v
+--- src_p2/wepwawet_sign_axil.v	2026-11-22 21:38:18.751400400 +0000
++++ pin/src/wepwawet_sign_axil.v	2026-11-22 22:52:20.168527600 +0000
+@@ -53,13 +53,51 @@
+ // scrubs every scratchpad word that is neither key (s1_hat/s2_hat/t0_hat), public input (A_hat, mu) nor -- only
+ // on success -- released output (h, c~, z), BEFORE DONE is reported (reviewer HIGH-2: no SIGN residue such as y,
+ // r0-cs2, c*t0, w0-cs2+ct0 survives into a later VERIFY or read). Scrub watchdog expiry fails closed.
++// seal_v8 phase 4 (PIN, wpin_gate.v): VERIFY accepts only a pk whose verifier image hashes to the PL trust anchor.
++//   0x1_00A0 .. 0x1_00BC  PIN, 8 x 32-bit (R always -- public; W until committed, then refused + flagged)
++//   0x1_00C0  PIN_CTRL W bit0 COMMIT (write-once lock; cleared only by aresetn, NOT by ZEROIZE)
++//             PIN_STAT R bit0 pin_valid, bit1 hard-wired, bit2 pin write violation (sticky), bit3 ALLOW_UNSET build,
++//                        [5:4] PIN_MODE, [11:8] last verdict, [31:16] pin violation count
++//   0x1_00C4  VERDICT  R [3:0] code, bit4 valid, bit5 pin checked, bit6 fp==pin, bit7 PL c~'==c~
++//             codes: 1 ACCEPT, 2 REJECT_SIG (c~'!=c~), 3 REJECT_ZNORM, 4 REJECT_PIN_MISMATCH, 5 REJECT_PIN_UNSET,
++//                    6 REJECT_ERROR (gate watchdog / core error), 7 ACCEPT_UNPINNED (only in PIN_ALLOW_UNSET builds)
++//   0x1_00C8  PIN_CYC  R cycles of the last pk-image hash (+ PL mu hash when MU_PL);  0x1_00D0 .. 0x1_00EC FP of the last VERIFY
++//   0x1_00F0  MSG_LEN  R/W (idle) byte length of M' in b2[1304..1535] for MU_PL builds (2..1856); out of range -> code 8
++//             PIN_STAT bit6 MU_PL build, bit7 PIN_MODE 2 with PIN_CONST == 0 (misconfigured: no anchor)
++//             code 8 REJECT_MSG_LEN (ERRORS 0xD7)
++// A pin reject does not start the core (fail-closed): DONE, success 0, ERRORS[7:0] 0xD4 mismatch / 0xD5 unset / 0xD6 gate.
+ // ============================================================================
++`ifndef WPIN_MODE_DEFAULT
++`define WPIN_MODE_DEFAULT 2
++`endif
++`ifndef WPIN_MU_PL_DEFAULT
++`define WPIN_MU_PL_DEFAULT 1
++`endif
++`ifndef WPIN_TR_DEFAULT
++`define WPIN_TR_DEFAULT 512'd0
++`endif
++`ifndef WPIN_ALLOW_UNSET_DEFAULT
++`define WPIN_ALLOW_UNSET_DEFAULT 0
++`endif
++`ifndef WPIN_CONST_DEFAULT
++`define WPIN_CONST_DEFAULT 256'd0
++`endif
+ module wepwawet_sign_axil #(
+     parameter integer C_ADDR_W     = 17,
+     parameter integer MAX_ATTEMPTS = 814,
+     // BUILD-TIME ONLY. 1 = deterministic rnd = 0^32 for KAT simulation. MUST be 0 in the board build
+     // (build_sign_image_v8.tcl sets and checks CONFIG.DET_RND 0). Not reachable from any register.
+-    parameter integer DET_RND = 0
++    parameter integer DET_RND = 0,
++    // phase 4 PIN. PIN_MODE 2 = hard-wired PIN_CONST (BOARD BUILDS: the authenticated bitstream is the only
++    // software-invisible channel into the PL; PIN_CONST = 0 means no anchor -> every VERIFY rejects).
++    // PIN_MODE 1 = write-once register: SIM/TEST ONLY (root writes its own pin first after reset). 0 = off.
++    // PIN_ALLOW_UNSET 1 = VERIFY with no pin runs (verdict 7); MUST be 0 in board builds (fail-closed).
++    // MU_PL 1 = PL computes mu = SHAKE256(TR_CONST || M') from M' in b2[1304..1535] (MSG_LEN reg); host mu ignored.
++    parameter integer PIN_MODE        = `WPIN_MODE_DEFAULT,
++    parameter integer PIN_ALLOW_UNSET = `WPIN_ALLOW_UNSET_DEFAULT,
++    parameter [255:0] PIN_CONST       = `WPIN_CONST_DEFAULT,
++    parameter integer MU_PL           = `WPIN_MU_PL_DEFAULT,
++    parameter [511:0] TR_CONST        = `WPIN_TR_DEFAULT
+ )(
+     (* X_INTERFACE_PARAMETER = "ASSOCIATED_BUSIF s_axi, ASSOCIATED_RESET aresetn" *)
+     input  wire                 aclk,
+@@ -121,12 +159,21 @@
+     reg  launch_p;
+     wire [511:0] seed_rhoprime = 512'd0;            // phase 2: host rho'' path removed
+     reg  [255:0] public_rho;
++    // phase 4 PIN gate signals (declared early: used by the scratchpad port muxes)
++    reg  pin_job, pin_post, pg_start_pre, pg_start_post, pg_wr, pg_commit;
++    reg  [2:0] pg_wr_idx; reg [31:0] pg_wr_data;
++    reg  [3:0] pin_verdict; reg pin_vvalid, pin_vchk, pin_vfp, pin_vct;
++    wire pg_busy, pg_done, pg_fail, pg_pin_valid, pg_wv, pg_fp_match, pg_ct_match;
++    wire [255:0] pg_pin_value, pg_fp; wire [15:0] pg_viol; wire [31:0] pg_pre_cycles;
++    wire [3:0] pg_rd_valid, pg_rsp_ready; wire [43:0] pg_rd_addr;
++    wire [3:0] pg_wr_valid; wire [43:0] pg_wr_addr; wire [255:0] pg_wr_data2; wire pg_len_fail;
++    reg  [11:0] msg_len_r;
+ 
+     wire tf_req, tf_done, tf_fail; wire [3:0] tf_wr_valid; wire [43:0] tf_wr_addr; wire [255:0] tf_wr_data;
+     wire [3:0] tf_code, tf_redraws; wire [5:0] tf_maxrun; wire [10:0] tf_apt;
+-    wire [3:0]   h_wr_req_valid = running ? (tf_req ? tf_wr_valid : mgr_wr_valid) : ps_wr_valid;
+-    wire [43:0]  h_wr_req_addr  = running ? (tf_req ? tf_wr_addr  : mgr_wr_addr)  : ps_wr_addr;
+-    wire [255:0] h_wr_req_data  = running ? (tf_req ? tf_wr_data  : mgr_wr_data)  : ps_wr_data;
++    wire [3:0]   h_wr_req_valid = running ? (tf_req ? tf_wr_valid : mgr_wr_valid) : (pg_busy ? pg_wr_valid : ps_wr_valid);
++    wire [43:0]  h_wr_req_addr  = running ? (tf_req ? tf_wr_addr  : mgr_wr_addr)  : (pg_busy ? pg_wr_addr  : ps_wr_addr);
++    wire [255:0] h_wr_req_data  = running ? (tf_req ? tf_wr_data  : mgr_wr_data)  : (pg_busy ? pg_wr_data2 : ps_wr_data);
+     wire mgr_pro_mode;
+     seal_trng_fill #(.DET_RND(DET_RND)) u_trng_fill (
+         .clk(aclk), .rst_n(aresetn), .req(tf_req), .done(tf_done), .fail(tf_fail), .claim(trng_claim),
+@@ -135,6 +182,27 @@
+         .fail_code(tf_code), .redraws(tf_redraws), .max_run(tf_maxrun), .apt_worst(tf_apt));
+     wire         host_mode      = running ? mgr_host_mode : 1'b1;
+ 
++    // ------------------------------------------------------------ phase 4: pk pin gate
++    localparam [1:0] PIN_MODE2 = (PIN_MODE == 2) ? 2'd2 : ((PIN_MODE == 1) ? 2'd1 : 2'd0);
++    generate if (PIN_MODE != 0) begin : g_pin
++        wpin_gate #(.PIN_MODE(PIN_MODE), .PIN_CONST(PIN_CONST), .MU_PL(MU_PL), .TR_CONST(TR_CONST)) u_pin (
++            .clk(aclk), .rst_n(aresetn),
++            .pin_wr(pg_wr), .pin_wr_idx(pg_wr_idx), .pin_wr_data(pg_wr_data), .pin_commit(pg_commit),
++            .pin_valid(pg_pin_valid), .pin_value(pg_pin_value), .pin_wv(pg_wv), .pin_viol_cnt(pg_viol),
++            .start_pre(pg_start_pre), .start_post(pg_start_post), .busy(pg_busy), .done(pg_done), .fail(pg_fail),
++            .fp(pg_fp), .fp_match(pg_fp_match), .ct_match(pg_ct_match), .pre_cycles(pg_pre_cycles),
++            .rd_req_valid(pg_rd_valid), .rd_req_ready(h_rd_req_ready), .rd_req_addr(pg_rd_addr),
++            .rd_rsp_valid(h_rd_rsp_valid), .rd_rsp_ready(pg_rsp_ready), .rd_rsp_data(h_rd_rsp_data),
++            .msg_len(msg_len_r), .len_fail(pg_len_fail), .wr_valid(pg_wr_valid), .wr_ready(h_wr_req_ready),
++            .wr_addr(pg_wr_addr), .wr_data(pg_wr_data2));
++    end else begin : g_nopin
++        assign pg_pin_valid = 1'b0; assign pg_pin_value = 256'd0; assign pg_wv = 1'b0; assign pg_viol = 16'd0;
++        assign pg_busy = 1'b0; assign pg_done = 1'b0; assign pg_fail = 1'b0; assign pg_fp = 256'd0;
++        assign pg_fp_match = 1'b0; assign pg_ct_match = 1'b0; assign pg_pre_cycles = 32'd0;
++        assign pg_rd_valid = 4'd0; assign pg_rd_addr = 44'd0; assign pg_rsp_ready = 4'd0;
++        assign pg_wr_valid = 4'd0; assign pg_wr_addr = 44'd0; assign pg_wr_data2 = 256'd0; assign pg_len_fail = 1'b0;
++    end endgenerate
++
+     wcore_stage19_real_ntt_dot4_intt u_core (
+         .clk(aclk), .por_n(aresetn), .rst_n(aresetn),
+         .start_job(start_job), .job_ack(job_ack), .soft_reset_req(1'b0), .verify_mode(mode_r),
+@@ -145,9 +213,9 @@
+         .route_enable(route_enable), .route_lane(route_lane),
+         .router_writes(router_writes), .ntt_starts(ntt_starts), .intt_starts(intt_starts),
+         .host_mode(host_mode),
+-        .h_rd_req_valid(h_rd_req_valid), .h_rd_req_ready(h_rd_req_ready),
+-        .h_rd_req_addr(h_rd_req_addr), .h_rd_rsp_valid(h_rd_rsp_valid),
+-        .h_rd_rsp_ready(h_rd_rsp_ready), .h_rd_rsp_data(h_rd_rsp_data),
++        .h_rd_req_valid(pg_busy ? pg_rd_valid : h_rd_req_valid), .h_rd_req_ready(h_rd_req_ready),
++        .h_rd_req_addr(pg_busy ? pg_rd_addr : h_rd_req_addr), .h_rd_rsp_valid(h_rd_rsp_valid),
++        .h_rd_rsp_ready(pg_busy ? pg_rsp_ready : h_rd_rsp_ready), .h_rd_rsp_data(h_rd_rsp_data),
+         .h_wr_req_valid(h_wr_req_valid), .h_wr_req_ready(h_wr_req_ready),
+         .h_wr_req_addr(h_wr_req_addr), .h_wr_req_data(h_wr_req_data),
+         .sp_init_done(sp_init_done), .sp_busy(sp_busy), .sp_locked(sp_locked),
+@@ -193,14 +261,15 @@
+     wire [7:0] r_reg = raddr[7:0];
+     wire w_reg_ok = waddr[15:8] == 8'd0;
+     wire r_reg_ok = raddr[15:8] == 8'd0;
+-    wire eng_busy = running || zeroizing || pscrub;
++    wire eng_busy = running || zeroizing || pscrub || pin_job;
+     // seal_v8 whitelists (bank = addr[15:14], word = addr[13:3])
+     wire [1:0]  wbk = waddr[15:14]; wire [10:0] wwd = waddr[13:3];
+     wire [1:0]  rbk = raddr[15:14]; wire [10:0] rwd = raddr[13:3];
+     wire w_win_ok = (wbk == 2'd2 && wwd >= 11'd1048 && wwd <= 11'd1055) ||
+                     (wbk == 2'd2 && wwd >= 11'd512  && wwd <= 11'd515)  ||
+                     (wbk == 2'd1 && wwd >= 11'd1150 && wwd <= 11'd1153) ||
+-                    (wbk == 2'd3 && (wwd <= 11'd1023 || wwd >= 11'd1536));
++                    (wbk == 2'd3 && (wwd <= 11'd1023 || wwd >= 11'd1536)) ||
++                    (MU_PL != 0 && PIN_MODE != 0 && wbk == 2'd2 && wwd >= 11'd1304 && wwd <= 11'd1535);   // phase 4 M'
+     wire r_win_ok = (sign_out_ok && ((rbk == 2'd1 && rwd <= 11'd511) ||
+                                      (rbk == 2'd1 && rwd >= 11'd1150 && rwd <= 11'd1153) ||
+                                      (rbk == 2'd3 && rwd >= 11'd1400 && rwd <= 11'd1911))) ||
+@@ -220,7 +289,7 @@
+             case (a)
+                 8'h04: reg_read = {17'd0, verify_out_ok, sign_out_ok, zeroizing, (seal_rv | seal_wv), seal_lock,
+                                    mode_r, irq_r, adapter_recovery_required, job_error, sp_locked,
+-                                   sp_busy, sp_init_done, success_r, done_r, running};
++                                   sp_busy, sp_init_done, success_r, done_r, (running | pin_job)};
+                 8'h08: reg_read = {attempts_r, kappa_r};
+                 8'h0C: reg_read = {8'd0, pc_r, cerr_r, rerr_r};
+                 8'h10: reg_read = cycles_r;
+@@ -231,6 +300,14 @@
+                 default: begin
+                     if (a >= 8'h40 && a <= 8'h7C) reg_read = 32'd0;           // seal_v8: secret, never readable
+                     else if (a >= 8'h80 && a <= 8'h9C) reg_read = public_rho[(a-8'h80)*8 +: 32];
++                    else if (PIN_MODE != 0 && a >= 8'hA0 && a <= 8'hBC) reg_read = pg_pin_value[(a-8'hA0)*8 +: 32];
++                    else if (PIN_MODE != 0 && a == 8'hC0)
++                        reg_read = {pg_viol, 4'd0, pin_verdict, (PIN_MODE == 2 && PIN_CONST == 256'd0), (MU_PL != 0), PIN_MODE2, (PIN_ALLOW_UNSET != 0), pg_wv,
++                                    (PIN_MODE == 2), pg_pin_valid};
++                    else if (PIN_MODE != 0 && a == 8'hC4) reg_read = {24'd0, pin_vct, pin_vfp, pin_vchk, pin_vvalid, pin_verdict};
++                    else if (PIN_MODE != 0 && a == 8'hC8) reg_read = pg_pre_cycles;
++                    else if (PIN_MODE != 0 && a >= 8'hD0 && a <= 8'hEC) reg_read = pg_fp[(a-8'hD0)*8 +: 32];
++                    else if (PIN_MODE != 0 && a == 8'hF0) reg_read = {20'd0, msg_len_r};
+                 end
+             endcase
+         end
+@@ -251,11 +328,14 @@
+             sign_out_ok <= 0; verify_out_ok <= 0; viol_cnt <= 0;
+             pscrub <= 0; pscrub_ok <= 0; ps_ph <= 0; ps_a <= 0; ps_pend <= 0; ps_wdog <= 0;
+             for (k = 0; k < 4; k = k + 1) wlo[k] <= 32'd0;
++            pin_job <= 0; pin_post <= 0; pg_start_pre <= 0; pg_start_post <= 0; pg_wr <= 0; pg_commit <= 0;
++            pg_wr_idx <= 0; pg_wr_data <= 0; msg_len_r <= 12'd0; pin_verdict <= 0; pin_vvalid <= 0; pin_vchk <= 0; pin_vfp <= 0; pin_vct <= 0;
+             waddr <= 0; raddr <= 0; wdata_q <= 0; wstrb_q <= 0; bsel <= 0; hsel <= 0; wdog <= 0;
+         end else begin
+             launch_p   <= 1'b0;
+             ext_scrub  <= 1'b0;
+             mgr_done_q <= mgr_done;
++            pg_start_pre <= 1'b0; pg_start_post <= 1'b0; pg_wr <= 1'b0; pg_commit <= 1'b0;
+             if (pscrub) begin                                   // post-SIGN residue scrub (bank-parallel)
+                 ps_wdog <= ps_wdog + 1'b1;
+                 if (!ps_ph) begin                                // ISSUE word ps_a
+@@ -279,7 +359,7 @@
+             if (zeroizing && sp_scrub_done) begin                // ZEROIZE complete: all banks scrubbed
+                 zeroizing <= 1'b0; seal_lock <= 1'b0; seal_rv <= 1'b0; seal_wv <= 1'b0; viol_cnt <= 16'd0;
+             end
+-            if (running) cycles <= cycles + 1'b1;
++            if (running || pin_job) cycles <= cycles + 1'b1;
+             if (running && mgr_done && !mgr_done_q) begin       // job finished
+                 running    <= 1'b0;
+                 done_r     <= !(seal_lock && !mode_r);           // LOCKED SIGN: DONE after the residue scrub
+@@ -296,6 +376,31 @@
+                 cycles_r   <= cycles;
+                 sign_out_ok   <= !mode_r && mgr_success;
+                 verify_out_ok <=  mode_r && mgr_success;
++                if (pin_job) begin                              // phase 4: verdict decided in PL after c~' compare
++                    done_r <= 1'b0; irq_r <= 1'b0;
++                    if (mgr_success) begin pg_start_post <= 1'b1; pin_post <= 1'b1; end
++                    else begin
++                        pin_job <= 1'b0; done_r <= 1'b1; irq_r <= 1'b1; pin_vvalid <= 1'b1;
++                        pin_verdict <= (mgr_error == 8'h06) ? 4'd3 : 4'd6;
++                    end
++                end
++            end
++            if (pin_job && pg_done && !pin_post) begin          // phase 4: pk image hashed, c~ latched
++                pin_vchk <= pg_pin_valid; pin_vfp <= pg_fp_match;
++                if (!pg_fail && !pg_len_fail && (pg_fp_match || (!pg_pin_valid && PIN_ALLOW_UNSET != 0))) begin
++                    running <= 1'b1; launch_p <= 1'b1;
++                end else begin                                  // fail closed: core never runs
++                    pin_job <= 1'b0; done_r <= 1'b1; irq_r <= 1'b1; success_r <= 1'b0;
++                    sign_out_ok <= 1'b0; verify_out_ok <= 1'b0; kappa_r <= 16'd0; attempts_r <= 16'd0;
++                    cerr_r <= 8'd0; pc_r <= 8'd0; cycles_r <= cycles; pin_vvalid <= 1'b1;
++                    rerr_r      <= pg_fail ? 8'hD6 : (pg_len_fail ? 8'hD7 : (pg_pin_valid ? 8'hD4 : 8'hD5));
++                    pin_verdict <= pg_fail ? 4'd6  : (pg_len_fail ? 4'd8  : (pg_pin_valid ? 4'd4  : 4'd5));
++                end
++            end
++            if (pin_job && pg_done && pin_post) begin           // phase 4: PL c~' == c~ compare done
++                pin_job <= 1'b0; pin_post <= 1'b0; done_r <= 1'b1; irq_r <= 1'b1; cycles_r <= cycles;
++                pin_vvalid <= 1'b1; pin_vct <= pg_ct_match && !pg_fail;
++                pin_verdict <= pg_fail ? 4'd6 : (!pg_ct_match ? 4'd2 : (pin_vchk ? 4'd1 : 4'd7));
+             end
+ 
+             case (ast)
+@@ -350,14 +455,18 @@
+                             else case (w_reg)
+                                 8'h00: begin
+                                     if (wdata_q[0] && !eng_busy && sp_init_done && !sp_locked) begin
+-                                        running <= 1'b1; launch_p <= 1'b1; done_r <= 1'b0; mode_r <= wdata_q[2];
++                                        if (PIN_MODE != 0 && wdata_q[2]) begin   // phase 4: hash pk image first
++                                            pin_job <= 1'b1; pin_post <= 1'b0; pg_start_pre <= 1'b1;
++                                        end else begin running <= 1'b1; launch_p <= 1'b1; end
++                                        pin_vvalid <= 1'b0; pin_vchk <= 1'b0; pin_vfp <= 1'b0; pin_vct <= 1'b0; pin_verdict <= 4'd0;
++                                        done_r <= 1'b0; mode_r <= wdata_q[2];
+                                         if (!wdata_q[2]) seal_lock <= 1'b1;    // any SIGN seals the key region
+                                         success_r <= 1'b0; irq_r <= 1'b0; cycles <= 32'd0;
+                                         sign_out_ok <= 1'b0; verify_out_ok <= 1'b0;
+                                     end else if (wdata_q[0]) s_axi_bresp <= 2'b10;
+                                     if (wdata_q[1]) irq_r <= 1'b0;
+                                     if (wdata_q[3] && !eng_busy && sp_init_done) seal_lock <= 1'b1;
+-                                    if (wdata_q[4] && !running && !zeroizing) begin
++                                    if (wdata_q[4] && !running && !zeroizing && !pin_job) begin
+                                         zeroizing <= 1'b1; ext_scrub <= 1'b1;
+                                         sign_out_ok <= 1'b0; verify_out_ok <= 1'b0;
+                                         public_rho <= 256'd0;
+@@ -372,6 +481,12 @@
+                                         seal_wv <= 1'b1; if (~&viol_cnt) viol_cnt <= viol_cnt + 1'b1;
+                                     end else if (w_reg >= 8'h80 && w_reg <= 8'h9C && !running)
+                                         public_rho[(w_reg-8'h80)*8 +: 32] <= wdata_q;
++                                    else if (PIN_MODE != 0 && ((w_reg >= 8'hA0 && w_reg <= 8'hBC) || w_reg == 8'hC0 || w_reg == 8'hF0)) begin
++                                        if (eng_busy) s_axi_bresp <= 2'b10;            // phase 4 pin register
++                                        else if (w_reg == 8'hF0) msg_len_r <= wdata_q[11:0];
++                                        else if (w_reg == 8'hC0) pg_commit <= wdata_q[0];
++                                        else begin pg_wr <= 1'b1; pg_wr_idx <= w_reg[4:2]; pg_wr_data <= wdata_q; end
++                                    end
+                                     else s_axi_bresp <= 2'b10;
+                                 end
+                             endcase
+Only in pin/src: wpin_gate.v

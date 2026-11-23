@@ -1,0 +1,145 @@
+[ERROR] Failed to parse arguments: Error with address/port of '0.0.0.0:50000' : [Errno 98] Address already in use
+[INFO] Reading command-line configuration from: fprime-gds.yml
+usage: fprime-gds [-h] [--output-unframed-data [OUTPUT_UNFRAMED_DATA]]
+                  [-d DEPLOYMENT] [--dictionary DICTIONARY]
+                  [--packet-spec PACKET_SPEC]
+                  [--packet-set-name PACKET_SET_NAME] [-n] [--app APP]
+                  [--file-storage-directory FILES_STORAGE_DIRECTORY]
+                  [--remote-sequence-directory REMOTE_SEQUENCE_DIRECTORY]
+                  [--file-uplink-cooldown FILE_UPLINK_COOLDOWN]
+                  [--file-uplink-chunk-size FILE_UPLINK_CHUNK_SIZE]
+                  [-g {none,html}] [--gui-addr GUI_ADDR] [--gui-port GUI_PORT]
+                  [--hash-file HASH_FILE] [-l LOGS] [--log-directly]
+                  [--log-to-stdout]
+                  [--log-level-gds {DEBUG,INFO,WARNING,ERROR}]
+                  [--disable-data-logging] [--no-zmq]
+                  [--zmq-transport serverInUrl serverOutUrl]
+                  [--tts-port TTS_PORT] [--tts-addr TTS_ADDR]
+                  [--framing-selection {space-packet-space-data-link,fprime}]
+                  [--scid SCID] [--vcid VCID] [--frame-size FRAME_SIZE]
+                  [--communication-selection {uart,ip,none}]
+                  [--uart-device DEVICE] [--uart-baud BAUD]
+                  [--uart-skip-port-check] [--ip-address ADDRESS]
+                  [--ip-port PORT] [--ip-client]
+                  [--keepalive-interval KEEPALIVE_INTERVAL]
+                  [--disable-custom-data-handlers-app]
+
+Run F prime deployment and GDS
+
+options:
+  -h, --help            show this help message and exit
+
+Communications options:
+  --output-unframed-data [OUTPUT_UNFRAMED_DATA]
+                        Log unframed data to supplied file relative to log
+                        directory. Use '-' for standard out. (default: None)
+
+Dictionary options:
+  -d DEPLOYMENT, --deployment DEPLOYMENT
+                        Deployment installation/build output directory.
+                        [default: install_dest field in settings.ini]
+                        (default: None)
+  --dictionary DICTIONARY
+                        Path to dictionary. Overrides automatic dictionary
+                        detection. (default: None)
+  --packet-spec PACKET_SPEC
+                        Path to packet XML specification (should not be used
+                        if JSON packet definitions are used). (default: None)
+  --packet-set-name PACKET_SET_NAME
+                        Name of packet set defined in the JSON dictionary.
+                        (default: None)
+
+FPrime binary options:
+  -n, --no-app          Do not run deployment binary. Overrides --app.
+                        (default: False)
+  --app APP             Path to app to run. Overrides automatic app detection.
+                        (default: None)
+
+File handling options:
+  --file-storage-directory FILES_STORAGE_DIRECTORY
+                        Directory to store uplink and downlink files. Default:
+                        /tmp/root
+  --remote-sequence-directory REMOTE_SEQUENCE_DIRECTORY
+                        Directory to save command sequence binaries, on the
+                        remote FSW. Default: /seq
+  --file-uplink-cooldown FILE_UPLINK_COOLDOWN
+                        Cooldown period between file uplink packets. Default:
+                        0 S
+  --file-uplink-chunk-size FILE_UPLINK_CHUNK_SIZE
+                        Size of the data payload for a file uplink. Default:
+                        256
+
+GUI options:
+  -g {none,html}, --gui {none,html}
+                        Set the desired GUI system for running the deployment.
+                        [default: html]
+  --gui-addr GUI_ADDR   Set the GUI server address [default: 127.0.0.1]
+  --gui-port GUI_PORT   Set the GUI server address [default: 5000]
+
+Hash file options:
+  --hash-file HASH_FILE
+                        Path to hashes.txt file map (found under build-
+                        artifacts dir by default) (default: None)
+
+Logging options:
+  -l LOGS, --logs LOGS  Logging directory. Created if non-existent. [default:
+                        /home/xilinx/wepwawet-core/fprime/core-
+                        source/WepwawetDeployment/logs]
+  --log-directly        Logging directory is used directly, no extra dated
+                        directories created. (default: False)
+  --log-to-stdout       Log to standard out along with log output files
+                        (default: False)
+  --log-level-gds {DEBUG,INFO,WARNING,ERROR}
+                        Set the logging level of GDS processes [default: INFO]
+  --disable-data-logging
+                        Disable logging of each data item (default: False)
+
+Middleware options:
+  --no-zmq              Disable ZMQ transportation layer, falling back to TCP
+                        socket server. (default: True)
+  --zmq-transport serverInUrl serverOutUrl
+                        Pair of URls used with --zmq to setup ZeroMQ
+                        transportation [default: ['ipc:///tmp/fprime-server-
+                        in', 'ipc:///tmp/fprime-server-out']]
+  --tts-port TTS_PORT   Set the threaded TCP socket server port when ZMQ is
+                        not used [default: 50050]
+  --tts-addr TTS_ADDR   Set the threaded TCP socket server address when ZMQ is
+                        not used [default: 0.0.0.0]
+
+Framing Plugin Options:
+  --framing-selection {space-packet-space-data-link,fprime}
+                        Select framing implementer. (default: space-packet-
+                        space-data-link)
+
+Framing Plugin 'space-packet-space-data-link' Options:
+  --scid SCID           Spacecraft ID (if specified, overrides dictionary
+                        ComCfg value) (default: None)
+  --vcid VCID           Virtual channel ID (default: 1)
+  --frame-size FRAME_SIZE
+                        Fixed Size of TM Frames (if specified, overrides
+                        dictionary ComCfg value) (default: None)
+
+Communication Plugin Options:
+  --communication-selection {uart,ip,none}
+                        Select communication implementer. (default: ip)
+
+Communication Plugin 'uart' Options:
+  --uart-device DEVICE  UART device representing the FSW. (default:
+                        /dev/ttyACM0)
+  --uart-baud BAUD      Baud rate of the serial device. (default: 9600)
+  --uart-skip-port-check
+                        Skip checking that the port exists (default: False)
+
+Communication Plugin 'ip' Options:
+  --ip-address ADDRESS  Address of the IP adapter server. (default: 0.0.0.0)
+  --ip-port PORT        Port of the IP adapter server. (default: 50000)
+  --ip-client           Run the IP adapter as the client (connects to FSW
+                        running TcpServer) (default: True)
+  --keepalive-interval KEEPALIVE_INTERVAL
+                        Keep alive packet interval. 0.0 = off, default = 0.5
+                        (default: 0.5)
+
+Gds_App Plugin 'custom-data-handlers-app' Options:
+  --disable-custom-data-handlers-app
+                        Disable the gds_app plugin 'custom-data-handlers-app'
+                        (default: False)

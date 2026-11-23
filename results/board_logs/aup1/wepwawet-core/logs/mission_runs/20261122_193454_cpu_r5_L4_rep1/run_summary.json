@@ -1,0 +1,110 @@
+{
+ "params": {
+  "host": "aup1",
+  "backend": "cpu",
+  "rate": 5,
+  "load_level": 4,
+  "seconds": 60,
+  "tag": "rep1",
+  "adcs_rate": 100,
+  "adcs_prio": 80,
+  "payload_rate": 8,
+  "core_order": "1 3 0 2",
+  "driver_mode": "open",
+  "payload_input": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "started_epoch": 1795376094
+ },
+ "driver": {
+  "command": "WepwawetDeployment.pqcTransport.PeerPing",
+  "mode": "open",
+  "rate_requested": 5.0,
+  "seconds": 60.0,
+  "sent": 300,
+  "late_sends": 2,
+  "send_errors": 0,
+  "achieved_rate": 5.015855743920688,
+  "t_first": 1795376156.2610886,
+  "t_last": 1795376216.0714211,
+  "closed_completion_s": null
+ },
+ "adcs": {
+  "tool": "adcs_load",
+  "rate_hz": 100.0,
+  "substeps": 10,
+  "cpu": 1,
+  "prio": 80,
+  "cycles": 7500,
+  "deadline_misses": 3,
+  "skipped_releases": 14,
+  "miss_rate": 0.0004,
+  "exec_us": {
+   "p50": 71.8,
+   "p99": 134.0,
+   "max": 153.2
+  },
+  "release_jitter_us": {
+   "p50": 31.4,
+   "p99": 134.2,
+   "max": 93738.1
+  },
+  "final_pointing_error_deg": 0.0253,
+  "attitude_estimation_error_deg": 0.0224,
+  "gyro_bias_estimation_error_deg_per_h": 3.493,
+  "body_rate_deg_s": 0.00236
+ },
+ "payload": {
+  "tool": "payload_load",
+  "algorithm": "CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128",
+  "data": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "frame": "1024x1024 x 16-bit",
+  "frame_bytes": 2097152,
+  "tiles": 16,
+  "threads": 3,
+  "cpus": "3,0,2",
+  "rate_fps_per_thread": 8.0,
+  "wall_s": 74.955,
+  "frames": 1800,
+  "deadline_ms": 125.0,
+  "deadline_misses": 649,
+  "miss_rate": 0.36056,
+  "proc_ms_p50": 84.768,
+  "proc_ms_p99": 243.938,
+  "proc_ms_max": 351.599,
+  "compression_ratio": 1.603,
+  "throughput_MBps_busy": 23.07,
+  "cpu_busy_fraction_per_thread": 0.7276,
+  "verified_frames": 0,
+  "verify_ok": 0,
+  "errors": 0
+ },
+ "sign": {
+  "requested": 300,
+  "done": 300,
+  "ok": 300,
+  "failed": 0,
+  "backends": [
+   "cpu-neon"
+  ],
+  "lat_ms_p50": 0.9238999999999999,
+  "lat_ms_p99": 3.7856,
+  "lat_ms_max": 5.1227,
+  "lat_ms_mean": 1.1701223333333333,
+  "pl_attempts_mean": null
+ },
+ "fprime": {
+  "cycle_slips": 0,
+  "hw_errors": 0,
+  "queue_full": 0,
+  "peer_accepted": 300,
+  "peer_failed": 0,
+  "peer_frames_received_here": 0
+ },
+ "cpu_util_mean": {
+  "cpu0": 83.2,
+  "cpu1": 98.0,
+  "cpu2": 84.6,
+  "cpu3": 84.7
+ },
+ "image_before": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE",
+ "image_after": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE"
+}

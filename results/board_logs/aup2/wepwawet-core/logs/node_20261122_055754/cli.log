@@ -1,0 +1,340 @@
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.
+[INFO] Autodetected artifacts root '/home/xilinx/wepwawet-core/fprime/core-source/build-artifacts' from project settings.ini file.
+Traceback (most recent call last):
+  File "/home/xilinx/Wepwawet/fprime-venv/bin/fprime-cli", line 6, in <module>
+    sys.exit(main())
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 423, in main
+    function(args_ns)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/fprime_cli.py", line 281, in command_func
+    command_send.CommandSendCommand.handle_arguments(parsed_args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/common/gds_cli/base_commands.py", line 149, in handle_arguments
+    pipeline_parser.handle_arguments(args, **kwargs, client=True)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 853, in handle_arguments
+    args = constituent.handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 1081, in handle_arguments
+    args = super().handle_arguments(args, **kwargs)
+  File "/home/xilinx/Wepwawet/fprime-venv/lib/python3.10/site-packages/fprime_gds/executables/cli.py", line 500, in handle_arguments
+    raise Exception(msg)
+Exception: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux does not exist. Make sure to build.

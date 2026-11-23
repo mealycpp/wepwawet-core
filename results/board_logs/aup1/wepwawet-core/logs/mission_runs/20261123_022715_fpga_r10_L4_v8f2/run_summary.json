@@ -1,0 +1,112 @@
+{
+ "params": {
+  "host": "aup1",
+  "backend": "fpga",
+  "rate": 10,
+  "load_level": 4,
+  "seconds": 60,
+  "tag": "v8f2",
+  "adcs_rate": 100,
+  "adcs_prio": 80,
+  "payload_rate": 13.5,
+  "core_order": "1 3 0 2",
+  "driver_mode": "open",
+  "pinning": "core",
+  "signer_prio": 0,
+  "payload_input": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "started_epoch": 1795400835
+ },
+ "driver": {
+  "command": "WepwawetDeployment.pqcTransport.PeerPing",
+  "mode": "open",
+  "rate_requested": 10.0,
+  "seconds": 60.0,
+  "sent": 600,
+  "late_sends": 378,
+  "send_errors": 0,
+  "achieved_rate": 10.01397497664202,
+  "t_first": 1795400952.7317977,
+  "t_last": 1795401012.6480649,
+  "closed_completion_s": null
+ },
+ "adcs": {
+  "tool": "adcs_load",
+  "rate_hz": 100.0,
+  "substeps": 10,
+  "cpu": 1,
+  "prio": 80,
+  "cycles": 7500,
+  "deadline_misses": 4,
+  "skipped_releases": 3497,
+  "miss_rate": 0.000533,
+  "exec_us": {
+   "p50": 71.3,
+   "p99": 129.5,
+   "max": 220.5
+  },
+  "release_jitter_us": {
+   "p50": 33.4,
+   "p99": 118.2,
+   "max": 21300251.1
+  },
+  "final_pointing_error_deg": 0.0253,
+  "attitude_estimation_error_deg": 0.0224,
+  "gyro_bias_estimation_error_deg_per_h": 3.493,
+  "body_rate_deg_s": 0.00236
+ },
+ "payload": {
+  "tool": "payload_load",
+  "algorithm": "CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128",
+  "data": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "frame": "1024x1024 x 16-bit",
+  "frame_bytes": 2097152,
+  "tiles": 16,
+  "threads": 3,
+  "cpus": "3,0,2",
+  "rate_fps_per_thread": 13.5,
+  "wall_s": 81.069,
+  "frames": 3039,
+  "deadline_ms": 74.074,
+  "deadline_misses": 1425,
+  "miss_rate": 0.4689,
+  "proc_ms_p50": 49.332,
+  "proc_ms_p99": 214.561,
+  "proc_ms_max": 415.25,
+  "compression_ratio": 1.603,
+  "throughput_MBps_busy": 31.92,
+  "cpu_busy_fraction_per_thread": 0.821,
+  "verified_frames": 0,
+  "verify_ok": 0,
+  "errors": 0
+ },
+ "sign": {
+  "requested": 600,
+  "done": 171,
+  "ok": 171,
+  "failed": 0,
+  "backends": [
+   "fpga"
+  ],
+  "lat_ms_p50": 5.1076999999999995,
+  "lat_ms_p99": 28.550099999999997,
+  "lat_ms_max": 37.3054,
+  "lat_ms_mean": 6.731369005847953,
+  "pl_attempts_mean": 4.099415204678363
+ },
+ "fprime": {
+  "cycle_slips": 0,
+  "hw_errors": 0,
+  "queue_full": 0,
+  "peer_accepted": 171,
+  "peer_failed": 0,
+  "peer_frames_received_here": 0
+ },
+ "cpu_util_mean": {
+  "cpu0": 94.3,
+  "cpu1": 83.7,
+  "cpu2": 91.9,
+  "cpu3": 90.5
+ },
+ "image_before": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00030003 STATUS=0x0000240e locked=1 DET_RND=0 -> v8 ALIVE, key SEALED",
+ "image_after": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00030003 STATUS=0x0000240e locked=1 DET_RND=0 -> v8 ALIVE, key SEALED"
+}

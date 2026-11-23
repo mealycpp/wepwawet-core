@@ -1,0 +1,14 @@
+===== STAGE 7F WCORE JOB =====
+HOST_STATUS=0x7F10001A
+GPIO_TRI_INFORMATIONAL=0xFFFFFFFF
+CHANNEL_1_CONFIG=HARDWARE_OUTPUTS
+BEFORE: 0x00000010 busy=0 done=0 error=0 locked=0 init=1 tx_last=0 rx_last=0 nonzero=0 tx_count=0 rx_count=0 error_code=0
+ISSUING_START
+RESULT: 0x00808072 busy=0 done=1 error=0 locked=0 init=1 tx_last=1 rx_last=1 nonzero=0 tx_count=128 rx_count=128 error_code=0
+WCORE_JOB_DONE_OBSERVED
+AFTER_ACK: 0x00808070 busy=0 done=0 error=0 locked=0 init=1 tx_last=1 rx_last=1 nonzero=0 tx_count=128 rx_count=128 error_code=0
+WCORE_JOB_CONTROL_PASS
+WCORE_STREAM_ACTIVITY_PASS
+NTT_NUMERICAL_CORRECTNESS_NOT_YET_TESTED
+GPIO_CONTROL_RETURNED_LOW
+===== COMPLETE =====

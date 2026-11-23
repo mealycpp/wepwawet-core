@@ -1,0 +1,98 @@
+{
+ "params": {
+  "host": "aup1",
+  "backend": "fpga",
+  "rate": 0,
+  "load_level": 4,
+  "seconds": 60,
+  "tag": "fbase1",
+  "adcs_rate": 100,
+  "adcs_prio": 80,
+  "payload_rate": 13.5,
+  "core_order": "1 3 0 2",
+  "driver_mode": "open",
+  "pinning": "core",
+  "signer_prio": 0,
+  "payload_input": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "started_epoch": 1795380996
+ },
+ "driver": {},
+ "adcs": {
+  "tool": "adcs_load",
+  "rate_hz": 100.0,
+  "substeps": 10,
+  "cpu": 1,
+  "prio": 80,
+  "cycles": 7500,
+  "deadline_misses": 7,
+  "skipped_releases": 1462,
+  "miss_rate": 0.000933,
+  "exec_us": {
+   "p50": 71.3,
+   "p99": 128.9,
+   "max": 241.2
+  },
+  "release_jitter_us": {
+   "p50": 29.5,
+   "p99": 122.2,
+   "max": 8217903.2
+  },
+  "final_pointing_error_deg": 0.0253,
+  "attitude_estimation_error_deg": 0.0224,
+  "gyro_bias_estimation_error_deg_per_h": 3.493,
+  "body_rate_deg_s": 0.00236
+ },
+ "payload": {
+  "tool": "payload_load",
+  "algorithm": "CCSDS 121.0-B (libaec 1.1.8) lossless, preprocess, block=16 rsi=128",
+  "data": "/home/xilinx/mission_kit/harness/../payload/data/tiles.raw",
+  "frame": "1024x1024 x 16-bit",
+  "frame_bytes": 2097152,
+  "tiles": 16,
+  "threads": 3,
+  "cpus": "3,0,2",
+  "rate_fps_per_thread": 13.5,
+  "wall_s": 78.984,
+  "frames": 3039,
+  "deadline_ms": 74.074,
+  "deadline_misses": 2220,
+  "miss_rate": 0.7305,
+  "proc_ms_p50": 49.68,
+  "proc_ms_p99": 252.934,
+  "proc_ms_max": 462.8,
+  "compression_ratio": 1.603,
+  "throughput_MBps_busy": 29.95,
+  "cpu_busy_fraction_per_thread": 0.898,
+  "verified_frames": 0,
+  "verify_ok": 0,
+  "errors": 0
+ },
+ "sign": {
+  "requested": 0,
+  "done": 0,
+  "ok": 0,
+  "failed": 0,
+  "backends": [],
+  "lat_ms_p50": null,
+  "lat_ms_p99": null,
+  "lat_ms_max": null,
+  "lat_ms_mean": null,
+  "pl_attempts_mean": null
+ },
+ "fprime": {
+  "cycle_slips": 0,
+  "hw_errors": 0,
+  "queue_full": 0,
+  "peer_accepted": 0,
+  "peer_failed": 0,
+  "peer_frames_received_here": 0
+ },
+ "cpu_util_mean": {
+  "cpu0": 90.7,
+  "cpu1": 72.6,
+  "cpu2": 91.1,
+  "cpu3": 90.8
+ },
+ "image_before": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE",
+ "image_after": "WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE"
+}

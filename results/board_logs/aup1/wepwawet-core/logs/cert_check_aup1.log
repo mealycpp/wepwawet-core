@@ -1,0 +1,5 @@
+DATE_EPOCH 1795400616
+CERT_CHECK verifier=FABRIC(ML-DSA-44 Verify program, VERSION 0x00030003) peer=AUP2 valid=1 tampered_pk_rejected=1 tampered_cert_rejected=1
+CERT_CHECK verifier=CPU(PQClean ML-DSA-44 aarch64) valid=1 tampered_pk_rejected=1 tampered_cert_rejected=1
+installed /home/xilinx/wepwawet-core/firmware/identity/trusted_peer_pk.bin (previous one in /home/xilinx/wepwawet-core/firmware/identity/backup_cert_20261123_022336)
+CERT_CHECK RESULT: ACCEPT

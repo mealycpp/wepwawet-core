@@ -1,0 +1,649 @@
+-- [python3] python3 found at: /home/xilinx/Wepwawet/fprime-venv/bin/python3
+-- [fpp-tools] fpp-depend found at: /home/xilinx/Wepwawet/fprime-venv/bin/fpp-depend
+-- [fpp-tools] fpp-to-cpp found at: /home/xilinx/Wepwawet/fprime-venv/bin/fpp-to-cpp
+-- [fpp-tools] fpp-to-dict found at: /home/xilinx/Wepwawet/fprime-venv/bin/fpp-to-dict
+-- [fpp-tools] fpp-locate-defs found at: /home/xilinx/Wepwawet/fprime-venv/bin/fpp-locate-defs
+-- [FPRIME] Module locations: /home/xilinx/wepwawet-core/fprime/core-source/lib/fprime/home/xilinx/wepwawet-core/fprime/core-source/home/xilinx/wepwawet-core/fprime/core-source/build-core/F-Prime/home/xilinx/wepwawet-core/fprime/core-source/build-core
+-- [FPRIME] Installation directory: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts
+-- Target build toolchain/platform: Linux/Linux
+-- [sub-build] Performing sub-build: info-cache
+-- [sub-build] Generating: info-cache with target/sub-build/fpp_locstarget/sub-build/fpp_dependtarget/sub-build/module_info
+-- [sub-build] Executing: info-cache with fpp_locs
+-- [sub-build] Executing: info-cache with fpp_depend
+-- [sub-build] Executing: info-cache with module_info
+-- [sub-build] Performing sub-build: info-cache - DONE
+-- [INFO] Failed to find 'syft' on PATH, please install to generate software bill-of-materials
+-- [LIBRARY] Adding modules from F´ framework
+-- Including /home/xilinx/wepwawet-core/fprime/core-source/lib/fprime/cmake/platform/Linux.cmake
+-- Adding Library: UnixPlatformTypes
+-- Adding Library: PlatformLinux
+-- Adding Library: FppToCppSettings
+-- Adding Library: default_config
+-- Adding Library: Fw_Buffer
+-- Adding Library: Fw_Cmd
+-- Adding Library: Fw_Com
+-- Adding Library: Fw_DataStructures
+-- Adding Library: Fw_Dp
+-- Adding Library: Fw_Fpy
+-- Adding Library: Fw_Interfaces
+-- Adding Library: Fw_Log
+-- Adding Library: Fw_Logger
+-- Adding Library: Fw_Prm
+-- Adding Library: Fw_Time
+-- Adding Library: Fw_Tlm
+-- Adding Library: Fw_Comp
+-- Adding Library: Fw_CompQueued
+-- Adding Library: Fw_Sm
+-- Adding Library: Fw_FilePacket
+-- Adding Library: Fw_Obj
+-- Adding Library: Fw_Port
+-- Adding Library: Fw_Ports_CompletionStatus
+-- Adding Library: Fw_Ports_Ready
+-- Adding Library: Fw_Ports_Signal
+-- Adding Library: Fw_Ports_SuccessCondition
+-- Adding Library: Fw_SerializableFile
+-- Adding Library: Fw_Test
+-- Adding Library: Fw_Types
+-- Adding required implementations of Fw_StringFormatFw_StringScan
+-- Adding Library: Fw_StringFormat_snprintf
+-- Adding Library: Fw_StringScan_sscanf
+-- Adding Library: Svc_Types_TlmPacketizerTypes
+-- Adding Library: Svc_Cycle
+-- Adding Library: Svc_Fatal
+-- Adding Library: Svc_Interfaces
+-- Adding Library: Svc_Ping
+-- Adding Library: Svc_PolyIf
+-- Adding Library: Svc_Sched
+-- Adding Library: Svc_Seq
+-- Adding Library: Svc_WatchDog
+-- Adding Library: Svc_Ports_CommsPorts
+-- Adding Library: Svc_Ports_OsTimeEpoch
+-- Adding Library: Svc_Ports_VersionPorts
+-- Adding Library: Svc_Ports_FilePorts
+-- Adding Library: Svc_Ports_TlmPacketizerPorts
+-- Adding Library: Svc_ActivePhaser
+-- Adding Library: Svc_ActiveRateGroup
+-- Adding Library: Svc_AssertFatalAdapter
+-- Adding Library: Svc_BufferAccumulator
+-- Adding Library: Svc_BufferManager
+-- Adding Library: Svc_BufferLogger
+-- Adding Library: Svc_BufferRepeater
+-- Adding Library: Svc_ChronoTime
+-- Adding Library: Svc_ComLogger
+-- Adding Library: Svc_ComQueue
+-- Adding Library: Svc_ComSplitter
+-- Adding Library: Svc_ComStub
+-- Adding Library: Svc_CmdDispatcher
+-- Adding Library: Svc_CmdSequencer
+-- Adding Library: Svc_CmdSplitter
+-- Adding Library: Svc_DpCatalog
+-- Adding Library: Svc_DpManager
+-- Adding Library: Svc_DpPorts
+-- Adding Library: Svc_DpWriter
+-- Adding Library: Svc_EventManager
+-- Adding Library: Svc_FatalHandler
+-- Adding Library: Svc_FileDispatcher
+-- Adding Library: Svc_FileDownlinkPorts
+-- Adding Library: Svc_FileDownlink
+-- Adding Library: Svc_FileManager
+-- Adding Library: Svc_FileUplink
+-- Adding Library: Svc_FileWorker
+-- Adding Library: Svc_FprimeDeframer
+-- Adding Library: Svc_FprimeFramer
+-- Adding Library: Svc_FprimeProtocol
+-- Adding Library: Svc_FprimeRouter
+-- Adding Library: Svc_FrameAccumulator
+-- Adding Library: Svc_GenericHub
+-- Adding Library: Svc_Health
+-- Adding Library: Svc_OsTime_test_RawTimeTester
+-- Adding Library: Svc_OsTime
+-- Adding Library: Svc_PassiveRateGroup
+-- Adding Library: Svc_PolyDb
+-- Adding Library: Svc_PrmDb
+-- Adding Library: Svc_RateGroupDriver
+-- Adding Library: Svc_SeqDispatcher
+-- Adding Library: Svc_StaticMemory
+-- Adding Library: Svc_TlmChan
+-- Adding Library: Svc_TlmPacketizer_config_TlmPacketizerConfig
+-- Adding Library: Svc_TlmPacketizer
+-- Adding Library: Svc_SystemResources
+-- Adding Library: Svc_Subtopologies_CdhCore_CdhCoreConfig
+-- Adding Library: Svc_Subtopologies_CdhCore
+-- Adding Library: Svc_Subtopologies_ComCcsds_ComCcsdsConfig
+-- Adding Library: Svc_Subtopologies_ComCcsds
+-- Adding Library: Svc_Subtopologies_ComFprime_ComFprimeConfig
+-- Adding Library: Svc_Subtopologies_ComFprime
+-- Adding Library: Svc_Subtopologies_FileHandling_FileHandlingConfig
+-- Adding Library: Svc_Subtopologies_FileHandling
+-- Adding Library: Svc_Subtopologies_DataProducts_DataProductsConfig
+-- Adding Library: Svc_Subtopologies_DataProducts
+-- Adding Library: Svc_Subtopologies_ComLoggerTee_ComLoggerTeeConfig
+-- Adding Library: Svc_Subtopologies_ComLoggerTee
+-- Adding Library: Svc_PassiveConsoleTextLogger
+-- Adding Library: Svc_ActiveTextLogger
+-- Adding Library: Svc_PosixTime
+-- Adding Library: Svc_LinuxTimer
+-- Adding Library: Svc_Version
+-- Adding Library: Svc_FpySequencer
+-- Adding Library: Svc_Ccsds_Types
+-- Adding Library: Svc_Ccsds_Ports
+-- Adding Library: Svc_Ccsds_SpacePacketDeframer
+-- Adding Library: Svc_Ccsds_SpacePacketFramer
+-- Adding Library: Svc_Ccsds_TcDeframer
+-- Adding Library: Svc_Ccsds_TmFramer
+-- Adding Library: Svc_Ccsds_AosFramer
+-- Adding Library: Svc_Ccsds_ApidManager
+-- Adding Library: Svc_ComAggregator
+-- Adding Library: Svc_ComRetry
+-- Adding Library: Svc_PassThroughRouter
+-- Adding Library: Os_Models
+-- Adding Library: Os_File_Stub_Implementation
+-- Adding Library: Os_File_Stub
+-- Adding Library: Os_Console_Stub_Implementation
+-- Adding Library: Os_Console_Stub
+-- Adding Library: Os_Task_Stub_Implementation
+-- Adding Library: Os_Task_Stub
+-- Adding Library: Os_Mutex_Stub_Implementation
+-- Adding Library: Os_Mutex_Stub
+-- Adding Library: Os_Cpu_Stub_Implementation
+-- Adding Library: Os_Cpu_Stub
+-- Adding Library: Os_Memory_Stub_Implementation
+-- Adding Library: Os_Memory_Stub
+-- Adding Library: Os_Queue_Stub_Implementation
+-- Adding Library: Os_Queue_Stub
+-- Adding Library: Os_RawTime_Stub_Implementation
+-- Adding Library: Os_RawTime_Stub
+-- Adding Library: Os_File_None
+-- Adding Library: Os_Posix_Shared
+-- Adding Library: Os_File_Posix_Implementation
+-- Adding Library: Os_File_Posix
+-- Adding Library: Os_Console_Posix_Implementation
+-- Adding Library: Os_Console_Posix
+-- Adding Library: Os_Task_Posix_Implementation
+-- Adding Library: Os_Task_Posix
+-- Adding Library: Os_Mutex_Posix_Implementation
+-- Adding Library: Os_Mutex_Posix
+-- Adding Library: Os_RawTime_Posix_Implementation
+-- Adding Library: Os_RawTime_Posix
+-- Adding Library: Os_Generic_Types
+-- Adding Library: Os_Generic_PriorityQueue_Implementation
+-- Adding Library: Os_Generic_PriorityQueue
+-- Adding Library: Os_Cpu_Linux_Implementation
+-- Adding Library: Os_Cpu_Linux
+-- Adding Library: Os_Memory_Linux_Implementation
+-- Adding Library: Os_Memory_Linux
+-- Neither toolchain native nor platform Linux supported for module Os_Darwin
+-- Adding Library: Os
+-- Adding Library: Os_Console
+-- Adding required implementations of Os_Console
+-- Adding Library: Os_File
+-- Adding required implementations of Os_File
+-- Adding Library: Os_Task
+-- Adding required implementations of Os_Task
+-- Adding Library: Os_Mutex
+-- Adding required implementations of Os_Mutex
+-- Adding Library: Os_Queue
+-- Adding required implementations of Os_Queue
+-- Adding Library: Os_Cpu
+-- Adding required implementations of Os_Cpu
+-- Adding Library: Os_Memory
+-- Adding required implementations of Os_Memory
+-- Adding Library: Os_RawTime
+-- Adding required implementations of Os_RawTime
+-- Adding Library: Drv_Interfaces
+-- Adding Library: Drv_Ports_DataTypes
+-- Adding Library: Drv_Ports
+-- Adding Library: Drv_AsyncByteStreamBufferAdapter
+-- Adding Library: Drv_ByteStreamBufferAdapter
+-- Adding Library: Drv_ByteStreamDriverModel
+-- Adding Library: Drv_LinuxGpioDriver
+-- Adding Library: Drv_LinuxI2cDriver
+-- Adding Library: Drv_LinuxSpiDriver
+-- Adding Library: Drv_LinuxUartDriver
+-- Adding Library: Drv_Ip
+-- Adding Library: Drv_TcpClient
+-- Adding Library: Drv_TcpServer
+-- Adding Library: Drv_Udp
+-- Adding Library: CFDP_Checksum
+-- Adding Library: Utils
+-- Adding Library: Utils_Hash
+-- Adding Library: Utils_Types
+-- [LIBRARY] Adding modules from F´ framework - DONE
+-- Adding Library: Wepwawet
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Adding Library: HwAccelMgr
+-- Adding Library: DilithiumSign
+-- Adding Library: DilithiumVerify
+-- Adding Library: PqcTransport
+-- Adding Library: PqcSecurityGateway
+-- Adding Library: WepwawetDeployment_Top
+-- Adding Deployment: WepwawetDeployment
+-- Configuring done (63.7s)
+-- Generating done (6.1s)
+-- Build files have been written to: /home/xilinx/wepwawet-core/fprime/core-source/build-core
+[  0%] Built target FppToCppSettings
+[  0%] Built target PlatformLinux
+[  0%] Built target UnixPlatformTypes
+[  0%] Built target Fw_DataStructures
+[  0%] Built target Fw_Interfaces
+[  0%] Built target Svc_Interfaces
+[  0%] Built target Drv_Interfaces
+[  0%] Built target Os_File_None
+[  0%] Built target Svc_Subtopologies_CdhCore_CdhCoreConfig
+[  1%] Built target Svc_Subtopologies_CdhCore
+[  1%] Built target Svc_Subtopologies_ComCcsds
+[  2%] Built target Svc_Subtopologies_FileHandling
+[  2%] Built target Svc_Subtopologies_FileHandling_FileHandlingConfig
+[  2%] Built target Svc_Subtopologies_DataProducts
+[  3%] Built target version_generate
+[  3%] Built target WepwawetDeployment_Top_dictionary
+[  4%] Built target default_config
+-- Install configuration: "Release"
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/dict/WepwawetDeploymentTopologyDictionary.json
+[  4%] Built target WepwawetDeployment_dictionary
+[  7%] Built target Fw_Types
+[  7%] Built target Fw_Logger
+[  7%] Built target version
+[  7%] Built target Fw_Sm
+[  8%] Built target Utils_Hash
+[  8%] Built target CFDP_Checksum
+[  8%] Built target Fw_Test
+[  8%] Built target Fw_StringFormat_snprintf
+[  9%] Built target Fw_StringScan_sscanf
+[  9%] Built target Utils_Types
+[  9%] Built target Os_Generic_Types
+[  9%] Built target Svc_Subtopologies_ComCcsds_ComCcsdsConfig
+[  9%] Built target Svc_Subtopologies_DataProducts_DataProductsConfig
+[ 10%] Built target Fw_Obj
+[ 10%] Built target Os_Generic_PriorityQueue_Implementation
+[ 10%] Built target Os_Generic_PriorityQueue
+[ 11%] Built target Fw_Port
+[ 11%] Built target Fw_Comp
+[ 12%] Built target Fw_Time
+[ 12%] Built target Os_Console
+[ 13%] Built target Fw_Com
+[ 13%] Built target Os_Task
+[ 13%] Built target Os_File
+[ 13%] Built target Os_Mutex
+[ 13%] Built target Os_Cpu
+[ 13%] Built target Os_Queue
+[ 14%] Built target Os_Memory
+[ 14%] Built target Svc_OsTime_test_RawTimeTester
+[ 14%] Built target Os_Console_Stub_Implementation
+[ 15%] Built target Os_File_Stub_Implementation
+[ 15%] Built target Os_Task_Stub_Implementation
+[ 15%] Built target Os_Cpu_Stub_Implementation
+[ 15%] Built target Os_Memory_Stub_Implementation
+[ 15%] Built target Os_Mutex_Stub_Implementation
+[ 15%] Built target Os_Queue_Stub_Implementation
+[ 16%] Built target Os_Posix_Shared
+[ 17%] Built target Os_Console_Posix_Implementation
+[ 18%] Built target Os_Cpu_Linux_Implementation
+[ 18%] Built target Os_Memory_Linux_Implementation
+[ 18%] Built target Fw_Fpy
+[ 18%] Built target Os_File_Stub
+[ 18%] Built target Os_Console_Stub
+[ 18%] Built target Os_Task_Stub
+[ 18%] Built target Os_Mutex_Stub
+[ 18%] Built target Os_Cpu_Stub
+[ 18%] Built target Os_Memory_Stub
+[ 18%] Built target Os_Queue_Stub
+[ 18%] Built target Os_File_Posix_Implementation
+[ 18%] Built target Os_Console_Posix
+[ 18%] Built target Os_Task_Posix_Implementation
+[ 18%] Built target Os_Mutex_Posix_Implementation
+[ 18%] Built target Os_Cpu_Linux
+[ 18%] Built target Os_Memory_Linux
+[ 19%] Built target Fw_Tlm
+[ 20%] Built target Os_File_Posix
+[ 20%] Built target Os_Task_Posix
+[ 21%] Built target Os_Mutex_Posix
+[ 22%] Built target Fw_Log
+[ 23%] Built target Fw_Cmd
+[ 24%] Built target Fw_Prm
+[ 25%] Built target Fw_Ports_CompletionStatus
+[ 25%] Built target Fw_Ports_Ready
+[ 25%] Built target Fw_Ports_Signal
+[ 26%] Built target Fw_Buffer
+[ 26%] Built target Fw_Ports_SuccessCondition
+[ 26%] Built target Svc_Types_TlmPacketizerTypes
+[ 26%] Built target Svc_Fatal
+[ 26%] Built target Svc_Ping
+[ 27%] Built target Svc_Sched
+[ 27%] Built target Svc_PolyIf
+[ 27%] Built target Svc_Seq
+[ 27%] Built target Svc_WatchDog
+[ 27%] Built target Svc_Ports_VersionPorts
+[ 29%] Built target Svc_Ports_CommsPorts
+[ 29%] Built target Svc_TlmPacketizer_config_TlmPacketizerConfig
+[ 30%] Built target Svc_Ports_FilePorts
+[ 30%] Built target Svc_AssertFatalAdapter
+[ 30%] Built target Svc_ComSplitter
+[ 30%] Built target Svc_BufferRepeater
+[ 34%] Built target Svc_DpPorts
+[ 34%] Built target Drv_Ports
+[ 35%] Built target Svc_CmdSplitter
+[ 35%] Built target Drv_ByteStreamDriverModel
+[ 35%] Built target Svc_FprimeProtocol
+[ 36%] Built target Svc_FileDownlinkPorts
+[ 36%] Built target Svc_PassiveConsoleTextLogger
+[ 37%] Built target Svc_Ccsds_Types
+[ 37%] Built target Drv_Ports_DataTypes
+[ 38%] Built target Wepwawet
+[ 40%] Built target Os_Models
+[ 41%] Built target Os_RawTime
+[ 42%] Built target Fw_Dp
+[ 43%] Built target Fw_FilePacket
+[ 43%] Built target Os_RawTime_Stub_Implementation
+[ 44%] Built target Svc_Ports_TlmPacketizerPorts
+[ 45%] Built target Svc_Ccsds_Ports
+[ 46%] Built target Os
+[ 46%] Built target Os_RawTime_Posix_Implementation
+[ 47%] Built target Svc_PassThroughRouter
+[ 47%] Building CXX object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/HwAccelMgr.cpp.o
+[ 47%] Built target Os_RawTime_Stub
+[ 48%] Built target Drv_Ip
+[ 49%] Built target Fw_CompQueued
+[ 49%] Built target Fw_SerializableFile
+[ 49%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/wcore_fpga.c.o
+[ 49%] Built target Svc_Cycle
+[ 49%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/ntt.c.o
+[ 49%] Built target Svc_Ports_OsTimeEpoch
+[ 50%] Built target Svc_BufferAccumulator
+[ 50%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/packing.c.o
+[ 51%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/poly.c.o
+[ 51%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/polyvec.c.o
+[ 52%] Built target Svc_BufferManager
+[ 52%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/reduce.c.o
+[ 53%] Built target Svc_BufferLogger
+[ 53%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/rounding.c.o
+[ 54%] Built target Svc_ChronoTime
+[ 54%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/sign.c.o
+[ 54%] Built target Svc_ComLogger
+[ 54%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/symmetric-shake.c.o
+[ 55%] Built target Svc_ComQueue
+[ 55%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/fips202.c.o
+[ 56%] Built target Svc_ComStub
+[ 56%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/randombytes.c.o
+[ 57%] Building C object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/keccak2x/fips202x2.c.o
+[ 57%] Building ASM object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/__asm_NTT.S.o
+[ 57%] Built target Svc_CmdDispatcher
+[ 57%] Building ASM object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/__asm_iNTT.S.o
+[ 58%] Built target Svc_CmdSequencer
+[ 58%] Building ASM object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/__asm_poly.S.o
+[ 58%] Building ASM object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/pqclean_neon/keccak2x/feat.S.o
+[ 58%] Building CXX object HwAccelMgr/CMakeFiles/HwAccelMgr.dir/HwAccelMgrComponentAc.cpp.o
+[ 59%] Built target Svc_DpCatalog
+[ 59%] Built target Svc_DpManager
+[ 59%] Built target Svc_DpWriter
+[ 60%] Built target Svc_EventManager
+[ 61%] Built target Svc_FatalHandler
+[ 61%] Built target Svc_FileDispatcher
+[ 62%] Built target Svc_FileDownlink
+[ 62%] Built target Svc_FileManager
+[ 63%] Built target Svc_FileUplink
+[ 64%] Built target Utils
+[ 64%] Built target Svc_FprimeDeframer
+[ 65%] Built target Svc_FprimeFramer
+[ 67%] Built target Svc_FprimeRouter
+[ 68%] Built target Svc_FrameAccumulator
+[ 68%] Built target Svc_Health
+[ 68%] Built target Svc_OsTime
+[ 69%] Built target Svc_PassiveRateGroup
+[ 70%] Built target Svc_PolyDb
+[ 71%] Built target Svc_PrmDb
+[ 71%] Built target Svc_RateGroupDriver
+[ 72%] Built target Svc_SeqDispatcher
+[ 72%] Built target Svc_StaticMemory
+[ 73%] Built target Svc_TlmChan
+[ 74%] Built target Svc_TlmPacketizer
+[ 74%] Built target Svc_SystemResources
+[ 75%] Built target Svc_ActiveTextLogger
+[ 76%] Built target Svc_PosixTime
+[ 77%] Built target Svc_LinuxTimer
+[ 78%] Built target Svc_Version
+[ 78%] Built target Svc_Ccsds_SpacePacketDeframer
+[ 79%] Built target Svc_Ccsds_SpacePacketFramer
+[ 79%] Built target Svc_Ccsds_TcDeframer
+[ 80%] Built target Svc_Ccsds_TmFramer
+[ 86%] Built target Svc_FpySequencer
+[ 87%] Built target Svc_Ccsds_AosFramer
+[ 87%] Built target Svc_Ccsds_ApidManager
+[ 88%] Built target Svc_ComAggregator
+[ 89%] Built target Svc_ComRetry
+[ 89%] Built target Os_RawTime_Posix
+[ 89%] Built target Drv_AsyncByteStreamBufferAdapter
+[ 90%] Built target Drv_ByteStreamBufferAdapter
+[ 91%] Built target Drv_LinuxGpioDriver
+[ 91%] Built target Drv_LinuxI2cDriver
+[ 92%] Built target Drv_LinuxSpiDriver
+[ 92%] Built target Drv_LinuxUartDriver
+[ 93%] Built target Drv_TcpClient
+[ 93%] Built target Drv_TcpServer
+[ 94%] Built target Drv_Udp
+[ 94%] Built target DilithiumSign
+[ 95%] Built target DilithiumVerify
+[ 95%] Built target PqcTransport
+[ 96%] Built target PqcSecurityGateway
+[ 97%] Built target Svc_ActivePhaser
+[ 97%] Built target Svc_ActiveRateGroup
+[ 98%] Built target Svc_FileWorker
+[ 98%] Linking CXX static library ../lib/Linux/libHwAccelMgr.a
+[ 98%] Built target HwAccelMgr
+[ 98%] Building CXX object WepwawetDeployment/Top/CMakeFiles/WepwawetDeployment_Top.dir/WepwawetDeploymentTopology.cpp.o
+[ 98%] Building CXX object WepwawetDeployment/Top/CMakeFiles/WepwawetDeployment_Top.dir/WepwawetDeploymentTopologyAc.cpp.o
+[100%] Linking CXX static library ../../lib/Linux/libWepwawetDeployment_Top.a
+[100%] Built target WepwawetDeployment_Top
+[100%] Linking CXX executable ../bin/Linux/WepwawetDeployment
+-- Install configuration: "Release"
+-- Installing: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/bin/WepwawetDeployment
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Types.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Time.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libdefault_config.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Port.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Logger.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Obj.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Console_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Console.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_File_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_File.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libUtils_Hash.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Posix_Shared.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Task_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Task.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Mutex_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Mutex.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Generic_PriorityQueue_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Generic_Types.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Cpu_Linux_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Cpu.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Memory_Linux_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Memory.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_RawTime_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_RawTime.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Buffer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Prm.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Cmd.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Com.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Log.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Tlm.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Fpy.a
+-- Installing: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libWepwawetDeployment_Top.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDilithiumSign.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libWepwawet.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_CompQueued.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Queue.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Comp.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDilithiumVerify.a
+-- Installing: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libHwAccelMgr.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libPqcSecurityGateway.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libPqcTransport.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDrv_TcpClient.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDrv_ByteStreamDriverModel.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDrv_Ip.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDrv_Ports.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Cycle.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Dp.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ActiveRateGroup.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ping.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Sched.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ChronoTime.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Ports_SuccessCondition.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ports_CommsPorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_CmdSequencer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ports_FilePorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Seq.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_LinuxTimer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_RateGroupDriver.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FatalHandler.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Fatal.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_TlmChan.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_AssertFatalAdapter.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_Types.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_CmdDispatcher.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_EventManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FpySequencer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Health.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_WatchDog.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_PassiveConsoleTextLogger.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Version.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libversion.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ports_VersionPorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Subtopologies_ComCcsds_ComCcsdsConfig.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_BufferManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_ApidManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_Ports.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_SpacePacketDeframer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_SpacePacketFramer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_TcDeframer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_TmFramer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ComAggregator.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ComQueue.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libUtils_Types.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ComStub.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FprimeRouter.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FrameAccumulator.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FprimeProtocol.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Subtopologies_DataProducts_DataProductsConfig.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_DpCatalog.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_DpPorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FileDownlinkPorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_DpManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_DpWriter.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FileDownlink.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_FilePacket.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libCFDP_Checksum.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FileManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FileUplink.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_PrmDb.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_SystemResources.a
+-- Installing: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/hashes.txt
+[100%] Built target WepwawetDeployment
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/dict/WepwawetDeploymentTopologyDictionary.json
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/bin/WepwawetDeployment
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Types.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Time.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libdefault_config.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Port.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Logger.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Obj.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Console_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Console.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_File_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_File.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libUtils_Hash.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Posix_Shared.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Task_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Task.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Mutex_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Mutex.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Generic_PriorityQueue_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Generic_Types.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Cpu_Linux_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Cpu.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Memory_Linux_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Memory.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_RawTime_Posix_Implementation.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_RawTime.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Buffer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Prm.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Cmd.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Com.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Log.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Tlm.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Fpy.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libWepwawetDeployment_Top.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDilithiumSign.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libWepwawet.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_CompQueued.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libOs_Queue.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Comp.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDilithiumVerify.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libHwAccelMgr.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libPqcSecurityGateway.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libPqcTransport.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDrv_TcpClient.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDrv_ByteStreamDriverModel.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDrv_Ip.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libDrv_Ports.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Cycle.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Dp.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ActiveRateGroup.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ping.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Sched.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ChronoTime.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_Ports_SuccessCondition.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ports_CommsPorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_CmdSequencer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ports_FilePorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Seq.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_LinuxTimer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_RateGroupDriver.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FatalHandler.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Fatal.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_TlmChan.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_AssertFatalAdapter.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_Types.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_CmdDispatcher.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_EventManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FpySequencer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Health.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_WatchDog.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_PassiveConsoleTextLogger.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Version.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libversion.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ports_VersionPorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Subtopologies_ComCcsds_ComCcsdsConfig.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_BufferManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_ApidManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_Ports.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_SpacePacketDeframer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_SpacePacketFramer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_TcDeframer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Ccsds_TmFramer.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ComAggregator.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ComQueue.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libUtils_Types.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_ComStub.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FprimeRouter.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FrameAccumulator.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FprimeProtocol.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_Subtopologies_DataProducts_DataProductsConfig.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_DpCatalog.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_DpPorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FileDownlinkPorts.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_DpManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_DpWriter.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FileDownlink.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libFw_FilePacket.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libCFDP_Checksum.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FileManager.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_FileUplink.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_PrmDb.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/Linux/WepwawetDeployment/lib/static/libSvc_SystemResources.a
+-- Up-to-date: /home/xilinx/wepwawet-core/fprime/core-source/build-artifacts/hashes.txt

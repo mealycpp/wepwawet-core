@@ -1,0 +1,1 @@
+bash: line 4: 1330726 Bus error               (core dumped) python3 /home/xilinx/wepwawet-core/tools/stage7f_trng_verify.py

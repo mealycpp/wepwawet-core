@@ -1,0 +1,13 @@
+{
+ "command": "WepwawetDeployment.pqcTransport.PeerPing",
+ "mode": "open",
+ "rate_requested": 10.0,
+ "seconds": 60.0,
+ "sent": 600,
+ "late_sends": 47,
+ "send_errors": 0,
+ "achieved_rate": 10.016251746791635,
+ "t_first": 1795383713.6371741,
+ "t_last": 1795383773.5398219,
+ "closed_completion_s": null
+}

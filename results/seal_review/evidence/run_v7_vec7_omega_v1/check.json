@@ -1,0 +1,104 @@
+{
+ "mode": "v7",
+ "rundir": "run_v7_vec7",
+ "phases": {
+  "p0_reset": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p2_after_sign": {
+   "secret_hits": {
+    "S": 1536,
+    "E": 1805,
+    "E(oracle)": 243
+   },
+   "first_hit": {
+    "S": "b1[512]=0079cd67006d9fcf is S:s1_hat[0]",
+    "E": "b2[0]=00342b5f002c2805 is E:pc120 k0 b2[0]",
+    "E(oracle)": "b3[0]=0000646f000005a0 is E(oracle):y[0]"
+   },
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p3_after_verify_residue": {
+   "secret_hits": {
+    "E": 2755,
+    "S": 1024
+   },
+   "first_hit": {
+    "E": "b1[0]=ffdbecaa004cdbb6 is E:pc56 k0 b1[0]",
+    "S": "b1[512]=0079cd67006d9fcf is S:s1_hat[0]"
+   },
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p5_after_sign2": {
+   "secret_hits": {
+    "S": 1536,
+    "E": 1805,
+    "E(oracle)": 243
+   },
+   "first_hit": {
+    "S": "b1[512]=0079cd67006d9fcf is S:s1_hat[0]",
+    "E": "b2[0]=00342b5f002c2805 is E:pc120 k0 b2[0]",
+    "E(oracle)": "b3[0]=0000646f000005a0 is E(oracle):y[0]"
+   },
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  },
+  "p7_after_midreset": {
+   "secret_hits": {},
+   "first_hit": {},
+   "reg_hits": [],
+   "nonzero_outside_whitelist": 0,
+   "examples": [],
+   "slverr_words": 0
+  }
+ },
+ "fail": [
+  "p2_after_sign: host read back secret/secret-derived words: {'S': 1536, 'E': 1805, 'E(oracle)': 243} {'S': 'b1[512]=0079cd67006d9fcf is S:s1_hat[0]', 'E': 'b2[0]=00342b5f002c2805 is E:pc120 k0 b2[0]', 'E(oracle)': 'b3[0]=0000646f000005a0 is E(oracle):y[0]'} []",
+  "p3_after_verify_residue: host read back secret/secret-derived words: {'E': 2755, 'S': 1024} {'E': 'b1[0]=ffdbecaa004cdbb6 is E:pc56 k0 b1[0]', 'S': 'b1[512]=0079cd67006d9fcf is S:s1_hat[0]'} []",
+  "p5_after_sign2: host read back secret/secret-derived words: {'S': 1536, 'E': 1805, 'E(oracle)': 243} {'S': 'b1[512]=0079cd67006d9fcf is S:s1_hat[0]', 'E': 'b2[0]=00342b5f002c2805 is E:pc120 k0 b2[0]', 'E(oracle)': 'b3[0]=0000646f000005a0 is E(oracle):y[0]'} []",
+  "rho'' register page read while busy: 16 non-zero words e.g. {'tag': 'sign1', 'i': '0', 'resp': '0', 'data': 'de940e2b'}"
+ ],
+ "warn": [
+  "VERIFY launched over SIGN residue without z/h/t1 inputs: status=0000030e errors=00ea0000 c~'=4882711f6d3a9c96c7f3f1fa2218a640... -> verify consumed residue (y in b3[0..511], r0-cs2 in b3[512..1023]) and released a digest of it"
+ ],
+ "pass": [
+  "p0_reset: no host-readable word matches any of 3592 S + 7481 E + 0 rejected-z values",
+  "p0_reset: 0 non-zero scratchpad words after reset/zeroize",
+  "p2_after_sign: signature read through the window: byte-identical to deterministic PQClean/dilithium-py KAT=True, PQClean verify=VERIFY_OK",
+  "p5_after_sign2: signature read through the window: byte-identical to deterministic PQClean/dilithium-py KAT=True, PQClean verify=VERIFY_OK",
+  "p7_after_midreset: no host-readable word matches any of 3592 S + 7481 E + 0 rejected-z values",
+  "p7_after_midreset: 0 non-zero scratchpad words after reset/zeroize",
+  "BUSY_RD_S1[sign1] while busy: resp=2 data=00000000",
+  "BUSY_RD_Y[sign1] while busy: resp=2 data=00000000",
+  "BUSY_RD_Z[sign1] while busy: resp=2 data=00000000",
+  "BUSY_RD_B2[sign1] while busy: resp=2 data=00000000",
+  "BUSY_RELAUNCH_SIGN: resp=2",
+  "BUSY_RELAUNCH_VERIFY: resp=2",
+  "BUSY_WR_MU_LO while busy: resp=2 (2=SLVERR)",
+  "BUSY_WR_MU_HI while busy: resp=2 (2=SLVERR)",
+  "BUSY_WR_SEEDREG while busy: resp=2 (2=SLVERR)",
+  "BUSY_WR_RHOREG while busy: resp=2 (2=SLVERR)",
+  "proper VERIFY after sign: c~' == oracle: 1"
+ ],
+ "sizes": {
+  "S": 3592,
+  "E": 7481,
+  "RZ": 0,
+  "RLOW": 0,
+  "trace_rows": 54024
+ },
+ "verdict": "FAIL"
+}

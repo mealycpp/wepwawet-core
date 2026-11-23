@@ -1,0 +1,87 @@
+E LOCK resp=0
+E TRNGREG tag=after_lock trng=00000000 words_seen=0
+E REGS tag=after_lock status=00000408 kappa_att=00000000 errors=00000000 cycles=0 seal=00000001
+E LOCKED_RD_S1 resp=0 data=00000000
+E LOCKED_RD_T0 resp=0 data=00000000
+E LOCKED_RD_RHOPP resp=0 data=00000000
+E LOCKED_RD_K resp=0 data=00000000
+E LOCKED_RD_K3 resp=0 data=00000000
+E LOCKED_WR_K resp=0
+E LOCKED_WR_RHOPP_BLOCK resp=0
+E LOCKED_WR_RAWTRNG resp=0
+E LOCKED_WR_SEEDREG resp=0
+E TRNGREG tag=after_sealed_reads trng=00000000 words_seen=0
+E REGS tag=after_sealed_reads status=00000c08 kappa_att=00000000 errors=00000000 cycles=0 seal=000c0007
+E LOCKED_WR_S1 resp=0
+E LOCKED_WR_T0 resp=0
+E LOCKED_WR_RHOREG resp=0
+E LOCKED_WR_RHO_SP resp=0
+E TRNGREG tag=after_sealed_writes trng=00000000 words_seen=0
+E REGS tag=after_sealed_writes status=00000c08 kappa_att=00000000 errors=00000000 cycles=0 seal=00110007
+E LAUNCH_SIGN resp=0
+E BUSY_RD_S1 tag=sign1 resp=2 data=00000000
+E BUSY_RD_Y tag=sign1 resp=2 data=00000000
+E BUSY_RD_Z tag=sign1 resp=2 data=00000000
+E BUSY_RD_B2 tag=sign1 resp=2 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=0 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=1 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=2 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=3 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=4 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=5 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=6 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=7 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=8 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=9 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=10 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=11 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=12 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=13 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=14 resp=0 data=00000000
+E BUSY_RD_SEEDREG tag=sign1 i=15 resp=0 data=00000000
+E BUSY_WR_MU_LO tag=sign1 resp=2
+E BUSY_WR_MU_HI tag=sign1 resp=2
+E BUSY_WR_SEEDREG tag=sign1 resp=2
+E BUSY_WR_RHOREG tag=sign1 resp=2
+E BUSY_RELAUNCH_SIGN tag=sign1 resp=2
+E BUSY_RELAUNCH_VERIFY tag=sign1 resp=2
+E BUSY_ZEROIZE tag=sign1 resp=0
+E BUSY_LOCK tag=sign1 resp=0
+E BUSY_STATUS tag=sign1 status=00000c09
+E TRNGREG tag=sign1_done trng=00006222 words_seen=64
+E REGS tag=sign1_done status=00002d0e kappa_att=00050010 errors=00920000 cycles=2230076 seal=40110007
+E LAUNCH_VERIFY_RESIDUE resp=0
+E TRNGREG tag=verify_residue_done trng=00006222 words_seen=64
+E REGS tag=verify_residue_done status=00004f0e kappa_att=00010000 errors=00ea0000 cycles=214191 seal=78090007
+E VERIFY_RESIDUE_CTP i=0 data=61fce4749073e8c0 resp=0
+E VERIFY_RESIDUE_CTP i=1 data=5b4378e40f870f77 resp=0
+E VERIFY_RESIDUE_CTP i=2 data=6b73abf845f9fe8e resp=0
+E VERIFY_RESIDUE_CTP i=3 data=d2d1cc3b77bdffff resp=0
+E LAUNCH_VERIFY_VALID resp=0
+E TRNGREG tag=verify_valid_done trng=00006222 words_seen=64
+E REGS tag=verify_valid_done status=00004f0e kappa_att=00010000 errors=00ea0000 cycles=214186 seal=b8010007
+E VERIFY_VALID_CTP i=0 data=aca73f5d2349b4e5 exp=aca73f5d2349b4e5 resp=0
+E VERIFY_VALID_CTP i=1 data=54e4a14ef3e936af exp=54e4a14ef3e936af resp=0
+E VERIFY_VALID_CTP i=2 data=cc745f7899c5c50d exp=cc745f7899c5c50d resp=0
+E VERIFY_VALID_CTP i=3 data=e547d81808dea011 exp=e547d81808dea011 resp=0
+E VERIFY_VALID_RESULT match_oracle_ctilde_prime=1
+E LOCKED_WR_SEEDREG_P2 resp=0
+E LAUNCH_SIGN2 resp=0
+E SCRUBWIN_CAUGHT status=00000c0c polls=21217
+E SCRUBWIN_RD_Z resp=2 data=00000000
+E SCRUBWIN_RD_Y resp=2 data=00000000
+E SCRUBWIN_RD_RHOPP resp=2 data=00000000
+E SCRUBWIN_RD_H resp=2 data=00000000
+E SCRUBWIN_WR_Z resp=2
+E SCRUBWIN_RELAUNCH resp=2
+E SCRUBWIN_LAUNCH_VERIFY resp=2
+E TRNGREG tag=sign2_done trng=00007209 words_seen=128
+E REGS tag=sign2_done status=00002d0e kappa_att=00020004 errors=00920000 cycles=912289 seal=b8020007
+E ZEROIZE resp=0
+E TRNGREG tag=after_zeroize trng=00007209 words_seen=128
+E REGS tag=after_zeroize status=0000010e kappa_att=00020004 errors=00920000 cycles=912289 seal=00000000
+E LAUNCH_SIGN3 resp=0
+E MIDRESET at_pc=61 kappa=0 running=1
+E TRNGREG tag=after_midreset trng=00000000 words_seen=192
+E REGS tag=after_midreset status=00000008 kappa_att=00000000 errors=00000000 cycles=0 seal=00000000
+E END axi_writes=11451 axi_reads=139601

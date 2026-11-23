@@ -1,0 +1,15 @@
+{
+ "description": "ML-DSA-44 sign: dilithium_py -> unmodified bridge -> unmodified Stage 8 backend -> register model",
+ "rejection_iterations": 3,
+ "kernel_dispatches": 211,
+ "replayed_word_commands": 126488,
+ "closed_form_word_commands": 126488,
+ "replayed_mmio_total": 762440,
+ "closed_form_mmio_total": 762440,
+ "replayed_driver_sleep_seconds": 0.844,
+ "closed_form_driver_sleep_seconds": 0.844,
+ "counts_match": true,
+ "signature_accepted_by_unpatched_library": true,
+ "host_python_seconds_for_replay": 0.7,
+ "basis": "replay of unmodified handoff backend on register model (not AUP1)"
+}

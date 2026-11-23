@@ -1,0 +1,6 @@
+ADV_TB_FINISHED axi_writes=11448 axi_reads=117275
+- /sessions/rcw-01pcc8tmstl4s7tbrf1fwrcp/mnt/HLS/<WORKDIR>/04_WORK/seal_v8/review/tb/tb_adv_seal.sv:414: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 4ms; walltime 6.262 s; speed 621.715 us/s
+- Verilator: cpu 6.262 s on 1 threads; allocated 7 MB
+EXIT=0

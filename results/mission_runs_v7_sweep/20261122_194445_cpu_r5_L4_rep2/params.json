@@ -1,0 +1,3 @@
+{"host":"aup1","backend":"cpu","rate":5,"load_level":4,"seconds":60,"tag":"rep2",
+ "adcs_rate":100,"adcs_prio":80,"payload_rate":8,"core_order":"1 3 0 2",
+ "driver_mode":"open","payload_input":"/home/xilinx/mission_kit/harness/../payload/data/tiles.raw","started_epoch":1795376685}

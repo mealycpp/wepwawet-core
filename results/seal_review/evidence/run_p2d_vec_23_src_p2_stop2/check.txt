@@ -1,0 +1,24 @@
+VERDICT PASS  fails=0 warns=1 passes=22 sizes={'S': 3593, 'E': 132827, 'RZ': 16971, 'RLOW': 4978, 'trace_rows': 313756}
+  [WARN] post-SIGN scrub window not caught by the TB poll (no evidence either way)
+  [PASS] internal scratchpad after SIGN1 (backdoor): 0 non-zero non-key/non-output/non-public words, 0 in VERIFY input slots b3[0..1023]/b3[1536..]
+  [PASS] p2_after_sign: no host-readable word matches any of 3593 S + 132827 E + 16971 rejected-z values
+  [PASS] p2_after_sign: every non-whitelisted scratchpad word reads 0
+  [PASS] p2_after_sign: signature read through the window: byte-identical to deterministic PQClean/dilithium-py KAT=True, PQClean verify=VERIFY_OK
+  [PASS] BUSY_RD_S1[sign1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_Y[sign1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_Z[sign1] while busy: resp=2 data=00000000
+  [PASS] BUSY_RD_B2[sign1] while busy: resp=2 data=00000000
+  [PASS] rho'' register page read while busy: 0 non-zero words
+  [PASS] BUSY_RELAUNCH_SIGN: resp=2
+  [PASS] BUSY_RELAUNCH_VERIFY: resp=2
+  [PASS] BUSY_WR_MU_LO while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_MU_HI while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_SEEDREG while busy: resp=2 (2=SLVERR)
+  [PASS] BUSY_WR_RHOREG while busy: resp=2 (2=SLVERR)
+  [PASS] LOCKED_RD_S1: data=00000000 resp=0
+  [PASS] LOCKED_RD_T0: data=00000000 resp=0
+  [PASS] LOCKED_RD_RHOPP: data=00000000 resp=0
+  [PASS] LOCKED_RD_K: data=00000000 resp=0
+  [PASS] LOCKED_RD_K3: data=00000000 resp=0
+  [PASS] SEAL read-violation sticky after sealed reads: seal=000c0007 status=00000c08
+  [PASS] SEAL write-violation sticky after sealed writes: seal=00110007

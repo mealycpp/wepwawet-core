@@ -1,0 +1,18 @@
+LOG_DIR: logs/validation/ntt_impulse_20261119T084317Z_pid310862
+HOST_STATUS_BEFORE=0x7F10001A
+GPIO_BEFORE: {"raw": "0x00808070", "busy": 0, "done": 0, "error": 0, "locked": 0, "init": 1, "tx_last": 1, "rx_last": 1, "nonzero_seen": 0, "tx_count": 128, "rx_count": 128, "error_code": 0}
+BACKING_UP bank0 and bank1, 128 words each
+RECOVERY_JOURNAL: logs/validation/ntt_impulse_20261119T084317Z_pid310862/preimage.json
+LOADING impulse: bank0 coefficient[0]=1, remaining 255 coefficients=0
+INPUT_VECTOR_READBACK_PASS
+ISSUING_ONE_NTT_START
+RESULT: {"raw": "0x008080F2", "busy": 0, "done": 1, "error": 0, "locked": 0, "init": 1, "tx_last": 1, "rx_last": 1, "nonzero_seen": 1, "tx_count": 128, "rx_count": 128, "error_code": 0}
+AFTER_ACK: {"raw": "0x008080F0", "busy": 0, "done": 0, "error": 0, "locked": 0, "init": 1, "tx_last": 1, "rx_last": 1, "nonzero_seen": 1, "tx_count": 128, "rx_count": 128, "error_code": 0}
+NONZERO_STREAM_HANDSHAKE_PASS
+OUTPUT_CAPTURE: logs/validation/ntt_impulse_20261119T084317Z_pid310862/ntt_output.json
+OUTPUT_FIRST_8: 0000000100000001 0000000100000001 0000000100000001 0000000100000001 0000000100000001 0000000100000001 0000000100000001 0000000100000001
+OUTPUT_NONZERO_WORDS: 128
+IMPULSE_REFERENCE_MATCH: True
+RESTORATION_ATTEMPT
+SCRATCHPAD_RESTORED: True
+NTT_IMPULSE_REFERENCE_MATCH (kernel format assumption still needs confirmation)

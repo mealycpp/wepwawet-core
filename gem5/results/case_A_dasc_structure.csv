@@ -1,0 +1,4 @@
+operation,statistic,case,kernel_dispatches,kernel_ip_mmio_writes,dma_transfer_calls,dma_wait_calls,bytes_ddr_to_fabric_by_dma,bytes_fabric_to_ddr_by_dma,basis
+keygen,mean,A DASC shared-DMA (structure only),82,690,164,164,44808,55808,counted from wp_hw.py source; DMA-driver register traffic and timings not supplied
+sign,mean,A DASC shared-DMA (structure only),252.155,1915.545,504.31,504.31,287671.68,222196.48,counted from wp_hw.py source; DMA-driver register traffic and timings not supplied
+verify,mean,A DASC shared-DMA (structure only),85,699,170,170,58464,63488,counted from wp_hw.py source; DMA-driver register traffic and timings not supplied

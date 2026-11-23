@@ -1,0 +1,14 @@
+{
+  "raw": "0x008080F2",
+  "busy": 0,
+  "done": 1,
+  "error": 0,
+  "locked": 0,
+  "init": 1,
+  "tx_last": 1,
+  "rx_last": 1,
+  "nonzero_seen": 1,
+  "tx_count": 128,
+  "rx_count": 128,
+  "error_code": 0
+}

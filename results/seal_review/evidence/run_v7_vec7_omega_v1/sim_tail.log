@@ -1,0 +1,15 @@
+ADV_REGS tag=sign1_done status=0000010e kappa_att=00010000 errors=00920000 cycles=439270 seal=00000000
+ADV_SWEEP_DONE tag=p2_after_sign reads=33953
+ADV_REGS tag=verify_residue_done status=0000030e kappa_att=00010000 errors=00ea0000 cycles=214171 seal=00000000
+ADV_SWEEP_DONE tag=p3_after_verify_residue reads=50586
+ADV_REGS tag=verify_valid_done status=0000030e kappa_att=00010000 errors=00ea0000 cycles=214186 seal=00000000
+ADV_REGS tag=sign2_done status=0000010e kappa_att=00010000 errors=00920000 cycles=439270 seal=00000000
+ADV_SWEEP_DONE tag=p5_after_sign2 reads=67443
+ADV_REGS tag=after_midreset status=00000008 kappa_att=00000000 errors=00000000 cycles=0 seal=00000000
+ADV_SWEEP_DONE tag=p7_after_midreset reads=84643
+ADV_TB_FINISHED axi_writes=14755 axi_reads=84643
+- /sessions/rcw-01pcc8tmstl4s7tbrf1fwrcp/mnt/HLS/<WORKDIR>/04_WORK/seal_v8/review/tb/tb_adv_seal.sv:348: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 7ms; walltime 10.538 s; speed 652.209 us/s
+- Verilator: cpu 10.537 s on 1 threads; allocated 7 MB
+EXIT=0

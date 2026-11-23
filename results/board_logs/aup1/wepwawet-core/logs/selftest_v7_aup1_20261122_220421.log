@@ -1,0 +1,55 @@
+IMAGE: WCORE_CHECK MAGIC=0x57435331 VERSION=0x00020001 -> v6 ALIVE
+d83444a5f81efdbcf28f3a8dca3e7e0f17ca8b0420e8c751272142ac5af44994  /home/xilinx/aup_kit_v7/wepwawet_sign_v7.bit
+image: v6 Sign+Verify (FPGA verify enabled)
+sig 0: attempts=4 pl=5858us total=8511us (trng 162 prep 1695 preload 157 wait 5945 readback 548) verify=1 mut_rej=1
+   fpga verify 0: accept=1 mutated_rejected=1 cycles=214198 pl=714us total=1761us (prep 801 preload 151 wait 805)
+sig 1: attempts=1 pl=1464us total=2458us (trng 163 prep 53 preload 148 wait 1586 readback 505) verify=1 mut_rej=1
+   fpga verify 1: accept=1 mutated_rejected=1 cycles=214202 pl=714us total=1947us (prep 987 preload 151 wait 806)
+sig 2: attempts=9 pl=13181us total=14201us (trng 161 prep 53 preload 148 wait 13330 readback 506) verify=1 mut_rej=1
+   fpga verify 2: accept=1 mutated_rejected=1 cycles=214200 pl=714us total=1731us (prep 781 preload 145 wait 802)
+sig 3: attempts=3 pl=4393us total=5304us (trng 162 prep 54 preload 148 wait 4434 readback 504) verify=1 mut_rej=1
+   fpga verify 3: accept=1 mutated_rejected=1 cycles=214204 pl=714us total=1728us (prep 778 preload 145 wait 801)
+sig 4: attempts=19 pl=27826us total=28854us (trng 162 prep 53 preload 185 wait 27946 readback 505) verify=1 mut_rej=1
+   fpga verify 4: accept=1 mutated_rejected=1 cycles=214189 pl=714us total=1723us (prep 780 preload 145 wait 795)
+sig 100: attempts=24 pl=35149us total=36033us (trng 161 prep 51 preload 148 wait 35168 readback 503) verify=1 mut_rej=1
+   fpga verify 100: accept=1 mutated_rejected=1 cycles=214200 pl=714us total=1715us (prep 776 preload 145 wait 791)
+sig 200: attempts=8 pl=11716us total=12656us (trng 160 prep 51 preload 156 wait 11777 readback 509) verify=1 mut_rej=1
+   fpga verify 200: accept=1 mutated_rejected=1 cycles=214198 pl=714us total=1722us (prep 775 preload 145 wait 800)
+sig 300: attempts=8 pl=11716us total=12593us (trng 160 prep 51 preload 148 wait 11729 readback 502) verify=1 mut_rej=1
+   fpga verify 300: accept=1 mutated_rejected=1 cycles=214204 pl=714us total=1723us (prep 774 preload 144 wait 802)
+sig 400: attempts=9 pl=13181us total=14078us (trng 161 prep 51 preload 148 wait 13207 readback 510) verify=1 mut_rej=1
+   fpga verify 400: accept=1 mutated_rejected=1 cycles=214202 pl=714us total=1721us (prep 774 preload 145 wait 799)
+sig 500: attempts=8 pl=11716us total=12605us (trng 160 prep 51 preload 148 wait 11738 readback 505) verify=1 mut_rej=1
+   fpga verify 500: accept=1 mutated_rejected=1 cycles=214204 pl=714us total=1751us (prep 793 preload 164 wait 791)
+sig 600: attempts=2 pl=2929us total=3895us (trng 161 prep 52 preload 148 wait 3030 readback 502) verify=1 mut_rej=1
+   fpga verify 600: accept=1 mutated_rejected=1 cycles=214198 pl=714us total=1724us (prep 773 preload 145 wait 803)
+sig 700: attempts=16 pl=23433us total=24393us (trng 160 prep 51 preload 148 wait 23528 readback 504) verify=1 mut_rej=1
+   fpga verify 700: accept=1 mutated_rejected=1 cycles=214200 pl=714us total=1734us (prep 784 preload 145 wait 802)
+sig 800: attempts=1 pl=1464us total=2448us (trng 162 prep 53 preload 148 wait 1580 readback 503) verify=1 mut_rej=1
+   fpga verify 800: accept=1 mutated_rejected=1 cycles=214191 pl=714us total=1649us (prep 774 preload 145 wait 727)
+sig 900: attempts=5 pl=7323us total=8283us (trng 163 prep 54 preload 149 wait 7408 readback 506) verify=1 mut_rej=1
+   fpga verify 900: accept=1 mutated_rejected=1 cycles=214198 pl=714us total=10072us (prep 780 preload 145 wait 9144)
+sig 1000: attempts=7 pl=10252us total=11277us (trng 164 prep 53 preload 148 wait 10394 readback 514) verify=1 mut_rej=1
+   fpga verify 1000: accept=1 mutated_rejected=1 cycles=214191 pl=714us total=1649us (prep 780 preload 145 wait 721)
+sig 1100: attempts=2 pl=2929us total=3879us (trng 162 prep 54 preload 148 wait 3003 readback 509) verify=1 mut_rej=1
+   fpga verify 1100: accept=1 mutated_rejected=1 cycles=214189 pl=714us total=1785us (prep 840 preload 145 wait 796)
+sig 1200: attempts=5 pl=7322us total=8385us (trng 162 prep 53 preload 148 wait 7477 readback 541) verify=1 mut_rej=1
+   fpga verify 1200: accept=1 mutated_rejected=1 cycles=214200 pl=714us total=6774us (prep 780 preload 145 wait 5845)
+sig 1300: attempts=3 pl=4393us total=5423us (trng 162 prep 53 preload 148 wait 4551 readback 506) verify=1 mut_rej=1
+   fpga verify 1300: accept=1 mutated_rejected=1 cycles=214200 pl=714us total=1721us (prep 779 preload 145 wait 794)
+sig 1400: attempts=8 pl=11716us total=12635us (trng 166 prep 51 preload 148 wait 11765 readback 503) verify=1 mut_rej=1
+   fpga verify 1400: accept=1 mutated_rejected=1 cycles=214198 pl=714us total=1719us (prep 773 preload 145 wait 799)
+sig 1500: attempts=5 pl=7323us total=8339us (trng 161 prep 51 preload 148 wait 7475 readback 502) verify=1 mut_rej=1
+   fpga verify 1500: accept=1 mutated_rejected=1 cycles=214191 pl=714us total=1711us (prep 773 preload 144 wait 791)
+sig 1600: attempts=7 pl=10252us total=11206us (trng 160 prep 51 preload 148 wait 10333 readback 512) verify=1 mut_rej=1
+   fpga verify 1600: accept=1 mutated_rejected=1 cycles=214200 pl=714us total=1720us (prep 773 preload 145 wait 799)
+sig 1700: attempts=3 pl=4393us total=5330us (trng 161 prep 51 preload 148 wait 4458 readback 510) verify=1 mut_rej=1
+   fpga verify 1700: accept=1 mutated_rejected=1 cycles=214202 pl=714us total=1719us (prep 774 preload 144 wait 799)
+sig 1800: attempts=4 pl=5858us total=6729us (trng 161 prep 51 preload 148 wait 5865 readback 502) verify=1 mut_rej=1
+   fpga verify 1800: accept=1 mutated_rejected=1 cycles=214206 pl=714us total=1742us (prep 794 preload 144 wait 800)
+sig 1900: attempts=1 pl=1464us total=2465us (trng 161 prep 51 preload 148 wait 1593 readback 509) verify=1 mut_rej=1
+   fpga verify 1900: accept=1 mutated_rejected=1 cycles=214202 pl=714us total=1720us (prep 773 preload 145 wait 799)
+TRNG REDRAWS: 4 (Stage-8 32-sample window flag fired; draw discarded, fresh samples taken)
+OMEGA RESTARTS: 0 (signatures needing a fresh-randomness restart because the PL lacks the ||h||<=omega check)
+RESULT: 2000 signatures, 0 driver failures, 0 verify/mutation failures -> PASS
+RESULT FPGA VERIFY: 0 driver failures, 0 wrong verdicts (valid must accept, mutated must reject) -> PASS

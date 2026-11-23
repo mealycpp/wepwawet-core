@@ -1,0 +1,900 @@
+
+*** Running vivado
+    with args -log wepwawet_sign_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source wepwawet_sign_wrapper.tcl -notrace
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source wepwawet_sign_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1477.500 ; gain = 79.840
+Command: link_design -top wepwawet_sign_wrapper -part xczu3eg-sfvc784-2-e
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xczu3eg-sfvc784-2-e
+INFO: [Project 1-454] Reading design checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_axi_sc_0/wepwawet_sign_axi_sc_0.dcp' for cell 'wepwawet_sign_i/axi_sc'
+INFO: [Project 1-454] Reading design checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_rst_pl0_0/wepwawet_sign_rst_pl0_0.dcp' for cell 'wepwawet_sign_i/rst_pl0'
+INFO: [Project 1-454] Reading design checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_trng_0_0/wepwawet_sign_trng_0_0.dcp' for cell 'wepwawet_sign_i/trng_0'
+INFO: [Project 1-454] Reading design checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_wepwawet_sign_0_0/wepwawet_sign_wepwawet_sign_0_0.dcp' for cell 'wepwawet_sign_i/wepwawet_sign_0'
+INFO: [Project 1-454] Reading design checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_zynq_ultra_ps_e_0_0/wepwawet_sign_zynq_ultra_ps_e_0_0.dcp' for cell 'wepwawet_sign_i/zynq_ultra_ps_e_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.794 . Memory (MB): peak = 2494.250 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4822 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_zynq_ultra_ps_e_0_0/wepwawet_sign_zynq_ultra_ps_e_0_0.xdc] for cell 'wepwawet_sign_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_zynq_ultra_ps_e_0_0/wepwawet_sign_zynq_ultra_ps_e_0_0.xdc] for cell 'wepwawet_sign_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_rst_pl0_0/wepwawet_sign_rst_pl0_0_board.xdc] for cell 'wepwawet_sign_i/rst_pl0/U0'
+Finished Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_rst_pl0_0/wepwawet_sign_rst_pl0_0_board.xdc] for cell 'wepwawet_sign_i/rst_pl0/U0'
+Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_rst_pl0_0/wepwawet_sign_rst_pl0_0.xdc] for cell 'wepwawet_sign_i/rst_pl0/U0'
+Finished Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_rst_pl0_0/wepwawet_sign_rst_pl0_0.xdc] for cell 'wepwawet_sign_i/rst_pl0/U0'
+Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_axi_sc_0/bd_0/ip/ip_1/bd_b2ad_psr_aclk_0_board.xdc] for cell 'wepwawet_sign_i/axi_sc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_axi_sc_0/bd_0/ip/ip_1/bd_b2ad_psr_aclk_0_board.xdc] for cell 'wepwawet_sign_i/axi_sc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_axi_sc_0/bd_0/ip/ip_1/bd_b2ad_psr_aclk_0.xdc] for cell 'wepwawet_sign_i/axi_sc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.gen/sources_1/bd/wepwawet_sign/ip/wepwawet_sign_axi_sc_0/bd_0/ip/ip_1/bd_b2ad_psr_aclk_0.xdc] for cell 'wepwawet_sign_i/axi_sc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [<WORKDIR>/04_WORK/sign_v5/src/trng_v5.xdc]
+Finished Parsing XDC File [<WORKDIR>/04_WORK/sign_v5/src/trng_v5.xdc]
+INFO: [Project 1-1714] 45 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2810.039 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 122 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 42 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 40 instances
+  RAM64M8 => RAM64M8 (RAMD64E(x8)): 40 instances
+
+16 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:41 . Memory (MB): peak = 2810.039 ; gain = 1332.539
+Command: opt_design -directive Explore
+INFO: [Vivado_Tcl 4-136] Directive used for opt_design is: Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2826.035 ; gain = 15.996
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter wepwawet_sign_i/axi_sc/inst/s00_entry_pipeline/s00_mmu/inst/gen_wroute_reg.wroute_split/s_axi_awready_INST_0 into driver instance wepwawet_sign_i/axi_sc/inst/s00_entry_pipeline/s00_mmu/inst/gen_wroute_reg.wroute_split/s_axi_awready_INST_0_i_1, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_bridge/u_axil_intt/addr_q[3]_i_1__0 into driver instance wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_bridge/u_axil_intt/w_done_i_2__2, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_bridge/u_axil_ntt/addr_q[3]_i_1 into driver instance wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_bridge/u_axil_ntt/w_done_i_2__0, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_bridge/u_axil_shake/addr_q[4]_i_1 into driver instance wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_bridge/u_axil_shake/w_done_i_2__1, which resulted in an inversion of 6 pins
+INFO: [Opt 31-1287] Pulled Inverter wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/grp_shake128_axis_Pipeline_VITIS_LOOP_47_4_fu_4158/lane_1_fu_200[4]_i_2 into driver instance wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/grp_shake128_axis_Pipeline_VITIS_LOOP_47_4_fu_4158/st_V_24_fu_300[63]_i_3, which resulted in an inversion of 2 pins
+INFO: [Opt 31-138] Pushed 57 inverter(s) to 5208 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 13adc4256
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 3393.273 ; gain = 272.230
+INFO: [Opt 31-389] Phase Retarget created 4 cells and removed 331 cells
+INFO: [Opt 31-1021] In phase Retarget, 87 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 156befb4d
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 3393.273 ; gain = 272.230
+INFO: [Opt 31-389] Phase Constant propagation created 2 cells and removed 6 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 116 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 13eef2253
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 3393.273 ; gain = 272.230
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 118 cells
+INFO: [Opt 31-1021] In phase Sweep, 137 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 4 BUFG optimization | Checksum: 13eef2253
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 3393.273 ; gain = 272.230
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 13eef2253
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 3393.273 ; gain = 272.230
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+INFO: [Opt 31-1555] control_set_opt supports Versal devices only, and device xczu3eg is unsupported
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 18ad91f39
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 3393.273 ; gain = 272.230
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 102 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               4  |             331  |                                             87  |
+|  Constant propagation         |               2  |               6  |                                            116  |
+|  Sweep                        |               0  |             118  |                                            137  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                            102  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 3393.273 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 156563843
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 3393.273 ; gain = 272.230
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 3393.273 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 156563843
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 3393.273 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+44 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 3393.273 ; gain = 583.234
+INFO: [Timing 38-480] Writing timing data to binary archive.
+INFO: [Common 17-1381] The checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 3393.273 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file wepwawet_sign_wrapper_drc_opted.rpt -pb wepwawet_sign_wrapper_drc_opted.pb -rpx wepwawet_sign_wrapper_drc_opted.rpx
+Command: report_drc -file wepwawet_sign_wrapper_drc_opted.rpt -pb wepwawet_sign_wrapper_drc_opted.pb -rpx wepwawet_sign_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file <WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 9 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'Explore' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 3401.102 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 5d8cd4a8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 3401.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 3401.102 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 13ddccedf
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 4985.902 ; gain = 1584.801
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1aa6b870e
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:49 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1aa6b870e
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:49 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+Phase 1 Placer Initialization | Checksum: 1aa6b870e
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:49 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 1e9d3e25b
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:25 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 15b20b0e1
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:26 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 2.1.1.3 PBP: Compute Congestion
+Phase 2.1.1.3 PBP: Compute Congestion | Checksum: 15b20b0e1
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:26 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 2.1.1.4 PBP: UpdateTiming
+Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 211de249f
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:29 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 2.1.1.5 PBP: Add part constraints
+Phase 2.1.1.5 PBP: Add part constraints | Checksum: 211de249f
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:29 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+Phase 2.1.1 Partition Driven Placement | Checksum: 211de249f
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:29 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+Phase 2.1 Floorplanning | Checksum: 211de249f
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:29 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 211de249f
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:29 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 2125ab868
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:01:30 . Memory (MB): peak = 5045.270 ; gain = 1644.168
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 233a40e0e
+
+Time (s): cpu = 00:03:25 ; elapsed = 00:02:31 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 1429 LUTNM shape to break, 331 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 562, two critical 867, total 1429, new lutff created 9
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 1569 nets or LUTs. Breaked 1429 LUTs, combined 140 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-1030] Pass 1. Identified 57 candidate driver sets for equivalent driver rewiring.
+INFO: [Physopt 32-661] Optimized 38 nets.  Re-placed 210 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 38 nets or cells. Created 0 new cell, deleted 2 existing cells and moved 210 existing cells
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.438 . Memory (MB): peak = 5134.852 ; gain = 0.000
+INFO: [Physopt 32-76] Pass 1. Identified 8 candidate nets for fanout optimization.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/rst_pl0/U0/peripheral_aresetn[0]. Replicated 31 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake256/ap_CS_fsm_state9. Replicated 8 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/ap_CS_fsm_reg_n_3_[8]. Replicated 9 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake256/ap_CS_fsm_state2. Replicated 9 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/reg_45930. Replicated 9 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/zext_ln1693_fu_5586_p1[3]. Replicated 5 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/zext_ln1693_fu_5586_p1[4]. Replicated 5 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/zext_ln1693_fu_5586_p1[5]. Replicated 5 times.
+INFO: [Physopt 32-232] Optimized 8 nets. Created 81 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 8 nets or cells. Created 81 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.607 . Memory (MB): peak = 5134.852 ; gain = 0.000
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 5134.852 ; gain = 0.000
+INFO: [Physopt 32-76] Pass 1. Identified 3 candidate nets for fanout optimization.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake256/ap_CS_fsm_reg_n_3_[7]. Replicated 10 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/ap_CS_fsm_reg_n_3_[7]. Replicated 9 times.
+INFO: [Physopt 32-81] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/remaining_2_reg_6719_reg_n_3_[1]. Replicated 3 times.
+INFO: [Physopt 32-232] Optimized 3 nets. Created 22 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 3 nets or cells. Created 22 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.170 . Memory (MB): peak = 5134.852 ; gain = 0.000
+INFO: [Physopt 32-46] Identified 1 candidate net for critical-cell optimization.
+INFO: [Physopt 32-571] Net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/remaining_2_reg_6719_reg_n_3_[0] was not replicated.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 5134.852 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |         1429  |            140  |                  1569  |           0  |           1  |  00:00:01  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Equivalent Driver Rewiring                       |            0  |              2  |                    38  |           0  |           1  |  00:00:05  |
+|  Very High Fanout                                 |           81  |              0  |                     8  |           0  |           1  |  00:00:02  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Fanout                                           |           22  |              0  |                     3  |           0  |           1  |  00:00:00  |
+|  Critical Cell                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |         1532  |            142  |                  1618  |           0  |          12  |  00:00:08  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 1d846084e
+
+Time (s): cpu = 00:03:39 ; elapsed = 00:02:45 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+Phase 2.4 Global Placement Core | Checksum: 15225fbec
+
+Time (s): cpu = 00:03:50 ; elapsed = 00:02:53 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+Phase 2 Global Placement | Checksum: 15225fbec
+
+Time (s): cpu = 00:03:50 ; elapsed = 00:02:53 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1320d9489
+
+Time (s): cpu = 00:03:55 ; elapsed = 00:02:57 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 2013f0d36
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:03:00 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 3.3 Small Shape DP
+
+Phase 3.3.1 Small Shape Clustering
+Phase 3.3.1 Small Shape Clustering | Checksum: 23b790714
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:03:15 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 3.3.2 Flow Legalize Slice Clusters
+Phase 3.3.2 Flow Legalize Slice Clusters | Checksum: 1b40e0e75
+
+Time (s): cpu = 00:04:21 ; elapsed = 00:03:16 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 3.3.3 Slice Area Swap
+
+Phase 3.3.3.1 Slice Area Swap Initial
+Phase 3.3.3.1 Slice Area Swap Initial | Checksum: 1fb0a5082
+
+Time (s): cpu = 00:04:33 ; elapsed = 00:03:33 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+Phase 3.3.3 Slice Area Swap | Checksum: 1fb0a5082
+
+Time (s): cpu = 00:04:33 ; elapsed = 00:03:33 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+Phase 3.3 Small Shape DP | Checksum: 18da2ee98
+
+Time (s): cpu = 00:04:52 ; elapsed = 00:03:44 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 3.4 Re-assign LUT pins
+Phase 3.4 Re-assign LUT pins | Checksum: 180f6db3d
+
+Time (s): cpu = 00:04:57 ; elapsed = 00:03:51 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 3.5 Pipeline Register Optimization
+Phase 3.5 Pipeline Register Optimization | Checksum: 1dcc326eb
+
+Time (s): cpu = 00:04:58 ; elapsed = 00:03:52 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 1ef6c976d
+
+Time (s): cpu = 00:05:40 ; elapsed = 00:04:27 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+Phase 3 Detail Placement | Checksum: 1ef6c976d
+
+Time (s): cpu = 00:05:40 ; elapsed = 00:04:27 . Memory (MB): peak = 5134.852 ; gain = 1733.750
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 26fed318f
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.274 | TNS=-21.707 |
+Phase 1 Physical Synthesis Initialization | Checksum: 299406a53
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 5175.648 ; gain = 0.000
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/CTRL_s_axi_U/SR[0], BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake256/CTRL_s_axi_U/SR[0], BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/grp_keccakf1600_fu_4221/E[0], BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake256/grp_keccakf1600_fu_4143/rhs_V_fu_270, BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake256/st_V_21_4_reg_777[63]_i_1_n_3, BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/regslice_both_in_s_V_data_V_U/E[0], BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/grp_keccakf1600_fu_4221/rhs_V_fu_270, BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake128/grp_keccakf1600_fu_4221/ap_CS_fsm_reg[4][0], BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake256/grp_keccakf1600_fu_4143/E[0], BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-34] Processed net wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_shake256/grp_keccakf1600_fu_4143/ap_CS_fsm_reg[4][0], BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-56] BUFG insertion identified 10 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 10, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 2849b9ed6
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 5175.648 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 26fed318f
+
+Time (s): cpu = 00:06:14 ; elapsed = 00:04:54 . Memory (MB): peak = 5175.648 ; gain = 1774.547
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.088. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 27b35fdc2
+
+Time (s): cpu = 00:07:20 ; elapsed = 00:06:06 . Memory (MB): peak = 5175.648 ; gain = 1774.547
+
+Time (s): cpu = 00:07:20 ; elapsed = 00:06:06 . Memory (MB): peak = 5175.648 ; gain = 1774.547
+Phase 4.1 Post Commit Optimization | Checksum: 27b35fdc2
+
+Time (s): cpu = 00:07:21 ; elapsed = 00:06:06 . Memory (MB): peak = 5175.648 ; gain = 1774.547
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 5178.406 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 322d7412a
+
+Time (s): cpu = 00:07:24 ; elapsed = 00:06:09 . Memory (MB): peak = 5178.406 ; gain = 1777.305
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+| Direction | Region Size       | Region Size       | Region Size       |
+|___________|___________________|___________________|___________________|
+|      North|                1x1|                2x2|                4x4|
+|___________|___________________|___________________|___________________|
+|      South|                1x1|                4x4|                2x2|
+|___________|___________________|___________________|___________________|
+|       East|                2x2|                4x4|                8x8|
+|___________|___________________|___________________|___________________|
+|       West|                1x1|                2x2|              16x16|
+|___________|___________________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 322d7412a
+
+Time (s): cpu = 00:07:24 ; elapsed = 00:06:09 . Memory (MB): peak = 5178.406 ; gain = 1777.305
+Phase 4.3 Placer Reporting | Checksum: 322d7412a
+
+Time (s): cpu = 00:07:25 ; elapsed = 00:06:10 . Memory (MB): peak = 5178.406 ; gain = 1777.305
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 5178.406 ; gain = 0.000
+
+Time (s): cpu = 00:07:25 ; elapsed = 00:06:10 . Memory (MB): peak = 5178.406 ; gain = 1777.305
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2c11a2f4d
+
+Time (s): cpu = 00:07:25 ; elapsed = 00:06:10 . Memory (MB): peak = 5178.406 ; gain = 1777.305
+Ending Placer Task | Checksum: 1dddd3872
+
+Time (s): cpu = 00:07:25 ; elapsed = 00:06:11 . Memory (MB): peak = 5178.406 ; gain = 1777.305
+INFO: [Common 17-83] Releasing license: Implementation
+116 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:07:29 ; elapsed = 00:06:14 . Memory (MB): peak = 5178.406 ; gain = 1785.133
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 5178.406 ; gain = 0.000
+report_design_analysis: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 5178.406 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 5178.406 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file wepwawet_sign_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 5178.406 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file wepwawet_sign_wrapper_utilization_placed.rpt -pb wepwawet_sign_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file wepwawet_sign_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.275 . Memory (MB): peak = 5178.406 ; gain = 0.000
+Command: phys_opt_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: Explore
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 5178.406 ; gain = 0.000
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+126 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 5178.406 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 5178.406 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 5178.406 ; gain = 0.000
+Command: route_design -directive Explore -tns_cleanup
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 9 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'Explore'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: a40fc1d2 ConstDB: 0 ShapeSum: 922c3338 RouteDB: a7a14368
+Nodegraph reading from file.  Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.981 . Memory (MB): peak = 5187.027 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 5449266d NumContArr: cc8a18ac Constraints: b4ced18a Timing: 0
+Phase 1 Build RT Design | Checksum: 1d5a210a3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 5192.047 ; gain = 5.020
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 1d5a210a3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 5192.047 ; gain = 5.020
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 1d5a210a3
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 5192.047 ; gain = 5.020
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: 1a3a42097
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:26 . Memory (MB): peak = 5215.320 ; gain = 28.293
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 295ae5941
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:36 . Memory (MB): peak = 5215.320 ; gain = 28.293
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.174  | TNS=0.000  | WHS=-0.061 | THS=-0.987 |
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 67367
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 51985
+  Number of Partially Routed Nets     = 15382
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 2fae02a7e
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:57 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 2fae02a7e
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:57 . Memory (MB): peak = 5260.340 ; gain = 73.312
+Phase 3 Initial Routing | Checksum: 2da8cb4a7
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:22 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 34440
+ Number of Nodes with overlaps = 4641
+ Number of Nodes with overlaps = 811
+ Number of Nodes with overlaps = 173
+ Number of Nodes with overlaps = 43
+ Number of Nodes with overlaps = 10
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.258 | TNS=-7.536 | WHS=-0.015 | THS=-0.038 |
+
+Phase 4.1 Global Iteration 0 | Checksum: 21f459518
+
+Time (s): cpu = 00:07:43 ; elapsed = 00:05:04 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 694
+ Number of Nodes with overlaps = 103
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.012  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 30e342c83
+
+Time (s): cpu = 00:08:16 ; elapsed = 00:05:35 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 289
+ Number of Nodes with overlaps = 25
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.057  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 20e50c8a9
+
+Time (s): cpu = 00:08:35 ; elapsed = 00:05:53 . Memory (MB): peak = 5260.340 ; gain = 73.312
+Phase 4 Rip-up And Reroute | Checksum: 20e50c8a9
+
+Time (s): cpu = 00:08:35 ; elapsed = 00:05:53 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 TNS Cleanup
+
+Phase 5.1.1 Delay CleanUp
+
+Phase 5.1.1.1 Update Timing
+Phase 5.1.1.1 Update Timing | Checksum: 1716caeda
+
+Time (s): cpu = 00:08:52 ; elapsed = 00:06:05 . Memory (MB): peak = 5260.340 ; gain = 73.312
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.057  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+
+Phase 5.1.1.2 Update Timing
+Phase 5.1.1.2 Update Timing | Checksum: 21f8ba88a
+
+Time (s): cpu = 00:09:02 ; elapsed = 00:06:12 . Memory (MB): peak = 5260.340 ; gain = 73.312
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.057  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 5.1.1 Delay CleanUp | Checksum: 21f8ba88a
+
+Time (s): cpu = 00:09:02 ; elapsed = 00:06:12 . Memory (MB): peak = 5260.340 ; gain = 73.312
+Phase 5.1 TNS Cleanup | Checksum: 21f8ba88a
+
+Time (s): cpu = 00:09:03 ; elapsed = 00:06:13 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 21f8ba88a
+
+Time (s): cpu = 00:09:03 ; elapsed = 00:06:13 . Memory (MB): peak = 5260.340 ; gain = 73.312
+Phase 5 Delay and Skew Optimization | Checksum: 21f8ba88a
+
+Time (s): cpu = 00:09:03 ; elapsed = 00:06:13 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 202de4987
+
+Time (s): cpu = 00:09:13 ; elapsed = 00:06:21 . Memory (MB): peak = 5260.340 ; gain = 73.312
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.057  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 14da77041
+
+Time (s): cpu = 00:09:13 ; elapsed = 00:06:21 . Memory (MB): peak = 5260.340 ; gain = 73.312
+Phase 6 Post Hold Fix | Checksum: 14da77041
+
+Time (s): cpu = 00:09:14 ; elapsed = 00:06:21 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 28.4609 %
+  Global Horizontal Routing Utilization  = 34.6117 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 19c9034aa
+
+Time (s): cpu = 00:09:15 ; elapsed = 00:06:23 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 19c9034aa
+
+Time (s): cpu = 00:09:15 ; elapsed = 00:06:23 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 19c9034aa
+
+Time (s): cpu = 00:09:25 ; elapsed = 00:06:35 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 10 Resolve XTalk
+Phase 10 Resolve XTalk | Checksum: 19c9034aa
+
+Time (s): cpu = 00:09:27 ; elapsed = 00:06:37 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 11 Route finalize
+Phase 11 Route finalize | Checksum: 19c9034aa
+
+Time (s): cpu = 00:09:27 ; elapsed = 00:06:37 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Phase 12 Post Router Timing
+INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.057  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 12 Post Router Timing | Checksum: 168f077e5
+
+Time (s): cpu = 00:09:59 ; elapsed = 00:06:56 . Memory (MB): peak = 5260.340 ; gain = 73.312
+INFO: [Route 35-61] The design met the timing requirement.
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:09:59 ; elapsed = 00:06:56 . Memory (MB): peak = 5260.340 ; gain = 73.312
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+145 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:10:08 ; elapsed = 00:07:01 . Memory (MB): peak = 5260.340 ; gain = 81.934
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 5260.340 ; gain = 0.000
+report_design_analysis: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:39 ; elapsed = 00:00:28 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file wepwawet_sign_wrapper_drc_routed.rpt -pb wepwawet_sign_wrapper_drc_routed.pb -rpx wepwawet_sign_wrapper_drc_routed.rpx
+Command: report_drc -file wepwawet_sign_wrapper_drc_routed.rpt -pb wepwawet_sign_wrapper_drc_routed.pb -rpx wepwawet_sign_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file <WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file wepwawet_sign_wrapper_methodology_drc_routed.rpt -pb wepwawet_sign_wrapper_methodology_drc_routed.pb -rpx wepwawet_sign_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file wepwawet_sign_wrapper_methodology_drc_routed.rpt -pb wepwawet_sign_wrapper_methodology_drc_routed.pb -rpx wepwawet_sign_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file <WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:25 ; elapsed = 00:00:15 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file wepwawet_sign_wrapper_power_routed.rpt -pb wepwawet_sign_wrapper_power_summary_routed.pb -rpx wepwawet_sign_wrapper_power_routed.rpx
+Command: report_power -file wepwawet_sign_wrapper_power_routed.rpt -pb wepwawet_sign_wrapper_power_summary_routed.pb -rpx wepwawet_sign_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+157 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:42 ; elapsed = 00:00:27 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file wepwawet_sign_wrapper_route_status.rpt -pb wepwawet_sign_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file wepwawet_sign_wrapper_timing_summary_routed.rpt -pb wepwawet_sign_wrapper_timing_summary_routed.pb -rpx wepwawet_sign_wrapper_timing_summary_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file wepwawet_sign_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file wepwawet_sign_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file wepwawet_sign_wrapper_bus_skew_routed.rpt -pb wepwawet_sign_wrapper_bus_skew_routed.pb -rpx wepwawet_sign_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: phys_opt_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: Explore
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint '<WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/wepwawet_sign.runs/impl_1/wepwawet_sign_wrapper_postroute_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:17 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -warn_on_violation -file wepwawet_sign_wrapper_timing_summary_postroute_physopted.rpt -pb wepwawet_sign_wrapper_timing_summary_postroute_physopted.pb -rpx wepwawet_sign_wrapper_timing_summary_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 5260.340 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file wepwawet_sign_wrapper_bus_skew_postroute_physopted.rpt -pb wepwawet_sign_wrapper_bus_skew_postroute_physopted.pb -rpx wepwawet_sign_wrapper_bus_skew_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+source <WORKDIR>/04_WORK/sign_impl/proj_v8_p2r_300/pre_bitstream_v8.tcl
+TRNG_RO_NETS=27
+SEAL_READBACK_SECURITY=Level2
+Command: write_bitstream -force wepwawet_sign_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPIP-2] Input pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_montgomery_reduce_fu_445/u_reg_89_reg input wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_montgomery_reduce_fu_445/u_reg_89_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/grp_montgomery_reduce_fu_136/u_reg_89_reg input wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/grp_montgomery_reduce_fu_136/u_reg_89_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod00 input wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod00/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod10 input wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod10/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_146/u_reg_85_reg input wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_146/u_reg_85_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_151/u_reg_85_reg input wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_151/u_reg_85_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_intt_top_Pipeline_BUTTERFLY_fu_186/mul_32s_23s_54_3_1_U14/tmp_product output wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_intt_top_Pipeline_BUTTERFLY_fu_186/mul_32s_23s_54_3_1_U14/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/mul_32s_23s_54_3_1_U13/tmp_product output wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/mul_32s_23s_54_3_1_U13/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod00 output wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod00/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod10 output wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod10/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/tmp_product output wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/tmp_product__0 output wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/tmp_product__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/tmp_product output wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/tmp_product__0 output wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/tmp_product__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_intt_top_Pipeline_BUTTERFLY_fu_186/mul_32s_23s_54_3_1_U14/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_intt_top_Pipeline_BUTTERFLY_fu_186/mul_32s_23s_54_3_1_U14/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_intt_top_Pipeline_BUTTERFLY_fu_186/mul_32s_23s_54_3_1_U14/tmp_product multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_intt_top_Pipeline_BUTTERFLY_fu_186/mul_32s_23s_54_3_1_U14/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_intt_top_Pipeline_SCALE_fu_180/mul_32s_17ns_49_3_1_U25/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_intt_top_Pipeline_SCALE_fu_180/mul_32s_17ns_49_3_1_U25/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_montgomery_reduce_fu_445/mul_32s_24ns_55_3_1_U8/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_montgomery_reduce_fu_445/mul_32s_24ns_55_3_1_U8/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_montgomery_reduce_fu_445/mul_32s_27ns_32_3_1_U7/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_intt/grp_montgomery_reduce_fu_445/mul_32s_27ns_32_3_1_U7/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/grp_montgomery_reduce_fu_136/mul_32s_24ns_55_3_1_U8/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/grp_montgomery_reduce_fu_136/mul_32s_24ns_55_3_1_U8/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/grp_montgomery_reduce_fu_136/mul_32s_27ns_32_3_1_U7/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/grp_montgomery_reduce_fu_136/mul_32s_27ns_32_3_1_U7/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/mul_32s_23s_54_3_1_U13/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/mul_32s_23s_54_3_1_U13/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/mul_32s_23s_54_3_1_U13/tmp_product multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_real_ntt/grp_ntt_top_Pipeline_BUTTERFLY_fu_178/mul_32s_23s_54_3_1_U13/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/hi_product00 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/hi_product00/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/hi_product10 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/hi_product10/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod00 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod00/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod00__0 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod00__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod10 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod10/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod10__0 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/lo_prod10__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/red_product00 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/red_product00/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/red_product10 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_coeff/red_product10/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_146/mul_32s_24ns_55_3_0_U14/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_146/mul_32s_24ns_55_3_0_U14/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_146/mul_32s_27ns_32_3_0_U13/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_146/mul_32s_27ns_32_3_0_U13/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_151/mul_32s_24ns_55_3_0_U14/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_151/mul_32s_24ns_55_3_0_U14/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_151/mul_32s_27ns_32_3_0_U13/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/grp_montgomery_reduce_fu_151/mul_32s_27ns_32_3_0_U13/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/buff0_reg__0 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/buff0_reg__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/tmp_product multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/tmp_product__0 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U18/tmp_product__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/buff0_reg multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/buff0_reg__0 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/buff0_reg__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/tmp_product multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/tmp_product__0 multiplier stage wepwawet_sign_i/wepwawet_sign_0/inst/u_core/u_wcore/u_aux/u_dot4/u_real_polymulacc/grp_polymulacc_top_Pipeline_MULACC_fu_110/mul_32s_32s_64_3_1_U19/tmp_product__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[0].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[0].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[0].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[0].ro_n_inst.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[1].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[1].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[1].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[1].ro_n_inst.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[2].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[2].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[2].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[2].ro_n_inst.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[3].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[3].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[3].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[3].ro_n_inst.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[4].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[4].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[4].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[4].ro_n_inst.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[5].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[5].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[5].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[5].ro_n_inst.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[6].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[6].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[6].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[6].ro_n_inst.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[7].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[7].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[7].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[7].ro_n_inst.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 4 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[8].ro_n_inferred_i_1, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[8].ro_n_inferred_i_2, wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[8].ro_n_inferred_i_3, and wepwawet_sign_i/trng_0/inst/u_entropy_src/u_ro_bank/GEN_RO[8].ro_n_inst.
+WARNING: [DRC RTSTAT-10] No routable loads: 15 net(s) have no routable loads. The problem bus(es) and/or net(s) are wepwawet_sign_i/axi_sc/inst/m01_nodes/m01_r_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/s00_nodes/s00_r_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/s00_nodes/s00_w_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/m01_nodes/m01_w_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/m01_nodes/m01_b_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/m00_nodes/m00_ar_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/m00_nodes/m00_w_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/m00_nodes/m00_aw_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/m00_nodes/m00_r_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/s00_nodes/s00_b_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/s00_nodes/s00_aw_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/m00_nodes/m00_b_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/s00_nodes/s00_ar_node/inst/mi_handler_m_sc_areset_pipe, wepwawet_sign_i/axi_sc/inst/m01_nodes/m01_ar_node/inst/mi_handler_m_sc_areset_pipe, and wepwawet_sign_i/axi_sc/inst/m01_nodes/m01_aw_node/inst/mi_handler_m_sc_areset_pipe.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 53 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./wepwawet_sign_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+26 Infos, 53 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:01:08 ; elapsed = 00:01:02 . Memory (MB): peak = 5439.922 ; gain = 179.582
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 22 14:53:05 2026...

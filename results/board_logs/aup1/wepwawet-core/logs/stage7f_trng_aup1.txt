@@ -1,0 +1,27 @@
+===== STAGE 7F HARDWARE TRNG =====
+Bitstream: wepwawet_stage7f_333MHz.bit
+Samples: 256
+FPGA reprogramming: DISABLED
+
+===== HARDWARE SAMPLE STATISTICS =====
+Total words: 256
+Unique words: 1
+Adjacent repeats: 255
+Zero words: 256
+One-bit fraction: 0.0
+Sample SHA256: 5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+
+First 12 samples:
+000: 0x00000000
+001: 0x00000000
+002: 0x00000000
+003: 0x00000000
+004: 0x00000000
+005: 0x00000000
+006: 0x00000000
+007: 0x00000000
+008: 0x00000000
+009: 0x00000000
+010: 0x00000000
+011: 0x00000000
+FAIL: TRNG output appears constant

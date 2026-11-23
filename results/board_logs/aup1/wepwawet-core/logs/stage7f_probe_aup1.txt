@@ -1,0 +1,49 @@
+===== STAGE 7F ARTIFACT INTEGRITY =====
+PASS wepwawet_stage7f_333MHz.bit sha256=b81c8634ffa71946ca56cb2487c4596e35f606af4a0baba1ec62bc893e55cd4a
+PASS wepwawet_stage7f_333MHz.hwh sha256=781a4fffa7b456014a83371e03771815b95e5fad1caa722494bc463932a6144a
+
+===== CPU SOFTWARE SHAKE REFERENCE KATS =====
+PASS shake_128 input=b'', 32 bytes
+PASS shake_128 input=b'abc', 32 bytes
+PASS shake_256 input=b'', 32 bytes
+PASS shake_256 input=b'abc', 32 bytes
+NOTE: This checks the CPU reference ONLY; hardware SHAKE is NOT yet tested.
+
+===== HWH IP ADDRESS AUDIT (NO PL PROGRAMMING) =====
+PASS axi_dma_0                   0x80000000
+PASS intt_top_0                  0x80020000
+PASS ntt_top_0                   0x80030000
+PASS polymulacc_top_0            0x80040000
+PASS shake128_axis_0             0x80050000
+PASS shake256_axis_0             0x80070000
+PASS trng_axi_0                  0xa0000000
+PASS wcore_collector_0           0xa0010000
+PASS wcore_distributor_0         0xa0020000
+PASS wcore_ntt_gpio_0            0xa0030000
+PASS wcore_host_mem_axi_0        0xa0040000
+
+===== DOCUMENTED REGISTERS (HWH, NO MMIO READS) =====
+
+trng_axi_0: 0 register entries
+
+shake128_axis_0: 6 register entries
+  CTRL                                offset=     0x0 access=read-write size=32
+  GIER                                offset=     0x4 access=read-write size=32
+  IP_IER                              offset=     0x8 access=read-write size=32
+  IP_ISR                              offset=     0xc access=read-write size=32
+  msg_bytes                           offset=    0x10 access=write-only size=32
+  out_bytes                           offset=    0x18 access=write-only size=32
+
+shake256_axis_0: 6 register entries
+  CTRL                                offset=     0x0 access=read-write size=32
+  GIER                                offset=     0x4 access=read-write size=32
+  IP_IER                              offset=     0x8 access=read-write size=32
+  IP_ISR                              offset=     0xc access=read-write size=32
+  msg_bytes                           offset=    0x10 access=write-only size=32
+  out_bytes                           offset=    0x18 access=write-only size=32
+
+wcore_host_mem_axi_0: 0 register entries
+
+NEXT: inspect TRNG and SHAKE register metadata above; hardware tests not yet run.
+
+DONE

@@ -1,0 +1,140 @@
+// ======================================================================
+// \title  HwAccelMgr.cpp
+// ======================================================================
+#include "HwAccelMgr/HwAccelMgr.hpp"
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <vector>
+#include <mutex>
+#include <unistd.h>
+
+namespace Wepwawet {
+
+static const char* PY_BRIDGE =
+    "/usr/local/share/pynq-venv/bin/python "
+    "/home/xilinx/wepwawet-core/software/host/wp_fprime_bridge.py";
+
+HwAccelMgr::HwAccelMgr(const char* const compName)
+    : HwAccelMgrComponentBase(compName),
+      m_nttCount(0), m_inttCount(0), m_pmulCount(0),
+      m_shake256Count(0), m_shake128Count(0), m_trngBytes(0) {}
+
+HwAccelMgr::~HwAccelMgr() {}
+
+bool HwAccelMgr::callPython(const char* op,
+                             const U8* in1, U32 in1Len,
+                             const U8* in2, U32 in2Len,
+                             U8* out, U32 outMax, U32& outLen) {
+    std::lock_guard<std::mutex> lock(m_backendMutex);
+    char in1Path[64], in2Path[64], outPath[64];
+    snprintf(in1Path, sizeof(in1Path), "/tmp/wp_in1_%d.bin", getpid());
+    snprintf(in2Path, sizeof(in2Path), "/tmp/wp_in2_%d.bin", getpid());
+    snprintf(outPath, sizeof(outPath), "/tmp/wp_out_%d.bin", getpid());
+
+    if (in1 && in1Len > 0) {
+        FILE* f = fopen(in1Path, "wb");
+        if (!f) return false;
+        fwrite(in1, 1, in1Len, f); fclose(f);
+    }
+    if (in2 && in2Len > 0) {
+        FILE* f = fopen(in2Path, "wb");
+        if (!f) return false;
+        fwrite(in2, 1, in2Len, f); fclose(f);
+    }
+
+    char cmd[512];
+    snprintf(cmd, sizeof(cmd),
+             "%s %s %s %s %s",
+             PY_BRIDGE, op, in1Path, in2Path, outPath);
+
+    int rc = system(cmd);
+    if (rc != 0) return false;
+
+    FILE* f = fopen(outPath, "rb");
+    if (!f) return false;
+    fseek(f, 0, SEEK_END);
+    long sz = ftell(f);
+    fseek(f, 0, SEEK_SET);
+    if (sz < 0 || (U32)sz > outMax) { fclose(f); return false; }
+    const size_t expected = static_cast<size_t>(sz);
+    const size_t received = fread(out, 1, expected, f);
+    const int closeStatus = fclose(f);
+
+    if (received != expected || closeStatus != 0) {
+        unlink(in1Path);
+        unlink(in2Path);
+        unlink(outPath);
+        outLen = 0;
+        return false;
+    }
+
+    outLen = static_cast<U32>(received);
+
+    unlink(in1Path); unlink(in2Path); unlink(outPath);
+    return true;
+}
+
+void HwAccelMgr::keygenReq_handler(FwIndexType portNum) {
+    U8 out[4096];
+    U32 outLen = 0;
+    callPython("keygen", nullptr, 0, nullptr, 0, out, sizeof(out), outLen);
+}
+
+void HwAccelMgr::signReq_handler(
+        FwIndexType portNum,
+        Fw::Buffer& skBuffer,
+        Fw::Buffer& msgBuffer,
+        Fw::Buffer& sigBuffer) {
+    U32 outLen = 0;
+    bool ok = callPython("sign",
+                         skBuffer.getData(),  skBuffer.getSize(),
+                         msgBuffer.getData(), msgBuffer.getSize(),
+                         sigBuffer.getData(), sigBuffer.getSize(), outLen);
+    if (ok) {
+        sigBuffer.setSize(outLen);
+        m_nttCount      += 24;
+        m_inttCount     += 8;
+        m_pmulCount     += 16;
+        m_shake256Count += 4;
+        m_shake128Count += 1;
+    }
+}
+
+void HwAccelMgr::verifyReq_handler(
+        FwIndexType portNum,
+        Fw::Buffer& pkBuffer,
+        Fw::Buffer& msgBuffer,
+        Fw::Buffer& sigBuffer,
+        U8& ok) {
+    U8 out[4];
+    U32 outLen = 0;
+
+    if (pkBuffer.getSize() != 1312 ||
+        sigBuffer.getSize() != 2420 ||
+        msgBuffer.getSize() > 1048576) {
+        ok = 0;
+        return;
+    }
+
+    std::vector<U8> combined;
+
+    const U8* msg = msgBuffer.getData();
+    const U8* sig = sigBuffer.getData();
+
+    combined.reserve(msgBuffer.getSize() + sigBuffer.getSize());
+    combined.insert(combined.end(), msg,
+                    msg + msgBuffer.getSize());
+    combined.insert(combined.end(), sig,
+                    sig + sigBuffer.getSize());
+
+    bool success = callPython("verify",
+                              pkBuffer.getData(),
+                              pkBuffer.getSize(),
+                              combined.data(),
+                              static_cast<U32>(combined.size()),
+                              out, sizeof(out), outLen);
+    ok = (success && outLen >= 1) ? out[0] : 0;
+}
+
+}  // namespace Wepwawet

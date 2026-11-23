@@ -1,0 +1,15 @@
+===== STAGE 7F TRNG =====
+Using existing Stage 7F bitstream
+TRNG address: 0xa0000000
+
+===== ORIGINAL INITIALIZATION SEQUENCE =====
+CTRL after disable: 0x00010002
+MODE:       0x00000001
+SAMPLE_DIV: 0x00000000
+CTRL after enable: 0x00010003
+
+===== COLLECTING HARDWARE RANDOM WORDS =====
+Traceback (most recent call last):
+  File "/home/xilinx/wepwawet-core/tools/stage7f_trng_fixed.py", line 76, in <module>
+    raise RuntimeError(
+RuntimeError: Timeout at sample 0, STATUS=0x00000000

@@ -1,0 +1,4 @@
+RGB.byte.tif -- 791x718, 3 bands, uint8: a subset of a real Landsat 7 ETM+ scene, distributed as test data with
+rasterio (https://github.com/rasterio/rasterio, tests/data/RGB.byte.tif). Landsat data is public domain (USGS).
+Use only as a fallback / for bring-up: it is 8-bit and small. The experiment should use a full uint16 band
+obtained with fetch_scene.sh (Landsat 8/9 C2 L1 or Sentinel-2 L2A) and record data/scene.tif.json with the results.

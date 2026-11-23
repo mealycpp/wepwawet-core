@@ -1,0 +1,5 @@
+55:(* CORE_GENERATION_INFO = "wepwawet_sign_wepwawet_sign_0_0,wepwawet_sign_axil,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=wepwawet_sign_axil,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_ADDR_W=17,MAX_ATTEMPTS=814,DET_RND=0,KAT_XI=0}" *)
+144:    .DET_RND(0),
+145:    .KAT_XI(0)
+PARAMETER NAME="DET_RND" VALUE="0"
+PARAMETER NAME="KAT_XI" VALUE="0"

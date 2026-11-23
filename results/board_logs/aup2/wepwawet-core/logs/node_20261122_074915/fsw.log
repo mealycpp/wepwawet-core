@@ -1,0 +1,183 @@
+WCORE: HwAccelMgr backend=fpga
+WCORE: listening on <AUP2_IP>:9091
+Hit Ctrl-C to quit
+EVENT: (16777216) (2:1795333864,970030) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000000 registered to port 0 slot 0
+EVENT: (16777216) (2:1795333864,970100) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000001 registered to port 0 slot 1
+EVENT: (16777216) (2:1795333864,970119) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000002 registered to port 0 slot 2
+EVENT: (16777216) (2:1795333864,970134) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000003 registered to port 0 slot 3
+EVENT: (16777216) (2:1795333864,970149) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001000 registered to port 1 slot 4
+EVENT: (16777216) (2:1795333864,970164) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001002 registered to port 1 slot 5
+EVENT: (16777216) (2:1795333864,970179) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001003 registered to port 1 slot 6
+EVENT: (16777216) (2:1795333864,970193) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002000 registered to port 2 slot 7
+EVENT: (16777216) (2:1795333864,970207) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002001 registered to port 2 slot 8
+EVENT: (16777216) (2:1795333864,970221) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002002 registered to port 2 slot 9
+EVENT: (16777216) (2:1795333864,970236) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003000 registered to port 3 slot 10
+EVENT: (16777216) (2:1795333864,970250) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003001 registered to port 3 slot 11
+EVENT: (16777216) (2:1795333864,970265) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000000 registered to port 4 slot 12
+EVENT: (16777216) (2:1795333864,970280) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000001 registered to port 4 slot 13
+EVENT: (16777216) (2:1795333864,970294) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000002 registered to port 4 slot 14
+EVENT: (16777216) (2:1795333864,970309) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000000 registered to port 5 slot 15
+EVENT: (16777216) (2:1795333864,970323) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000001 registered to port 5 slot 16
+EVENT: (16777216) (2:1795333864,970338) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000002 registered to port 5 slot 17
+EVENT: (16777216) (2:1795333864,970352) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000003 registered to port 5 slot 18
+EVENT: (16777216) (2:1795333864,970367) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4001000 registered to port 6 slot 19
+EVENT: (16777216) (2:1795333864,970382) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4002000 registered to port 7 slot 20
+EVENT: (16777216) (2:1795333864,970397) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001000 registered to port 8 slot 21
+EVENT: (16777216) (2:1795333864,970411) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001001 registered to port 8 slot 22
+EVENT: (16777216) (2:1795333864,970426) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001002 registered to port 8 slot 23
+EVENT: (16777216) (2:1795333864,970440) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002000 registered to port 9 slot 24
+EVENT: (16777216) (2:1795333864,970455) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002001 registered to port 9 slot 25
+EVENT: (16777216) (2:1795333864,970469) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002002 registered to port 9 slot 26
+EVENT: (16777216) (2:1795333864,970483) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002003 registered to port 9 slot 27
+EVENT: (16777216) (2:1795333864,970497) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002004 registered to port 9 slot 28
+EVENT: (16777216) (2:1795333864,970512) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002005 registered to port 9 slot 29
+EVENT: (16777216) (2:1795333864,970526) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002006 registered to port 9 slot 30
+EVENT: (16777216) (2:1795333864,970541) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002007 registered to port 9 slot 31
+EVENT: (16777216) (2:1795333864,970593) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002008 registered to port 9 slot 32
+EVENT: (16777216) (2:1795333864,970611) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003000 registered to port 10 slot 33
+EVENT: (16777216) (2:1795333864,970626) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003001 registered to port 10 slot 34
+EVENT: (16777216) (2:1795333864,970641) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003002 registered to port 10 slot 35
+EVENT: (16777216) (2:1795333864,970656) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004000 registered to port 11 slot 36
+EVENT: (16777216) (2:1795333864,970670) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004001 registered to port 11 slot 37
+EVENT: (16777216) (2:1795333864,970685) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004002 registered to port 11 slot 38
+EVENT: (16777216) (2:1795333864,970699) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004003 registered to port 11 slot 39
+EVENT: (16777216) (2:1795333864,970713) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004004 registered to port 11 slot 40
+EVENT: (16777216) (2:1795333864,970728) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004005 registered to port 11 slot 41
+EVENT: (16777216) (2:1795333864,970742) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004006 registered to port 11 slot 42
+EVENT: (16777216) (2:1795333864,970756) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004007 registered to port 11 slot 43
+EVENT: (16777216) (2:1795333864,970771) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10021000 registered to port 12 slot 44
+EVENT: (16777216) (2:1795333864,970786) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10022000 registered to port 13 slot 45
+EVENT: (16777216) (2:1795333864,970801) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10024000 registered to port 14 slot 46
+EVENT: (16777216) (2:1795333864,970816) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10023000 registered to port 15 slot 47
+EVENT: (16777216) (2:1795333864,970831) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10012000 registered to port 16 slot 48
+EVENT: (16789504) (2:1795333864,970856) ACTIVITY_LO: (version) FrameworkVersion : Framework Version: [v3.5.0]
+EVENT: (16789505) (2:1795333864,970896) ACTIVITY_LO: (version) ProjectVersion : Project Version: [v3.5.0]
+[WARNING] cmdDisp stack size of 65536  is too small, clamping to 131072
+[WARNING] events stack size of 65536  is too small, clamping to 131072
+[WARNING] tlmSend stack size of 65536  is too small, clamping to 131072
+[WARNING] aggregator stack size of 65536  is too small, clamping to 131072
+[WARNING] comQueue stack size of 65536  is too small, clamping to 131072
+[WARNING] dpCat stack size of 65536  is too small, clamping to 131072
+[WARNING] dpMgr stack size of 65536  is too small, clamping to 131072
+[WARNING] dpWriter stack size of 65536  is too small, clamping to 131072
+[WARNING] fileDownlink stack size of 65536  is too small, clamping to 131072
+[WARNING] fileManager stack size of 65536  is too small, clamping to 131072
+[WARNING] fileUplink stack size of 65536  is too small, clamping to 131072
+[WARNING] prmDb stack size of 65536  is too small, clamping to 131072
+[WARNING] cmdSeq stack size of 65536  is too small, clamping to 131072
+[WARNING] dilithiumSign stack size of 65536  is too small, clamping to 131072
+[WARNING] dilithiumVerify stack size of 65536  is too small, clamping to 131072
+[WARNING] pqcSecurityGateway stack size of 65536  is too small, clamping to 131072
+[WARNING] pqcTransport stack size of 65536  is too small, clamping to 131072
+[WARNING] rateGroup1 stack size of 65536  is too small, clamping to 131072
+[WARNING] rateGroup2 stack size of 65536  is too small, clamping to 131072
+EVENT: (268439552) (2:1795333864,973058) DIAGNOSTIC: (rateGroup1) RateGroupStarted : Rate group started.
+[WARNING] rateGroup3 stack size of 65536  is too small, clamping to 131072
+EVENT: (268443648) (2:1795333864,973148) DIAGNOSTIC: (rateGroup2) RateGroupStarted : Rate group started.
+EVENT: (268447744) (2:1795333864,973233) DIAGNOSTIC: (rateGroup3) RateGroupStarted : Rate group started.
+[WARNING] ReceiveTask stack size of 65536  is too small, clamping to 131072
+Connected to 127.0.0.1:50000 as a tcp client
+WCORE: FPGA open, verify program PRESENT (v6)
+EVENT: (268566528) (2:1795333922,194517) ACTIVITY_HI: (hwAccelMgr) HwReady : Wepwawet hardware accelerator ready
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=2342.4
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333922,383246) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439270 pl_us=1464.2 host_total_us=3132.6
+EVENT: (268578816) (2:1795333922,534697) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333922,534886) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795333929,790501) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=14 pl_cycles=6150829 pl_us=20502.8 host_total_us=21390.0
+EVENT: (268578816) (2:1795333929,858143) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333929,858303) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=2626.2
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333936,750560) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1317965 pl_us=4393.2 host_total_us=5238.3
+EVENT: (268578817) (2:1795333938,801645) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795333938,801792) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+EVENT: (16777217) (2:1795333943,689346) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=6 pl_cycles=2636026 pl_us=8786.8 host_total_us=9637.7
+EVENT: (268578817) (2:1795333945,745641) WARNING_HI: (pqcTransport) PeerError : Peer transport: Authenticated peer exchange failed
+EVENT: (16777219) (2:1795333945,745790) COMMAND: (cmdDisp) OpCodeError : Opcode 0x10023000 completed with error EXECUTION_ERROR (4)
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1600.4
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333951,572406) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878611 pl_us=2928.7 host_total_us=3784.5
+EVENT: (268578816) (2:1795333951,640060) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333951,640233) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=3704.0
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333959,800510) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3514741 pl_us=11715.8 host_total_us=12627.9
+EVENT: (268578816) (2:1795333959,885897) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333959,886072) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1521.7
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333967,51381) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878620 pl_us=2928.7 host_total_us=3880.0
+EVENT: (268578816) (2:1795333967,115129) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333967,115278) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1564.5
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333974,764046) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757323 pl_us=5857.7 host_total_us=6783.3
+EVENT: (268578816) (2:1795333974,815967) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333974,816128) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=1494.7
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333982,9656) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196663 pl_us=7322.2 host_total_us=8209.7
+EVENT: (268578816) (2:1795333982,64623) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333982,64794) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=4761.7
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333989,501472) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=12 pl_cycles=5272155 pl_us=17573.8 host_total_us=18530.4
+EVENT: (268578816) (2:1795333989,571184) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333989,571330) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1570.7
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795333996,567988) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=1 pl_cycles=439268 pl_us=1464.2 host_total_us=2339.3
+EVENT: (268578816) (2:1795333996,637115) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795333996,637268) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214194 pl_us=714.0 host_total_us=1494.6
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795334003,556521) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878609 pl_us=2928.7 host_total_us=3857.3
+EVENT: (268578816) (2:1795334003,604825) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334003,605038) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+EVENT: (16777217) (2:1795334010,944260) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=3 pl_cycles=1317978 pl_us=4393.3 host_total_us=5284.5
+EVENT: (268578816) (2:1795334011,16515) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334011,16665) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214200 pl_us=714.0 host_total_us=1573.2
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795334019,734262) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3514737 pl_us=11715.8 host_total_us=12631.1
+EVENT: (268578816) (2:1795334019,796619) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334019,796839) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1487.5
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795334026,825649) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3514746 pl_us=11715.8 host_total_us=12773.1
+EVENT: (268578816) (2:1795334027,688359) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334027,688508) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1568.4
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795334033,819326) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196676 pl_us=7322.3 host_total_us=8210.2
+EVENT: (268578816) (2:1795334033,873799) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334033,873959) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214215 pl_us=714.0 host_total_us=1500.7
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795334040,775852) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=8 pl_cycles=3514725 pl_us=11715.8 host_total_us=12574.8
+EVENT: (268578816) (2:1795334040,835907) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334040,836067) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=4586.8
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795334047,717409) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=2 pl_cycles=878628 pl_us=2928.8 host_total_us=3845.8
+EVENT: (268578816) (2:1795334047,763406) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334047,763573) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1456.6
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795334055,43659) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=5 pl_cycles=2196685 pl_us=7322.3 host_total_us=8240.8
+EVENT: (268578816) (2:1795334055,84715) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334055,84859) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=1523.3
+WCORE: authenticated receive verdict=ACCEPT\nEVENT: (16777217) (2:1795334062,28840) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0x10023000 dispatched to port 15
+WCORE: sign backend=fpga rc=0 verdict=-1 attempts=4 pl_cycles=1757311 pl_us=5857.7 host_total_us=6720.3
+EVENT: (268578816) (2:1795334062,71147) ACTIVITY_HI: (pqcTransport) PeerConnected : Connected to peer <AUP1_IP>
+EVENT: (16777218) (2:1795334062,71297) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0x10023000 completed
+WCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214196 pl_us=714.0 host_total_us=1490.5
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214198 pl_us=714.0 host_total_us=4209.0
+WCORE: authenticated receive verdict=ACCEPT\nWCORE: verify backend=fpga rc=0 verdict=1 attempts=1 pl_cycles=214187 pl_us=714.0 host_total_us=2262.7
+WCORE: authenticated receive verdict=ACCEPT\n[WARNING] ReceiveTask failed to recv from port with status -8 and errno 0
+Exiting...
